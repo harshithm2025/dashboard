@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+backend/venv
+backend/__pycache__
+backend/local_data
+.DS_Store
+.claude/
+shared/

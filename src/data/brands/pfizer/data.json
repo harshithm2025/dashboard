@@ -1,0 +1,1348 @@
+{
+  "executiveSummary": {
+    "title": "Executive Summary",
+    "heroPill": "Jan–Apr 2026",
+    "subtitle": "Pfizer Brand Measurement Intelligence · Q1–Q2 2026",
+    "badge": "Jan – Apr 2026",
+    "kpis": [
+      {
+        "id": "kpi-posts",
+        "ddKey": "kpi-posts",
+        "label": "SM Posts",
+        "value": "5,000",
+        "sub": "Mar 24 – Apr 12, 2026",
+        "delta": null,
+        "trend": "up"
+      },
+      {
+        "id": "kpi-audience",
+        "ddKey": "kpi-audience",
+        "label": "SM Reach",
+        "value": "351.9M",
+        "sub": "Total audience impressions",
+        "delta": null,
+        "trend": "up"
+      },
+      {
+        "id": "kpi-tm-articles",
+        "ddKey": "kpi-tm-articles",
+        "label": "TM Articles",
+        "value": "10K",
+        "sub": "Jan–Apr 2026",
+        "delta": null,
+        "trend": "neutral"
+      },
+      {
+        "id": "kpi-tm-reach",
+        "ddKey": "kpi-tm-reach",
+        "label": "TM Media Reach",
+        "value": "29.6B",
+        "sub": "Cumulative reach",
+        "delta": null,
+        "trend": "up"
+      },
+      {
+        "id": "kpi-sm-pos",
+        "ddKey": "kpi-sm-pos",
+        "label": "SM Positive",
+        "value": "21.8%",
+        "sub": "1,088 positive posts",
+        "delta": null,
+        "trend": "up"
+      },
+      {
+        "id": "kpi-tm-pos",
+        "ddKey": "kpi-tm-pos",
+        "label": "TM Positive",
+        "value": "5.4%",
+        "sub": "538 positive articles",
+        "delta": null,
+        "trend": "neutral"
+      },
+      {
+        "id": "kpi-interactions",
+        "ddKey": "kpi-interactions",
+        "label": "SM Interactions",
+        "value": "521.8K",
+        "sub": "X/Twitter dominant",
+        "delta": null,
+        "trend": "up"
+      }
+    ],
+    "signals": [
+      {
+        "id": "sig-braftovi",
+        "ddKey": "sig-braftovi",
+        "icon": "TrendingUp",
+        "title": "Pipeline Milestone",
+        "desc": "Braftovi BREAKWATER Phase III results drive Feb spike to 7,005 TM articles in a single month.",
+        "tag": "SCALE",
+        "tagColor": "green"
+      },
+      {
+        "id": "sig-fda",
+        "ddKey": "sig-fda",
+        "icon": "AlertTriangle",
+        "title": "FDA Tension",
+        "desc": "Pfizer CEO commentary on FDA vaccine leadership sparks editorial debate and negative SM reactions.",
+        "tag": "MONITOR",
+        "tagColor": "red"
+      },
+      {
+        "id": "sig-lyme",
+        "ddKey": "sig-lyme",
+        "icon": "FlaskConical",
+        "title": "Vaccine Pipeline",
+        "desc": "Lyme disease vaccine Phase 3 results drive positive coverage and investor commentary.",
+        "tag": "SCALE",
+        "tagColor": "green"
+      },
+      {
+        "id": "sig-stock",
+        "ddKey": "sig-stock",
+        "icon": "DollarSign",
+        "title": "Investor Scrutiny",
+        "desc": "$PFE stock coverage and analyst upgrades dominate with MarketBeat (246), Yahoo Finance (218) driving volume.",
+        "tag": "SCALE",
+        "tagColor": "green"
+      },
+      {
+        "id": "sig-twitter",
+        "ddKey": "sig-twitter",
+        "icon": "Radio",
+        "title": "X/Twitter Dominance",
+        "desc": "73.6% of all SM posts on X — vaccine skepticism and stock traders dominate conversation.",
+        "tag": "FIX",
+        "tagColor": "amber"
+      }
+    ],
+    "workingItems": {
+      "ddKey": "exec-working",
+      "notWorkingDdKey": "exec-notworking",
+      "working": [
+        "Pipeline milestones generating strong earned media (Braftovi, Lyme vaccine)",
+        "X/Twitter interactions at 395K — highest engagement channel",
+        "LinkedIn professional community active (662 posts, 5,853 interactions)"
+      ],
+      "notWorking": [
+        "SM negative rate at 19.4% — significantly elevated vs pharma peers",
+        "TM overwhelmingly neutral (91.6%) — minimal earned narrative depth",
+        "Vaccine skepticism narratives persist on X/Twitter"
+      ]
+    },
+    "risksOpportunities": {
+      "risksDdKey": "exec-risks",
+      "oppsDdKey": "exec-opps",
+      "risks": [
+        { "color": "red", "text": "19.4% SM negativity could amplify during any FDA/regulatory event" },
+        { "color": "amber", "text": "X/Twitter conversation heavily shaped by non-HCP retail traders" }
+      ],
+      "opportunities": [
+        { "color": "green", "text": "Weight loss pill Phase 2 data — high potential positive narrative" },
+        { "color": "green", "text": "LinkedIn professional audience ready for deeper pipeline content" }
+      ]
+    },
+    "drillDown": {
+      "kpi-posts": {
+        "title": "SM Post Volume: 5,000",
+        "sub": "Social Media · Mar 24–Apr 12, 2026",
+        "insights": [
+          { "label": "Volume", "text": "5,000 posts across 9 platforms in 20 days. Week 14 (Apr 1–7) peaks at 1,956 posts driven by Q1 earnings anticipation and $PFE momentum." },
+          { "label": "Channel Mix", "text": "X/Twitter = 73.6% (3,678). LinkedIn 662, Facebook 304, Video 96, Instagram 84, TikTok 63, Radio 56, TV 48." },
+          { "label": "Engagement Quality", "text": "TikTok delivers 994 interactions/post vs X's 108/post. Volume does not equal impact — TikTok dramatically outperforms on per-post engagement." },
+          { "label": "Risk Signal", "text": "19.4% negative tone (971 posts) is elevated for pharma. Vaccine skepticism and FDA tensions are persistent, not episodic drivers." }
+        ]
+      },
+      "kpi-audience": {
+        "title": "SM Audience: 351.9M",
+        "sub": "Cumulative social reach across all platforms",
+        "insights": [
+          { "label": "By Platform", "text": "Facebook leads by audience per post (300K avg). TikTok's 31.6M from just 63 posts demonstrates extraordinary per-post scale." },
+          { "label": "Passive vs Active", "text": "Radio (56 posts) and TV (48 posts) carry passive audience reach with zero digital interactions — broadcast without amplification." },
+          { "label": "Best Channel", "text": "LinkedIn's 82.7M audience with 5,853 interactions signals a highly receptive professional community. Pfizer's highest-quality engagement channel." }
+        ]
+      },
+      "kpi-tm-articles": {
+        "title": "TM Articles: 10,000",
+        "sub": "Traditional Media · Jan–Apr 2026",
+        "insights": [
+          { "label": "Concentration", "text": "February alone = 70% of total volume (7,005 articles) driven by BREAKWATER trial and FDA commentary. Structural floor is ~500/week post-spike." },
+          { "label": "Channel Mix", "text": "Web 81.3%, News 10%, Trade 8.4%. Trade media provides highest-quality audience per article despite lower volume." },
+          { "label": "Baseline", "text": "Post-February normalization to 450–570 articles/week through March–April indicates sustained financial/investor structural coverage." }
+        ]
+      },
+      "kpi-tm-reach": {
+        "title": "TM Reach: 29.6B",
+        "sub": "Cumulative article readership impressions",
+        "insights": [
+          { "label": "Driver", "text": "Yahoo Finance (~265M reach/article × 218 articles) and MSN (~185M × 165 articles) account for the majority of total cumulative reach." },
+          { "label": "Distribution", "text": "Average reach/article is ~2.96M but highly skewed. Top 100 articles by reach likely account for 80%+ of total." },
+          { "label": "Quality Note", "text": "Syndication-driven metric. High aggregate reach reflects platform audience size, not necessarily individual article engagement." }
+        ]
+      },
+      "kpi-sm-pos": {
+        "title": "SM Positive Rate: 21.8%",
+        "sub": "1,088 of 5,000 posts positive",
+        "insights": [
+          { "label": "Drivers", "text": "Weight loss pill Phase 2 entry, Q1 2026 earnings beat, and $PFE analyst upgrades drive most positive SM content." },
+          { "label": "vs Peers", "text": "Pfizer's 21.8% positive rate is below the BMS benchmark of 32.3%, indicating a more contested social narrative." },
+          { "label": "Target", "text": "With a proactive pipeline content calendar and TikTok investment, 28% positive rate is achievable by Q3 2026." }
+        ]
+      },
+      "kpi-tm-pos": {
+        "title": "TM Positive Rate: 5.4%",
+        "sub": "538 positive articles out of 10,000",
+        "insights": [
+          { "label": "Context", "text": "5.4% positive rate is above the BMS TM peer benchmark of 4.5%, indicating slightly stronger positive earned media framing." },
+          { "label": "Ratio", "text": "Positive-to-negative ratio is 1.79:1 (538 vs 301). Healthy but limited. Target: 2.5:1 by Q4 2026 through proactive media engagement." },
+          { "label": "Category", "text": "Most positive articles come from clinical pipeline coverage (Braftovi, Lyme vaccine) and analyst upgrade themes." }
+        ]
+      },
+      "kpi-interactions": {
+        "title": "SM Interactions: 521,758",
+        "sub": "Total digital engagement across all platforms",
+        "insights": [
+          { "label": "Distribution", "text": "X/Twitter 395.6K (75.8%) · Facebook 34.1K · TikTok 62.7K · Video 17.5K · LinkedIn 5.9K · Instagram 6.1K." },
+          { "label": "Efficiency", "text": "TikTok: 994/post. Video: 182/post. Facebook: 112/post. X: 108/post. Instagram: 73/post. LinkedIn: 9/post." },
+          { "label": "Note", "text": "LinkedIn's lower public interaction count understates its influence — professional saves and shares are not captured in public metrics." }
+        ]
+      },
+      "sig-braftovi": {
+        "title": "Pipeline: Braftovi BREAKWATER",
+        "sub": "Primary Feb 2026 media spike driver",
+        "insights": [
+          { "label": "Event", "text": "Phase III BREAKWATER trial (Braftovi + Erbitux + Folfiri in mCRC) drove the February spike to 7,005 articles — a 233% month-on-month volume increase." },
+          { "label": "Coverage Mix", "text": "Spanned Trade (FiercePharma, BioPharma Dive), News (Yahoo, Reuters), and financial media — one of the most well-rounded earned media responses in the dataset." },
+          { "label": "Playbook", "text": "Pre-brief tier-1 trade journalists 2 weeks before readout. Prepare SM content kits for oncology KOLs. Target 500+ TM articles within 7 days of each readout." }
+        ]
+      },
+      "sig-fda": {
+        "title": "FDA Tension Narrative",
+        "sub": "Regulatory perception risk signal",
+        "insights": [
+          { "label": "Trigger", "text": "Pfizer CEO public commentary on FDA vaccine leadership created an adversarial narrative thread, generating editorial coverage and Twitter debate." },
+          { "label": "Negative SM", "text": "This thread persistently drives the 19.4% SM negative rate. Posts referencing FDA and vaccine documentation skepticism recur across the monitoring period." },
+          { "label": "Response", "text": "Prepare rapid-response comms playbook. Avoid further public escalation. Redirect media narrative toward clinical data and patient outcomes." }
+        ]
+      },
+      "sig-lyme": {
+        "title": "Lyme Disease Vaccine Pipeline",
+        "sub": "Positive narrative opportunity",
+        "insights": [
+          { "label": "Signal", "text": "Phase 3 Lyme vaccine results drove positive coverage across trade and consumer health media — a rare patient-facing positive narrative in Pfizer's coverage mix." },
+          { "label": "Audience", "text": "Reaches a different audience than typical financial coverage — patient advocates, outdoor lifestyle media, and preventive health journalists." },
+          { "label": "Amplify", "text": "Partner with Lyme disease advocacy organizations for SM amplification. LinkedIn and Instagram are the right channels for patient-facing pipeline storytelling." }
+        ]
+      },
+      "sig-stock": {
+        "title": "Investor Coverage Dominance",
+        "sub": "Financial media landscape signal",
+        "insights": [
+          { "label": "Scale", "text": "Top 5 publications — MarketBeat (246), Yahoo Finance (218), MSN (165), PRSync (137), American Banking News (127) — are all financial/investor focused." },
+          { "label": "Risk", "text": "Pfizer's earned media narrative is largely set by financial journalists, not science or health journalists. This limits brand narrative control." },
+          { "label": "Fix", "text": "Build proactive media relationships with STAT News, BioPharma Dive, and FiercePharma to rebalance coverage toward clinical and patient narratives." }
+        ]
+      },
+      "sig-twitter": {
+        "title": "X/Twitter Concentration Risk",
+        "sub": "73.6% of SM posts on one platform",
+        "insights": [
+          { "label": "Risk", "text": "Over-reliance on X/Twitter creates single-platform dependency. Algorithm changes or policy shifts could dramatically affect monitoring coverage." },
+          { "label": "Vaccine Discourse", "text": "X/Twitter hosts the majority of vaccine skepticism content. Without an active counter-narrative from Pfizer, critics shape the platform conversation." },
+          { "label": "Diversify", "text": "Invest in LinkedIn (professional), TikTok (science reach), and Instagram (patient community) to reduce X concentration and improve engagement quality." }
+        ]
+      },
+      "exec-working": {
+        "title": "What's Working",
+        "sub": "Pfizer momentum drivers",
+        "insights": [
+          { "label": "Pipeline Coverage", "text": "BREAKWATER Phase III generated 7,000+ articles in a single month. Clinical data releases are Pfizer's most powerful earned media lever." },
+          { "label": "X/Twitter Engagement", "text": "395,593 interactions on X prove the brand commands attention — even with mixed sentiment, Pfizer drives active community conversation." },
+          { "label": "TikTok Efficiency", "text": "63 posts, 62,658 interactions = 994/post. This channel is Pfizer's highest-ROI opportunity and is currently dramatically underinvested." }
+        ]
+      },
+      "exec-notworking": {
+        "title": "What's Not Working",
+        "sub": "Friction points requiring attention",
+        "insights": [
+          { "label": "SM Negativity", "text": "19.4% SM negative rate is above pharma benchmarks. Vaccine skepticism threads dominate X without any active counter-narrative from Pfizer." },
+          { "label": "TM Neutrality", "text": "91.6% neutral TM means Pfizer is reported on, not advocated for. Financial media dominates over patient and clinical impact storytelling." },
+          { "label": "FDA Narrative", "text": "CEO and FDA commentary has created a persistent adversarial thread that can amplify significantly during any future regulatory friction." }
+        ]
+      },
+      "exec-risks": {
+        "title": "Key Risks",
+        "sub": "Signals requiring monitoring",
+        "insights": [
+          { "label": "SM Negative Rate", "text": "At 19.4%, one adverse regulatory event could spike negative SM to 30%+. The vaccine skepticism community is large and organized on X/Twitter." },
+          { "label": "Platform Concentration", "text": "73.6% X/Twitter dependency is a structural monitoring risk. Pfizer's SM picture could change dramatically if X coverage patterns shift." },
+          { "label": "Biosimilar Narrative", "text": "Coverage questioning revenue sustainability amid biosimilar competition is present in TM. Could accelerate if H2 2026 results disappoint." }
+        ]
+      },
+      "exec-opps": {
+        "title": "Key Opportunities",
+        "sub": "Untapped amplification potential",
+        "insights": [
+          { "label": "Weight Loss Narrative", "text": "Oral weight loss pill Phase 2 entry is a high-visibility opportunity. Lilly's GLP-1 success has primed media and investors for this category." },
+          { "label": "TikTok Science", "text": "994 interactions/post on TikTok with only 63 posts monitored. Scaling to 200+ posts/quarter could generate ~200K additional interactions." },
+          { "label": "LinkedIn Depth", "text": "LinkedIn's professional audience is receptive but underserved with pipeline depth content. Executive thought leadership can drive advocacy." }
+        ]
+      },
+      "trend-sm": {
+        "title": "SM Weekly Volume Trend",
+        "sub": "Mar 24 – Apr 12, 2026",
+        "insights": [
+          { "label": "Peak", "text": "Week 14 (Mar 31–Apr 6) peaks at 1,956 posts — 43% above Week 13 baseline. Driven by Q1 earnings anticipation and $PFE stock momentum." },
+          { "label": "Trajectory", "text": "Week 15 (Apr 7–12) declines to 1,675 — a healthy plateau rather than sharp drop, indicating sustained organic conversation momentum." },
+          { "label": "Driver", "text": "X/Twitter leads all weeks by volume. Platform concentration means SM volume trend closely mirrors $PFE retail investor activity cycles." }
+        ]
+      },
+      "trend-tm": {
+        "title": "TM Monthly Volume Trend",
+        "sub": "Jan–Apr 2026",
+        "insights": [
+          { "label": "Feb Spike", "text": "7,005 articles in February represents a 7,004× increase over January (1 article), driven by the BREAKWATER trial publication cascade." },
+          { "label": "Normalization", "text": "March (2,108) and April (886 partial) show rapid normalization to structural financial coverage floor. April on pace for ~2,050 full-month articles." },
+          { "label": "Implication", "text": "Pfizer's TM coverage is heavily event-driven. Without pipeline events, structural monthly baseline is ~800–1,200 articles from financial syndication." }
+        ]
+      }
+    },
+    "volumeTrendSection": "Volume Trend Overview",
+    "smVolChart": {
+      "ddKey": "trend-sm",
+      "title": "Social Media Weekly Volume",
+      "subtitle": "Posts by week (Mar–Apr 2026)",
+      "data": [
+        { "month": "W13 Mar 24–30", "posts": 1369 },
+        { "month": "W14 Mar 31–Apr 6", "posts": 1956 },
+        { "month": "W15 Apr 7–12", "posts": 1675 }
+      ]
+    },
+    "tmVolChart": {
+      "ddKey": "trend-tm",
+      "title": "Traditional Media Monthly Volume",
+      "subtitle": "Articles by month",
+      "data": [
+        { "month": "Jan", "articles": 1 },
+        { "month": "Feb", "articles": 7005 },
+        { "month": "Mar", "articles": 2108 },
+        { "month": "Apr", "articles": 886 }
+      ]
+    },
+    "smSentiment": [
+      { "label": "Positive",      "value": 1088, "pct": 21.8, "color": "#22c55e" },
+      { "label": "Neutral",       "value": 1487, "pct": 29.7, "color": "#94a3b8" },
+      { "label": "No Sentiment",  "value": 1454, "pct": 29.1, "color": "#e2e8f0" },
+      { "label": "Negative",      "value": 971,  "pct": 19.4, "color": "#ef4444" }
+    ],
+    "tmSentiment": [
+      { "label": "Neutral",  "value": 9161, "pct": 91.6, "color": "#94a3b8" },
+      { "label": "Positive", "value": 538,  "pct": 5.4,  "color": "#22c55e" },
+      { "label": "Negative", "value": 301,  "pct": 3.0,  "color": "#ef4444" }
+    ]
+  },
+
+  "socialMedia": {
+    "title": "Social Media Intelligence",
+    "subtitle": "5,000 posts · Mar 24 – Apr 12, 2026",
+    "badge": "SM Analysis",
+    "kpis": [
+      { "id": "sm-kpi-posts", "label": "Total Posts",    "value": "5,000",  "sub": "Mar 24 – Apr 12, 2026", "trend": "up" },
+      { "id": "sm-kpi-reach", "label": "Total Audience", "value": "351.9M", "sub": "Cumulative impressions", "trend": "up" },
+      { "id": "sm-kpi-int",   "label": "Interactions",   "value": "521.8K", "sub": "Likes, shares, comments", "trend": "up" },
+      { "id": "sm-kpi-pos",   "label": "Positive Rate",  "value": "21.8%",  "sub": "1,088 / 5,000 posts", "trend": "up" },
+      { "id": "sm-kpi-neg",   "label": "Negative Rate",  "value": "19.4%",  "sub": "971 posts — monitor closely", "trend": "down" }
+    ]
+  },
+
+  "traditionalMedia": {
+    "title": "Traditional Media Intelligence",
+    "subtitle": "10,000 articles · Jan – Apr 2026",
+    "badge": "TM Analysis",
+    "kpis": [
+      { "id": "tm-kpi-art",   "label": "Total Articles", "value": "10K",   "sub": "Jan – Apr 2026", "trend": "neutral" },
+      { "id": "tm-kpi-reach", "label": "Total Reach",    "value": "29.6B", "sub": "Cumulative reach", "trend": "up" },
+      { "id": "tm-kpi-pos",   "label": "Positive Rate",  "value": "5.4%",  "sub": "538 articles", "trend": "up" },
+      { "id": "tm-kpi-neg",   "label": "Negative Rate",  "value": "3.0%",  "sub": "301 articles", "trend": "down" },
+      { "id": "tm-kpi-neu",   "label": "Neutral Rate",   "value": "91.6%", "sub": "Dominant tone", "trend": "neutral" }
+    ]
+  },
+
+  "smIntelligence": {
+    "title": "Social Media Intelligence",
+    "heroPill": "SM Analysis",
+    "subtitle": "5,000 posts · Mar 24 – Apr 12, 2026",
+    "kpis": [
+      { "id": "sm-total",            "ddKey": "sm-total",            "label": "Total Posts",    "value": "5,000",  "sub": "Mar 24 – Apr 12, 2026" },
+      { "id": "sm-reach",            "ddKey": "sm-reach",            "label": "Total Audience", "value": "351.9M", "sub": "Cumulative impressions" },
+      { "id": "sm-interactions-kpi", "ddKey": "sm-interactions-kpi", "label": "Interactions",   "value": "521.8K", "sub": "Likes, shares, comments" },
+      { "id": "sm-sentiment-kpi",    "ddKey": "sm-sentiment-kpi",    "label": "Positive Rate",  "value": "21.8%",  "sub": "1,088 / 5,000 posts" },
+      { "id": "sm-neg",              "ddKey": "sm-neg",              "label": "Negative Rate",  "value": "19.4%",  "sub": "971 posts — monitor closely" }
+    ],
+    "volTrendChart": {
+      "ddKey": "sm-vol-trend",
+      "title": "Weekly Post Volume Trend",
+      "subtitle": "Mar–Apr 2026 · Peak: Week of Apr 1–7",
+      "takeaway": "↑ Week 14 (Apr 1–7) peaks at 1,956 posts driven by Q1 earnings anticipation & $PFE stock momentum. X/Twitter leads all weeks by volume.",
+      "data": [
+        { "month": "W13 Mar 24–30",   "posts": 1369 },
+        { "month": "W14 Mar 31–Apr 6","posts": 1956 },
+        { "month": "W15 Apr 7–12",    "posts": 1675 }
+      ]
+    },
+    "platformVolChart": {
+      "ddKey": "sm-platform-vol",
+      "title": "Platform Contribution to Volume",
+      "subtitle": "Share of total posts",
+      "data": [
+        { "name": "X (Twitter)", "value": 3678, "color": "#1d9bf0" },
+        { "name": "LinkedIn",    "value": 662,  "color": "#0a66c2" },
+        { "name": "Facebook",    "value": 304,  "color": "#1877f2" },
+        { "name": "Video",       "value": 96,   "color": "#ff0000" },
+        { "name": "Instagram",   "value": 84,   "color": "#e1306c" },
+        { "name": "TikTok",      "value": 63,   "color": "#010101" },
+        { "name": "Radio",       "value": 56,   "color": "#f59e0b" },
+        { "name": "TV",          "value": 48,   "color": "#94a3b8" },
+        { "name": "Other",       "value": 9,    "color": "#cbd5e1" }
+      ],
+      "insights": [
+        { "type": "default", "text": "X/Twitter alone = 73.6% of all SM posts — Pfizer conversation is Twitter-first" },
+        { "type": "amber",   "text": "LinkedIn (13.2%) shows strong professional/investor community engagement" }
+      ]
+    },
+    "sentimentChart": {
+      "ddKey": "sm-sentiment-detail",
+      "title": "Sentiment Distribution & Trend",
+      "subtitle": "Overall sentiment split across all SM channels",
+      "takeaway": "Pfizer's SM sentiment is more polarized than typical pharma. The 19.4% negative rate — driven by vaccine skepticism and FDA commentary — requires active narrative management.",
+      "data": [
+        { "label": "Positive",     "value": 1088, "pct": 21.8, "color": "#22c55e" },
+        { "label": "Neutral",      "value": 1487, "pct": 29.7, "color": "#94a3b8" },
+        { "label": "No Sentiment", "value": 1454, "pct": 29.1, "color": "#cbd5e1" },
+        { "label": "Negative",     "value": 971,  "pct": 19.4, "color": "#ef4444" }
+      ]
+    },
+    "sentimentDrivers": {
+      "ddKey": "sm-pos-drivers",
+      "title": "Sentiment Drivers",
+      "subtitle": "Key themes",
+      "positive": [
+        "Pipeline milestones (Braftovi, Lyme vaccine)",
+        "Weight loss pill Phase 2 entry (April)",
+        "Q1 2026 earnings beat estimates",
+        "$PFE stock analyst upgrades"
+      ],
+      "negative": [
+        "COVID-19 vaccine trial documentation skepticism",
+        "FDA vaccine leadership tensions",
+        "Biosimilar competition concerns"
+      ]
+    },
+    "platformEngChart": {
+      "ddKey": "sm-platform-detail",
+      "title": "Platform Volume vs. Engagement",
+      "subtitle": "Volume (posts) vs interaction quality",
+      "data": [
+        { "platform": "X (Twitter)", "posts": 3678, "interactions": 395593 },
+        { "platform": "LinkedIn",    "posts": 662,  "interactions": 5853 },
+        { "platform": "Facebook",    "posts": 304,  "interactions": 34053 },
+        { "platform": "TikTok",      "posts": 63,   "interactions": 62658 },
+        { "platform": "Video",       "posts": 96,   "interactions": 17506 },
+        { "platform": "Instagram",   "posts": 84,   "interactions": 6095 },
+        { "platform": "Radio",       "posts": 56,   "interactions": 0 },
+        { "platform": "TV",          "posts": 48,   "interactions": 0 }
+      ]
+    },
+    "platformBreakdown": {
+      "ddKey": "sm-platform-breakdown",
+      "title": "Platform Breakdown",
+      "subtitle": "Posts & interactions per platform",
+      "platforms": [
+        { "name": "X (Twitter)", "posts": "3,678", "interactions": "395,593" },
+        { "name": "LinkedIn",    "posts": "662",   "interactions": "5,853" },
+        { "name": "Facebook",    "posts": "304",   "interactions": "34,053" },
+        { "name": "TikTok",      "posts": "63",    "interactions": "62,658" },
+        { "name": "Video",       "posts": "96",    "interactions": "17,506" },
+        { "name": "Instagram",   "posts": "84",    "interactions": "6,095" },
+        { "name": "Radio",       "posts": "56",    "interactions": "0" },
+        { "name": "TV",          "posts": "48",    "interactions": "0" }
+      ],
+      "takeaway": "TikTok punches far above its weight — 63 posts but 62,658 interactions (994 per post). X leads in volume but interaction-per-post quality is lower. LinkedIn is the professional channel to scale."
+    },
+    "interactionsChart": {
+      "ddKey": "sm-engagement-detail",
+      "title": "Interactions by Platform",
+      "subtitle": "Total interactions (likes, shares, comments)",
+      "data": [
+        { "platform": "X (Twitter)", "interactions": 395593 },
+        { "platform": "TikTok",      "interactions": 62658 },
+        { "platform": "Facebook",    "interactions": 34053 },
+        { "platform": "Video",       "interactions": 17506 },
+        { "platform": "Instagram",   "interactions": 6095 },
+        { "platform": "LinkedIn",    "interactions": 5853 }
+      ]
+    },
+    "audienceRanking": {
+      "ddKey": "sm-ranking",
+      "title": "Audience Ranking Distribution",
+      "subtitle": "Source authority score (1=highest)",
+      "data": [
+        { "rank": "Rank 1",     "posts": 448 },
+        { "rank": "Rank 2",     "posts": 538 },
+        { "rank": "Rank 3",     "posts": 547 },
+        { "rank": "Rank 4",     "posts": 675 },
+        { "rank": "Rank 5",     "posts": 1019 },
+        { "rank": "Ranks 6–10", "posts": 1793 }
+      ],
+      "insights": [
+        { "type": "amber",   "text": "Rank 5 sources (1,019 posts) = mass-market casual commentators dominating volume" },
+        { "type": "default", "text": "Only 448 posts from Rank 1 top-tier authoritative sources" }
+      ]
+    },
+    "drillDown": {
+      "sm-total": {
+        "title": "SM Posts: 5,000",
+        "sub": "20-day monitoring window",
+        "insights": [
+          { "label": "Platform Split",   "text": "X 73.6% (3,678) · LinkedIn 13.2% (662) · Facebook 6.1% (304) · Video 1.9% (96) · Instagram 1.7% (84) · TikTok 1.3% (63)." },
+          { "label": "Weekly Trend",     "text": "W13: 1,369 → W14: 1,956 (+43%) → W15: 1,675 (-14%). Clear earnings-cycle peak in Week 14 ahead of Q1 results." },
+          { "label": "Quality",          "text": "Despite high X volume, per-post engagement quality is highest on TikTok (994/post), Facebook (112/post), and Video (182/post)." }
+        ]
+      },
+      "sm-reach": {
+        "title": "SM Audience: 351.9M",
+        "sub": "Cumulative reach across all social channels",
+        "insights": [
+          { "label": "By Platform",      "text": "Facebook 91.3M · X/Twitter 87.0M · LinkedIn 82.8M · TikTok 31.7M · TV 21.1M · Radio 16.1M · Video 14.1M · Instagram 7.8M." },
+          { "label": "Passive vs Active","text": "Radio and TV carry passive audience reach with zero digital interactions — broadcast without digital amplification." },
+          { "label": "Best Channel",     "text": "LinkedIn's 82.7M audience with 5,853 interactions signals a highly receptive professional community." }
+        ]
+      },
+      "sm-interactions-kpi": {
+        "title": "SM Interactions: 521,758",
+        "sub": "Total engagement across all platforms",
+        "insights": [
+          { "label": "Distribution",     "text": "X/Twitter 395.6K (75.8%) · TikTok 62.7K (12%) · Facebook 34.1K · Video 17.5K · Instagram 6.1K · LinkedIn 5.9K." },
+          { "label": "Efficiency",       "text": "TikTok: 994/post. Video: 182/post. Facebook: 112/post. X: 108/post. Instagram: 73/post. LinkedIn: 9/post." },
+          { "label": "TikTok Signal",    "text": "TikTok's 62,658 interactions from just 63 posts is the standout efficiency story — dramatically underinvested relative to ROI." }
+        ]
+      },
+      "sm-sentiment-kpi": {
+        "title": "SM Positive Rate: 21.8%",
+        "sub": "1,088 positive posts out of 5,000",
+        "insights": [
+          { "label": "Rate Context",     "text": "21.8% positive rate is below the pharma benchmark of 25–30%. The elevated negative rate (19.4%) compresses net sentiment significantly." },
+          { "label": "Key Drivers",      "text": "Positive posts cluster around: Braftovi BREAKWATER success, Lyme vaccine Phase 3, weight loss pill entry, Q1 earnings beat." },
+          { "label": "Negative Monitor", "text": "19.4% negative (971 posts) is a significant concern — primarily vaccine skepticism and FDA commentary threads on X/Twitter." }
+        ]
+      },
+      "sm-neg": {
+        "title": "SM Negative Rate: 19.4%",
+        "sub": "971 posts — elevated vs pharma peers",
+        "insights": [
+          { "label": "Primary Themes",   "text": "COVID-19 vaccine trial documentation skepticism, FDA vaccine leadership tensions, biosimilar competition concerns dominate negative content." },
+          { "label": "Platform",         "text": "X/Twitter hosts the vast majority of negative content. Without an active Pfizer counter-narrative, skeptics shape the platform conversation." },
+          { "label": "Risk Level",       "text": "At 19.4%, Pfizer's SM negative rate is the highest signal of brand vulnerability in this dataset. Any regulatory event could amplify this to 30%+." }
+        ]
+      },
+      "sm-vol-trend": {
+        "title": "Weekly SM Volume Deep Dive",
+        "sub": "W13–W15 Mar 24 – Apr 12, 2026",
+        "insights": [
+          { "label": "W13 (Mar 24–30)", "text": "1,369 posts — baseline week. X/Twitter dominant at ~73% of volume. No major catalysts." },
+          { "label": "W14 (Apr 1–7)",   "text": "1,956 posts — peak week (+43%). Q1 earnings anticipation and $PFE stock momentum on X drive the spike." },
+          { "label": "W15 (Apr 7–12)",  "text": "1,675 posts — healthy plateau. Organic conversation maintains 86% of peak volume, suggesting genuine brand engagement momentum." },
+          { "label": "Outlook",         "text": "Q1 earnings release (expected late April) and ASCO conference preparation likely to extend high-volume period through May." }
+        ]
+      },
+      "sm-platform-vol": {
+        "title": "Platform Volume Breakdown",
+        "sub": "Share of total SM posts",
+        "insights": [
+          { "label": "X/Twitter (73.6%)", "text": "3,678 posts — Pfizer's conversation is X-first. Retail investors, vaccine discourse, and stock traders dominate. High volume but mixed quality." },
+          { "label": "LinkedIn (13.2%)",  "text": "662 posts (13.2%) — professional community: HCPs, analysts, clinical researchers. Highest engagement quality per post." },
+          { "label": "Facebook (6.1%)",   "text": "304 posts — consumer/patient community with high per-post engagement (112/post). Underutilized relative to its reach potential." },
+          { "label": "TikTok (1.3%)",     "text": "63 posts — dramatically underrepresented given 994 interactions/post efficiency. Scaling TikTok is the highest-ROI channel opportunity." },
+          { "label": "Instagram (1.7%)",  "text": "84 posts with 6,095 interactions (73/post) — patient and consumer community. Important for long-term brand trust building." }
+        ]
+      },
+      "sm-sentiment-detail": {
+        "title": "SM Sentiment Distribution",
+        "sub": "Full breakdown of 5,000 posts",
+        "insights": [
+          { "label": "Positive (21.8%)",    "text": "1,088 posts. Drivers: pipeline milestones (Braftovi, Lyme vaccine), weight loss pill entry, earnings beat, analyst upgrades." },
+          { "label": "Neutral (29.7%)",     "text": "1,487 posts. Informational coverage — financial data, stock monitoring, factual press release distribution." },
+          { "label": "No Sentiment (29.1%)","text": "1,454 posts. Technical/scientific content where classifier cannot determine tone. High proportion likely reflects diverse content types." },
+          { "label": "Negative (19.4%)",    "text": "971 posts. Primarily vaccine skepticism (COVID-19 trial docs), FDA leadership commentary tensions, biosimilar competition concerns." },
+          { "label": "Platform Differential","text": "LinkedIn likely higher positive rate; X/Twitter drives the negative rate. Platform-split sentiment analysis would sharpen strategy." }
+        ]
+      },
+      "sm-pos-drivers": {
+        "title": "SM Sentiment Drivers",
+        "sub": "What creates positive & negative content",
+        "insights": [
+          { "label": "Top Positive",          "text": "Braftovi BREAKWATER Phase III success, Lyme disease vaccine Phase 3, weight loss pill Phase 2 entry, Q1 2026 earnings beat, $PFE analyst upgrades." },
+          { "label": "Top Negative",          "text": "COVID-19 vaccine trial documentation skepticism, FDA vaccine leadership tensions, biosimilar competition concerns." },
+          { "label": "Neutral Composition",   "text": "Financial data monitoring, stock price tracking, factual wire content — informational without emotional engagement." },
+          { "label": "Conversion Opportunity","text": "Converting neutral LinkedIn content to positive through pipeline storytelling and executive thought leadership can shift 10–15% of neutral posts." },
+          { "label": "Negative Mitigation",   "text": "A coordinated X/Twitter counter-narrative strategy with KOL partnerships and science-forward content can reduce negative rate from 19.4% to 10–13% by Q4 2026." }
+        ]
+      },
+      "sm-platform-detail": {
+        "title": "Platform Volume vs. Engagement",
+        "sub": "Mismatch analysis",
+        "insights": [
+          { "label": "TikTok Outperformance", "text": "TikTok = 1.3% of posts but 12% of interactions. 994/post is the highest efficiency of any channel — vastly underinvested." },
+          { "label": "X Volume Dominance",    "text": "X = 73.6% of posts but produces 108/post. High volume, moderate efficiency — and carries most of the negative content burden." },
+          { "label": "Facebook Strength",     "text": "Facebook = 6.1% of posts, 6.5% of interactions (112/post). Consumer/patient community highly engaged. Scaling Facebook is a patient trust opportunity." },
+          { "label": "LinkedIn Professional", "text": "LinkedIn = 13.2% of posts, 1.1% of interactions (9/post). Low public count understates professional influence — saves and shares not measured." },
+          { "label": "Video Potential",       "text": "Video = 1.9% of posts, 182/post — second highest efficiency. Short-form science content can scale this channel significantly." }
+        ]
+      },
+      "sm-platform-breakdown": {
+        "title": "Platform Detail Card",
+        "sub": "Full breakdown with interaction data",
+        "insights": [
+          { "label": "X/Twitter (3,678 posts)", "text": "395,593 interactions = 108/post. Volume leader but efficiency lags TikTok. Primary source of negative content — vaccine skepticism dominates." },
+          { "label": "TikTok (63 posts)",       "text": "62,658 interactions = 994/post. Pfizer's highest-efficiency channel. 63 posts generating more interactions than LinkedIn's 662 posts." },
+          { "label": "Facebook (304 posts)",    "text": "34,053 interactions = 112/post. Consumer/patient community. Third highest absolute interactions despite moderate post volume." },
+          { "label": "LinkedIn (662 posts)",    "text": "5,853 interactions = 9/post. Professional B2B channel. Public metrics understate influence — HCP and investor saves/shares unmeasured." },
+          { "label": "Video + Others",          "text": "Video (96 posts, 17,506 int = 182/post), Instagram (84 posts, 6,095 int = 73/post). Both offer solid efficiency and underutilized scale." }
+        ]
+      },
+      "sm-engagement-detail": {
+        "title": "SM Engagement Deep Dive",
+        "sub": "Interaction analysis by channel",
+        "insights": [
+          { "label": "Total Interactions",  "text": "521,758 total interactions across all SM channels in a 20-day window — approximately 26,088 interactions per day. Exceptional scale." },
+          { "label": "X/Twitter Core",      "text": "395,593 interactions on X represent 75.8% of all engagement. However, this comes with 19.4% negative content — engagement without positive brand sentiment." },
+          { "label": "TikTok Signal",       "text": "62,658 TikTok interactions from 63 posts signals a massive untapped opportunity. Science-forward, pipeline-storytelling content could scale this dramatically." },
+          { "label": "Facebook Community",  "text": "34,053 Facebook interactions suggest an active patient/consumer community. This channel builds grassroots brand affinity that financial/X content cannot." },
+          { "label": "LinkedIn Quality",    "text": "5,853 LinkedIn interactions are lower in absolute terms but represent the highest-quality professional audience — HCPs, analysts, institutional investors." }
+        ]
+      },
+      "sm-ranking": {
+        "title": "Audience Ranking Distribution",
+        "sub": "Source authority scores",
+        "insights": [
+          { "label": "Rank 5 (1,019 posts)", "text": "Largest single category — mass-market casual commentators. High volume but low individual authority. Likely retail traders and vaccine skeptic accounts on X." },
+          { "label": "Ranks 6–10 (1,793 posts)", "text": "Lowest authority tier dominates by volume. These posts have minimal brand impact per post but contribute to reach metrics." },
+          { "label": "Rank 1 (448 posts)",   "text": "Top-tier authoritative sources — likely major media outlets, verified analysts, and high-follower professionals. Most impactful per post." },
+          { "label": "Concentration Risk",   "text": "Low-rank sources dominate by volume (Rank 5+ = ~56% of posts). Brand impact is concentrated in the minority of high-authority posts." },
+          { "label": "Strategy",             "text": "Cultivate Rank 1 KOL relationships — 5 Rank 1 advocates > 500 Rank 5 mentions. Prioritize high-authority engagement programs on LinkedIn and X." }
+        ]
+      }
+    }
+  },
+
+  "tmIntelligence": {
+    "title": "Traditional Media Intelligence",
+    "heroPill": "TM Analysis",
+    "subtitle": "10,000 articles · Jan 27 – Apr 13, 2026",
+    "kpis": [
+      { "id": "tm-total",     "ddKey": "tm-total",     "label": "Total Articles", "value": "10K",   "sub": "Jan–Apr 2026" },
+      { "id": "tm-reach-kpi", "ddKey": "tm-reach-kpi", "label": "Total Reach",    "value": "29.6B", "sub": "Cumulative readership" },
+      { "id": "tm-pos-kpi",   "ddKey": "tm-pos-kpi",   "label": "Positive",       "value": "5.4%",  "sub": "538 articles" },
+      { "id": "tm-neg-kpi",   "ddKey": "tm-neg-kpi",   "label": "Negative",       "value": "3.0%",  "sub": "301 articles" },
+      { "id": "tm-neu-kpi",   "ddKey": "tm-neu-kpi",   "label": "Neutral",        "value": "91.6%", "sub": "Factual / informational" },
+      { "id": "tm-ave-kpi",   "ddKey": "tm-ave-kpi",   "label": "Total AVE",      "value": "$274M", "sub": "Advertising value equiv." }
+    ],
+    "volTrendChart": {
+      "ddKey": "tm-vol-trend",
+      "title": "Monthly Article Volume",
+      "subtitle": "Jan: 1 · Feb: 7,005 · Mar: 2,108 · Apr: 886",
+      "takeaway": "February spike (7,005 articles) driven by Braftovi BREAKWATER Phase III publication + Pfizer CEO/FDA commentary. Coverage normalises to ~500/week through Apr — structural financial coverage floor.",
+      "data": [
+        { "month": "Jan", "articles": 1 },
+        { "month": "Feb", "articles": 7005 },
+        { "month": "Mar", "articles": 2108 },
+        { "month": "Apr", "articles": 886 }
+      ]
+    },
+    "mediaTypeChart": {
+      "ddKey": "tm-type",
+      "title": "Media Type Distribution",
+      "subtitle": "Web, News, Trade, Magazine, Newspaper, Wire",
+      "data": [
+        { "name": "Web",       "value": 8133, "color": "#0077C8" },
+        { "name": "News",      "value": 1004, "color": "#003087" },
+        { "name": "Trade",     "value": 835,  "color": "#0d9488" },
+        { "name": "Magazine",  "value": 16,   "color": "#f59e0b" },
+        { "name": "Newspaper", "value": 9,    "color": "#8b5cf6" },
+        { "name": "Wire",      "value": 3,    "color": "#94a3b8" }
+      ],
+      "insights": [
+        { "color": "default", "text": "Web dominates (81.3%) — syndicated financial/investor content drives volume" },
+        { "color": "teal",    "text": "Trade media (835 articles) high-value for pharma/biotech stakeholders" }
+      ]
+    },
+    "sentimentChart": {
+      "ddKey": "tm-sentiment-detail",
+      "title": "Traditional Media Sentiment Split",
+      "subtitle": "10,000 articles analyzed",
+      "takeaway": "Overwhelmingly neutral TM coverage (91.6%) is typical for large-cap pharma. Positive-to-negative ratio is 1.79:1 — healthy baseline but limited earned advocacy. Net sentiment positive.",
+      "data": [
+        { "label": "Neutral",  "value": 9161, "pct": 91.6, "color": "#94a3b8" },
+        { "label": "Positive", "value": 538,  "pct": 5.4,  "color": "#22c55e" },
+        { "label": "Negative", "value": 301,  "pct": 3.0,  "color": "#ef4444" }
+      ]
+    },
+    "narratives": {
+      "ddKey": "tm-narrative",
+      "title": "Dominant TM Narratives",
+      "subtitle": "Theme analysis from top publications",
+      "takeaway": "Financial/investor narrative dominates over pipeline/patient narrative — opportunity to shift coverage toward therapeutic impact and patient outcomes.",
+      "items": [
+        { "color": "blue",  "label": "Investment Story (primary):", "text": "MarketBeat, Yahoo Finance, MSN analyst coverage dominates Q1 framing" },
+        { "color": "teal",  "label": "Pipeline Progress:",          "text": "Braftovi BREAKWATER, Lyme vaccine Phase 3, weight loss pill entry generate credibility" },
+        { "color": "green", "label": "Regulatory Narrative:",       "text": "FDA vaccine leadership tension creates editorial debate — both risk and visibility" },
+        { "color": "amber", "label": "Valuation & Buyback:",        "text": "$3.5B share buyback, Q1 earnings beat, guidance raise drive financial narrative" },
+        { "color": "red",   "label": "Biosimilar Headwinds:",       "text": "Coverage questions growth sustainability amid generic competition" }
+      ]
+    },
+    "publications": {
+      "ddKey": "tm-pubs-detail",
+      "title": "Top Publication Sources",
+      "subtitle": "By article volume",
+      "rows": [
+        { "name": "MarketBeat",            "articles": 246, "type": "Financial", "pos": false },
+        { "name": "Yahoo Finance",         "articles": 218, "type": "Financial", "pos": true  },
+        { "name": "MSN",                   "articles": 165, "type": "Digital",   "pos": false },
+        { "name": "PRSync",                "articles": 137, "type": "Wire",      "pos": false },
+        { "name": "American Banking News", "articles": 127, "type": "Financial", "pos": false },
+        { "name": "Hk Marketscreener",     "articles": 125, "type": "Financial", "pos": false },
+        { "name": "Intellectia",           "articles": 110, "type": "Financial", "pos": false },
+        { "name": "Markets Insider",       "articles": 75,  "type": "Financial", "pos": true  },
+        { "name": "TradingView",           "articles": 72,  "type": "Financial", "pos": false },
+        { "name": "Market Wire News",      "articles": 71,  "type": "Wire",      "pos": false }
+      ]
+    },
+    "subTypeChart": {
+      "ddKey": "tm-subtype",
+      "title": "Sub-Media Type Distribution",
+      "subtitle": "Web, News, Trade, Magazine, Newspaper",
+      "data": [
+        { "name": "Web",       "articles": 8133 },
+        { "name": "News",      "articles": 1004 },
+        { "name": "Trade",     "articles": 835 },
+        { "name": "Magazine",  "articles": 16 },
+        { "name": "Newspaper", "articles": 9 },
+        { "name": "Wire",      "articles": 3 }
+      ],
+      "insights": [
+        { "color": "default", "text": "Web (8,133) = syndicated financial content dominating volume" },
+        { "color": "teal",    "text": "Trade (835) = high-value pharma/biotech industry coverage" },
+        { "color": "amber",   "text": "News (1,004) = earned editorial coverage — most credibility-building" }
+      ]
+    },
+    "themes": [
+      {
+        "id": "tm-theme-invest",
+        "ddKey": "tm-theme-invest",
+        "title": "Investment Theme",
+        "subtitle": "~50% of coverage",
+        "items": [
+          { "color": "default", "text": "Analyst upgrades & $PFE price targets drive volume" },
+          { "color": "default", "text": "$3.5B share buyback extensively covered" },
+          { "color": "green",   "text": "Net positive sentiment in investment bucket" }
+        ]
+      },
+      {
+        "id": "tm-theme-pipeline",
+        "ddKey": "tm-theme-pipeline",
+        "title": "Pipeline Theme",
+        "subtitle": "~30% of coverage",
+        "items": [
+          { "color": "teal",    "text": "Phase III BREAKWATER results (Braftovi/mCRC)" },
+          { "color": "teal",    "text": "Lyme disease vaccine Phase 3 success" },
+          { "color": "default", "text": "Weight loss pill Phase 2 entry (emerging narrative)" }
+        ]
+      },
+      {
+        "id": "tm-theme-reg",
+        "ddKey": "tm-theme-reg",
+        "title": "Regulatory Theme",
+        "subtitle": "~20% of coverage",
+        "items": [
+          { "color": "amber",   "text": "CEO commentary on FDA vaccine leadership" },
+          { "color": "red",     "text": "Duchenne therapy complete response letter" },
+          { "color": "default", "text": "RSV therapy competitive claims scrutiny" }
+        ]
+      }
+    ],
+    "drillDown": {
+      "tm-total": {
+        "title": "TM Volume: 10,000 Articles",
+        "sub": "Jan–Apr 2026 traditional media landscape",
+        "insights": [
+          { "label": "Feb Spike",          "text": "7,005 articles in February = 70% of total volume. A single pipeline event (BREAKWATER) combined with CEO/FDA commentary generated an extraordinary concentration of coverage." },
+          { "label": "Structural Floor",   "text": "Post-February normalization to ~450–570/week confirms structural financial coverage base from MarketBeat, Yahoo Finance, MSN syndicates." },
+          { "label": "Channel Mix",        "text": "Web 81.3% (8,133), News 10% (1,004), Trade 8.4% (835). Trade media provides highest-quality audience per article despite lower volume." },
+          { "label": "April Trajectory",   "text": "886 articles through mid-April on pace for ~2,050 full-month articles — above structural floor, suggesting sustained investor interest in $PFE." },
+          { "label": "Opportunity",        "text": "The high February volume shows Pfizer can generate massive coverage around clinical data. Building a pipeline event calendar to pre-plan media outreach is the key leverage point." }
+        ]
+      },
+      "tm-reach-kpi": {
+        "title": "TM Cumulative Reach: 29.6B",
+        "sub": "Traditional media audience coverage",
+        "insights": [
+          { "label": "Scale",             "text": "29.6 billion cumulative reach is exceptional — driven by Yahoo Finance (~265M reach/article × 218) and MSN (~185M × 165) syndication scale." },
+          { "label": "Average Reach",     "text": "Average ~2.96M per article is highly skewed by top-reach outlets. Median reach likely 200–500K per article across the full distribution." },
+          { "label": "vs BMS",            "text": "Pfizer's 29.6B TM reach vastly exceeds BMS's 399M — reflecting Pfizer's larger market cap and greater financial media footprint." },
+          { "label": "Quality Warning",   "text": "High aggregate reach reflects platform audience size, not individual article engagement. Syndication reach does not equal reader intent or retention." },
+          { "label": "Tier Strategy",     "text": "Focus on increasing Tier 1 placements (STAT News, FiercePharma, Reuters) that trade individual reach for higher editorial credibility and audience relevance." }
+        ]
+      },
+      "tm-pos-kpi": {
+        "title": "TM Positive Rate: 5.4%",
+        "sub": "538 positive articles",
+        "insights": [
+          { "label": "Context",            "text": "5.4% positive is slightly above the pharma benchmark of 4–5% for large-cap drugmakers. BMS sits at 4.5% for comparison." },
+          { "label": "Positive Themes",    "text": "Clinical pipeline successes (BREAKWATER, Lyme vaccine), analyst upgrades, $3.5B share buyback, Q1 earnings beat drive the positive pool." },
+          { "label": "Ratio",              "text": "Positive-to-negative ratio 1.79:1 (538 vs 301). Healthy but limited. Target 2.5:1 by Q4 2026 through proactive media engagement." },
+          { "label": "Target Shift",       "text": "With proactive narrative investment targeting FiercePharma, STAT News, and BioPharma Dive, a 7–8% TM positive rate is achievable by Q4 2026." }
+        ]
+      },
+      "tm-neg-kpi": {
+        "title": "TM Negative Rate: 3.0%",
+        "sub": "301 negative articles",
+        "insights": [
+          { "label": "Volume Context",     "text": "301 negative articles out of 10,000 = 3.0%. Slightly elevated vs BMS (1.5%) but not crisis-level. Driven by FDA narrative and biosimilar concerns." },
+          { "label": "Primary Themes",     "text": "FDA vaccine leadership tensions, biosimilar competition questions, COVID vaccine documentation skepticism (appearing in TM as well as SM)." },
+          { "label": "Escalation Risk",    "text": "FDA adversarial thread is the most concerning risk — any regulatory escalation (congressional hearing, warning letter) could trigger a negative cascade." },
+          { "label": "Monitoring",         "text": "Set daily negative TM alerts. Any article in a high-reach outlet (Yahoo Finance, MSN) with negative sentiment warrants same-day rapid response assessment." }
+        ]
+      },
+      "tm-neu-kpi": {
+        "title": "TM Neutral Rate: 91.6%",
+        "sub": "9,161+ neutral articles",
+        "insights": [
+          { "label": "What Neutral Means",  "text": "91.6% neutral reflects a coverage landscape dominated by financial wire syndication and factual reporting. Higher than BMS's 78% — Pfizer has less editorial depth coverage." },
+          { "label": "Conversion Target",   "text": "If Pfizer could shift 5% of neutral to positive, that adds ~458 new positive articles — a 85% increase in positive TM volume." },
+          { "label": "Method",              "text": "Proactive pitching to trade and editorial journalists with patient outcome stories, clinical data explainers, and exec interviews converts neutral wire coverage to positive editorial." },
+          { "label": "Benchmark",           "text": "At peak narrative periods (Moderna COVID launch, Eli Lilly GLP-1), pharma companies achieved 12–15% positive TM rates. 8–10% is a realistic 12-month target for Pfizer." }
+        ]
+      },
+      "tm-ave-kpi": {
+        "title": "Total AVE: $274M",
+        "sub": "Advertising value equivalent",
+        "insights": [
+          { "label": "Context",             "text": "$274M AVE across 10,000 articles represents the estimated cost to purchase equivalent media space through paid advertising. A measure of earned media efficiency." },
+          { "label": "February Driver",     "text": "The February spike (7,005 articles) is the primary AVE driver. High-reach placements in Yahoo Finance and MSN carry disproportionate AVE weighting." },
+          { "label": "Quality Note",        "text": "AVE methodology can inflate metrics for syndicated content. Earned editorial AVE (calculated against news placements only) would be a more precise value signal." }
+        ]
+      },
+      "tm-vol-trend": {
+        "title": "TM Monthly Volume Deep Dive",
+        "sub": "Jan: 1 · Feb: 7,005 · Mar: 2,108 · Apr: 886",
+        "insights": [
+          { "label": "Jan Anomaly",         "text": "January = 1 article. The monitoring window began Jan 27, so this represents only the final days of January. Not a true monthly baseline." },
+          { "label": "Feb Spike",           "text": "7,005 articles in February — a 7,004× MoM increase. BREAKWATER Phase III publication + CEO/FDA commentary are the twin drivers." },
+          { "label": "Mar Normalization",   "text": "March 2,108 = rapid normalization to structural coverage floor. Event-driven spikes dissipate quickly without new catalysts." },
+          { "label": "Apr Trajectory",      "text": "886 articles through mid-April on pace for ~2,050 — above structural floor, confirming sustained financial syndication interest." },
+          { "label": "Upcoming Triggers",   "text": "Q1 earnings (late April), ASCO 2026 (late May), FDA actions on weight loss pill Phase 2 — these are predictable volume triggers to prepare content around." }
+        ]
+      },
+      "tm-type": {
+        "title": "TM Media Type Distribution",
+        "sub": "Web, News, Trade, Newspaper, Wire",
+        "insights": [
+          { "label": "Web (81.3%)",    "text": "8,133 articles from digital syndication platforms — primarily financial news aggregators and investor content networks. High volume, moderate quality." },
+          { "label": "News (10%)",     "text": "1,004 news articles — traditional editorial journalism. Highest quality per article and most credibility-building. These are the truly 'earned' placements." },
+          { "label": "Trade (8.4%)",   "text": "835 trade media articles — FiercePharma, BioPharma Dive, pharma specialist publications. Reach HCPs, analysts, and biotech decision makers with highest relevance." },
+          { "label": "Other (<1%)",    "text": "Magazine (16), Newspaper (9), Wire (3) — small but individually high-impact. Magazine long-form and newspaper placements drive narrative depth." },
+          { "label": "Strategy",       "text": "Invest editorial resources in News and Trade coverage (9 combined = 18.4% of volume). These require relationship investment but deliver superior brand outcomes." }
+        ]
+      },
+      "tm-sentiment-detail": {
+        "title": "TM Sentiment Analysis",
+        "sub": "Full breakdown of 10,000 articles",
+        "insights": [
+          { "label": "Neutral Dominance",    "text": "91.6% neutral confirms structural financial wire coverage as the primary TM source. Expected for large-cap pharma where reporting is factual, not advocacy-driven." },
+          { "label": "Positive Composition", "text": "5.4% positive = 538 articles anchored in BREAKWATER results, Lyme vaccine Phase 3, analyst upgrades, earnings beat, and $3.5B share buyback." },
+          { "label": "Negative Details",     "text": "3.0% negative = 301 articles. Themes: FDA tensions, biosimilar competition, Duchenne complete response letter, COVID vaccine skepticism spillover from SM." },
+          { "label": "Ratio",                "text": "1.79:1 positive-to-negative is slightly below BMS's 3:1 ratio. The FDA adversarial thread is suppressing this metric — mitigating it is priority." },
+          { "label": "Improvement Path",     "text": "Shift TM strategy from reactive to proactive. Pre-brief journalists on pipeline milestones, secure feature story slots, and develop patient impact angles to build editorial positive sentiment." }
+        ]
+      },
+      "tm-narrative": {
+        "title": "TM Dominant Narratives",
+        "sub": "Theme analysis Q1–Q2 2026",
+        "insights": [
+          { "label": "Investment (Primary)",    "text": "MarketBeat, Yahoo Finance, MSN analyst-driven coverage frames Pfizer as an investment asset. High volume but limits brand as healthcare/science leader." },
+          { "label": "Pipeline Progress",       "text": "BREAKWATER (Braftovi/mCRC), Lyme vaccine, weight loss pill entry generate authentic scientific credibility. These are the highest-value TM stories." },
+          { "label": "Regulatory Narrative",    "text": "CEO/FDA commentary creates a visible adversarial thread. This is unusual for pharma TM — regulators and companies rarely generate editorial conflict." },
+          { "label": "Financial Engineering",   "text": "$3.5B share buyback and guidance raise signal financial strength but reinforce the investment narrative over the patient/innovation narrative." },
+          { "label": "Patient Impact (Missing)","text": "Patient outcomes, caregiver stories, and disease burden narratives are essentially absent from TM. This is the biggest narrative gap to address through proactive media work." }
+        ]
+      },
+      "tm-pubs-detail": {
+        "title": "Top TM Publication Analysis",
+        "sub": "Source breakdown and quality tiers",
+        "insights": [
+          { "label": "MarketBeat (246)",         "text": "Financial research aggregator. Algorithmic content generation around $PFE stock. High volume, institutional investor readership, minimal editorial influence." },
+          { "label": "Yahoo Finance (218)",      "text": "~265M monthly reach per article × 218 articles. Highest individual reach per placement in the dataset. Retail and institutional investors both read here." },
+          { "label": "MSN (165)",                "text": "~185M reach per article. Digital portal syndication — primarily republishing wire content. High aggregate reach but no original journalism." },
+          { "label": "Trade Media (835 total)",  "text": "Spread across BioPharma Dive, FiercePharma, Healthcare IT News and specialist outlets. Despite lower individual volume, these drive the highest credibility per impression." },
+          { "label": "Target Tier-1 Gaps",       "text": "Notable absences: STAT News, Wall Street Journal Health, Nature Medicine, JAMA. One placement in STAT News generates 10× the brand value of 100 MarketBeat articles." }
+        ]
+      },
+      "tm-subtype": {
+        "title": "TM Sub-Media Type Distribution",
+        "sub": "Web, News, Trade, Magazine, Newspaper, Wire",
+        "insights": [
+          { "label": "Web (8,133)",       "text": "Syndicated financial content dominating — aggregator platforms republishing wire content. High volume, limited editorial impact." },
+          { "label": "News (1,004)",      "text": "Earned editorial coverage — highest credibility, longest shelf life, most audience trust. These are the articles that shape brand perception among decision-makers." },
+          { "label": "Trade (835)",       "text": "Pharma/biotech specialist publications. Smaller audience but highest relevance to R&D professionals, HCPs, and biotech investors." },
+          { "label": "Magazine + Other",  "text": "16 magazine + 9 newspaper articles — individually high-impact, long-form placements. Each likely represents significant editorial attention and brand narrative depth." },
+          { "label": "Strategy",          "text": "Allocate PR resources to News and Trade tiers (combined 1,839 articles). Reducing the Web/syndication share while growing News/Trade share improves overall media quality." }
+        ]
+      },
+      "tm-theme-invest": {
+        "title": "Investment Theme Analysis",
+        "sub": "~50% of TM coverage",
+        "insights": [
+          { "label": "Coverage Type",           "text": "Analyst price target changes, earnings previews/results, $3.5B share buyback coverage, stock performance commentary, institutional positioning." },
+          { "label": "Sentiment",               "text": "Net positive in investment theme — analyst upgrades and buyback news generates favorable coverage. Q1 earnings beat reinforces positive financial narrative." },
+          { "label": "Risk",                    "text": "Investment narrative dominance means Pfizer brand equity is closely tied to $PFE stock performance. If stock underperforms, media narrative flips quickly." },
+          { "label": "Diversification Need",    "text": "Building clinical/patient/innovation narrative alongside investment story creates brand resilience independent of short-term stock movements." }
+        ]
+      },
+      "tm-theme-pipeline": {
+        "title": "Pipeline Theme Analysis",
+        "sub": "~30% of TM coverage",
+        "insights": [
+          { "label": "Coverage Type",  "text": "Phase 2/3 clinical trial results, FDA regulatory actions, therapy approvals, conference data presentations. Second-largest narrative in TM." },
+          { "label": "Key Stories Q1", "text": "BREAKWATER (Braftovi/Erbitux/Folfiri in mCRC), Lyme disease vaccine Phase 3, oral weight loss pill Phase 2 entry, Duchenne complete response letter." },
+          { "label": "Quality Premium","text": "Pipeline coverage appears in higher-quality outlets (FiercePharma, BioPharma Dive, Yahoo Finance) and carries more positive sentiment than investment coverage." },
+          { "label": "Action",         "text": "Map each remaining 2026 Phase 2/3 readout to a proactive content plan. Pre-brief tier-1 journalists 2 weeks before data release to enable same-day high-quality coverage." }
+        ]
+      },
+      "tm-theme-reg": {
+        "title": "Regulatory Theme Analysis",
+        "sub": "~20% of TM coverage",
+        "insights": [
+          { "label": "FDA Tension",      "text": "CEO commentary on FDA vaccine leadership has created an adversarial editorial thread unique in pharma TM coverage. This is a brand risk that requires active management." },
+          { "label": "Duchenne CRL",     "text": "The Duchenne muscular dystrophy complete response letter generated negative coverage — rare for Pfizer's pipeline given its historical approval rates." },
+          { "label": "RSV Scrutiny",     "text": "Competitive claims scrutiny around RSV therapy creates regulatory complexity. Proactive transparency with FDA reduces risk of escalation." },
+          { "label": "Response Strategy","text": "Limit public escalation of FDA commentary. Redirect narrative focus toward clinical data and patient outcomes. Prepare rapid-response playbook for any new FDA friction." }
+        ]
+      }
+    }
+  },
+
+  "unifiedInsights": {
+    "title": "Unified Insights",
+    "heroPill": "Cross-Channel",
+    "subtitle": "SM + TM combined signals · Jan 27 – Apr 13, 2026",
+    "badge": "Cross-Channel",
+    "kpis": [
+      { "id": "uni-alignment", "ddKey": "uni-alignment", "label": "Narrative Alignment", "value": "Medium",   "sub": "SM & TM themes partially overlap" },
+      { "id": "uni-sm-pos",    "ddKey": "uni-sm-pos",    "label": "SM Positive Rate",    "value": "21.8%",    "sub": "vs TM 5.4% — 4× gap" },
+      { "id": "uni-lag",       "ddKey": "uni-lag",       "label": "Media Lag Effect",    "value": "~2–4 days","sub": "SM reacts first to events" },
+      { "id": "uni-reach",     "ddKey": "uni-reach",     "label": "Combined Reach",      "value": "30B+",     "sub": "SM 351.9M + TM 29.6B" },
+      { "id": "uni-ch1",       "ddKey": "uni-ch1",       "label": "SM Negative Rate",    "value": "19.4%",    "sub": "vs TM 3.0% — risk gap" }
+    ],
+    "sentimentCompare": {
+      "ddKey": "uni-sentiment-compare",
+      "title": "Sentiment Comparison: SM vs. TM",
+      "subtitle": "Positive · Neutral · Negative rates",
+      "takeaway": "SM generates 4× more positive sentiment than TM — but also 6.5× more negative. Social is Pfizer's emotional battleground; TM remains predominantly informational.",
+      "labels": ["Positive", "Neutral", "Negative"],
+      "datasets": [
+        { "label": "SM", "data": [21.8, 29.7, 19.4], "color": "#0077C8" },
+        { "label": "TM", "data": [5.4,  91.6, 3.0],  "color": "#0d9488" }
+      ]
+    },
+    "volCompare": {
+      "ddKey": "uni-vol-compare",
+      "title": "Monthly Volume Overlay",
+      "subtitle": "SM posts vs. TM articles (normalized)",
+      "labels": ["January", "February", "March", "April"],
+      "datasets": [
+        { "label": "SM Posts (×10)",       "data": [null, null, 191, 309], "color": "#0077C8" },
+        { "label": "TM Articles (÷100)",   "data": [0, 70, 21, 9],         "color": "#0d9488" }
+      ],
+      "insights": [
+        { "color": "default", "text": "TM February spike (BREAKWATER data) not reflected in SM — SM was mid-monitoring period" },
+        { "color": "teal",    "text": "SM April peak aligns with Q1 earnings speculation and $PFE momentum" }
+      ]
+    },
+    "channelCards": [
+      {
+        "id": "uni-ch1",
+        "ddKey": "uni-ch1",
+        "title": "Volume Dominance",
+        "items": [
+          { "color": "default", "text": "TM 2× SM volume (10K vs 5K) in overlapping period" },
+          { "color": "amber",   "text": "TM reach 29.6B vs SM 351.9M — syndication drives massive TM reach" },
+          { "color": "default", "text": "X/Twitter is 73.6% of SM — single platform concentration risk" }
+        ]
+      },
+      {
+        "id": "uni-ch2",
+        "ddKey": "uni-ch2",
+        "title": "Narrative Gaps",
+        "items": [
+          { "color": "red",     "text": "Patient/caregiver voice nearly absent from both channels" },
+          { "color": "amber",   "text": "Vaccine skepticism dominating X — no counter-narrative present" },
+          { "color": "default", "text": "TM focuses on finance; SM mixes stock traders + vaccine discourse" }
+        ]
+      },
+      {
+        "id": "uni-ch3",
+        "ddKey": "uni-ch3",
+        "title": "Strategic Implication",
+        "items": [
+          { "color": "green", "text": "TikTok's 994 interactions/post is a signal to invest in short-form science content" },
+          { "color": "green", "text": "Pipeline event windows should trigger coordinated SM + TM burst strategy" },
+          { "color": "teal",  "text": "LinkedIn professional audience is receptive — underserved with pipeline depth" }
+        ]
+      }
+    ],
+    "reputation": {
+      "ddKey": "uni-reputation",
+      "title": "Multi-Dimensional Reputation Scorecard",
+      "subtitle": "Based on SM + TM signal analysis · Scored 1–10",
+      "labels": ["Innovation", "Financial Strength", "Pipeline Credibility", "Patient Trust", "Brand Advocacy", "Media Presence", "Regulatory Standing"],
+      "datasets": [
+        { "label": "SM Signals", "data": [7, 5, 6, 3, 4, 6, 4], "color": "#0077C8", "bg": "rgba(0,119,200,0.15)" },
+        { "label": "TM Signals", "data": [6, 9, 7, 3, 4, 9, 5], "color": "#003087", "bg": "rgba(0,48,135,0.10)" }
+      ],
+      "scores": [
+        { "label": "Innovation",           "sm": 7, "tm": 6, "note": "Weight loss pill, Braftovi, Lyme vaccine" },
+        { "label": "Financial Strength",   "sm": 5, "tm": 9, "note": "Analyst upgrades, $3.5B buyback, Q1 beat" },
+        { "label": "Pipeline Credibility", "sm": 6, "tm": 7, "note": "Phase III BREAKWATER, Lyme vaccine success" },
+        { "label": "Patient Trust",        "sm": 3, "tm": 3, "note": "Vaccine skepticism undermines trust signals" },
+        { "label": "Brand Advocacy",       "sm": 4, "tm": 4, "note": "21.8% SM positive but 19.4% negative limits net" },
+        { "label": "Media Presence",       "sm": 6, "tm": 9, "note": "29.6B TM cumulative reach is exceptional" },
+        { "label": "Regulatory Standing",  "sm": 4, "tm": 5, "note": "FDA tensions create regulatory perception risk" }
+      ]
+    },
+    "drillDown": {
+      "uni-alignment": {
+        "title": "Narrative Alignment: SM vs. TM",
+        "sub": "Channel coherence analysis",
+        "insights": [
+          { "label": "Aligned Themes",          "text": "Both SM and TM cover: pipeline progress (BREAKWATER, Lyme vaccine), investment/analyst narrative, and $PFE stock activity. Thematic alignment is medium on major stories." },
+          { "label": "Divergence",              "text": "SM hosts vaccine skepticism and FDA debates not present in TM at the same scale. TM is purely financial/clinical; SM mixes retail traders, patients, and skeptics." },
+          { "label": "Lag Observed",            "text": "SM reacts faster to news (within hours) while TM takes 24–72 hours to fully process. This 2–4 day lag creates a narrative seeding window to exploit." },
+          { "label": "Reputation Gaps",         "text": "Patient/caregiver narrative is essentially absent from both channels. Neither channel tells the human impact story — the biggest shared gap." },
+          { "label": "Integration Opportunity", "text": "When TM breaks a pipeline or financial story, use SM within 6–12 hours to amplify with owned content — CEO LinkedIn post, pipeline infographic, patient story." }
+        ]
+      },
+      "uni-sm-pos": {
+        "title": "Sentiment Gap: SM 21.8% vs TM 5.4%",
+        "sub": "4× positive sentiment differential",
+        "insights": [
+          { "label": "The Gap",                 "text": "SM generates 4× more positive sentiment than TM. However, SM also generates 6.5× more negative — making social a high-stakes, two-sided channel for Pfizer." },
+          { "label": "Why SM is More Positive", "text": "Social audiences self-select for interest in Pfizer. LinkedIn followers are engaged professionals; TM audiences are neutral by default." },
+          { "label": "Negative SM Risk",        "text": "Unlike BMS where SM negative is 2%, Pfizer's 19.4% SM negative rate means social channels carry significant brand risk alongside their advocacy potential." },
+          { "label": "Priority",                "text": "The strategic priority is not just increasing SM positive — it's reducing SM negative. Counter-narrative investment on X is more urgent than positive content amplification." }
+        ]
+      },
+      "uni-lag": {
+        "title": "Media Lag Effect Analysis",
+        "sub": "SM reacts first, TM sustains",
+        "insights": [
+          { "label": "SM First Mover",          "text": "X/Twitter breaks and amplifies Pfizer news within hours. Retail investors, vaccine commentators, and analysts react before TM has published articles." },
+          { "label": "TM Sustainer",            "text": "Traditional media coverage extends 2–7 days post-event through editorial cycles and wire syndication. TM prolongs the life of each story." },
+          { "label": "Window of Opportunity",   "text": "The 2–4 day window between SM peak and TM peak is critical. X reaction on Day 1 often shapes what financial journalists write on Day 3." },
+          { "label": "Vaccine Skepticism Risk", "text": "Negative SM vaccine discourse (Day 1) reaching TM journalists (Day 3) creates risk of negative editorial framing. Rapid SM counter-narratives can interrupt this flow." }
+        ]
+      },
+      "uni-reach": {
+        "title": "Combined Reach: 30B+",
+        "sub": "SM 351.9M + TM 29.6B",
+        "insights": [
+          { "label": "Total Scale",             "text": "30+ billion combined impressions. TM's 29.6B is exceptional — driven by Yahoo Finance and MSN syndication. SM's 351.9M is respectable for a 20-day window." },
+          { "label": "Audience Quality",        "text": "TM reach quality is moderate-low (syndication dominated). SM reach quality is higher per impression for LinkedIn audience specifically." },
+          { "label": "TM vs BMS",               "text": "Pfizer's 29.6B TM reach vs BMS's 399M reflects Pfizer's larger market cap and greater financial media syndication scale." },
+          { "label": "Efficiency Target",       "text": "Focus on reach efficiency: CPM improvement through better content quality and Tier 1 placement growth. Same reach, higher engagement and sentiment." }
+        ]
+      },
+      "uni-sentiment-compare": {
+        "title": "SM vs TM Sentiment Comparison",
+        "sub": "Channel-by-channel positive/neutral/negative",
+        "insights": [
+          { "label": "Positive Gap",            "text": "SM: 21.8% positive vs TM: 5.4% positive. Gap is structural but SM positive rate is itself under pressure from elevated negative content." },
+          { "label": "Neutral Contrast",        "text": "SM: 29.7% neutral vs TM: 91.6% neutral. Pfizer's SM has a more active conversation mix — but the activity includes significant negative content." },
+          { "label": "Negative Comparison",     "text": "SM: 19.4% negative vs TM: 3.0% negative. The 6.5× negative gap is Pfizer's most distinctive channel difference — social is the brand's vulnerability surface." },
+          { "label": "Combined View",           "text": "Pfizer has a polarized media landscape. SM is high-intensity (positive and negative both elevated); TM is high-neutral (mostly factual financial reporting)." },
+          { "label": "Priority",                "text": "Reduce SM negative rate through counter-narrative investment. Increase TM positive rate through proactive editorial pitching. Both moves improve brand health scores." }
+        ]
+      },
+      "uni-vol-compare": {
+        "title": "Volume Overlay: SM vs TM",
+        "sub": "Comparative monthly trajectory",
+        "insights": [
+          { "label": "Asynchronous Peaks",      "text": "TM February spike (BREAKWATER) is not reflected in SM since SM monitoring began only in late March. The two channels operated in different time windows." },
+          { "label": "SM April Momentum",       "text": "SM April peak (W14 = 1,956 posts) driven by Q1 earnings anticipation is not matched by equivalent TM activity — SM is running ahead of TM on this cycle." },
+          { "label": "Scale Difference",        "text": "TM (7,005 in Feb peak) is dramatically larger than SM weekly peaks (1,956). TM provides structural coverage floor; SM is the active engagement layer." },
+          { "label": "Synchronization Gap",     "text": "The two channels operated on different time windows in this dataset. Future analysis should align both channels to the same date range for better correlation." }
+        ]
+      },
+      "uni-ch1": {
+        "title": "Volume Dominance: TM vs SM",
+        "sub": "Scale comparison",
+        "insights": [
+          { "label": "TM Scale",                "text": "10,000 TM articles vs 5,000 SM posts — TM is 2× SM by count in the Jan–Apr window. TM provides the structural coverage base through financial syndication." },
+          { "label": "SM Engagement Premium",   "text": "Despite 2/3 the volume, SM generates 521,758 interactions — massively exceeding TM's near-zero interaction count. SM content converts to brand action." },
+          { "label": "X Concentration",         "text": "73.6% X/Twitter dependency means SM volume metrics are heavily influenced by a single platform's activity patterns and algorithm changes." },
+          { "label": "Implication",             "text": "Diversify SM channel investment: LinkedIn, TikTok, and Instagram all offer superior engagement quality to X. Reduce X concentration to below 50% of SM volume by Q4 2026." }
+        ]
+      },
+      "uni-ch2": {
+        "title": "Narrative Gaps: What's Missing",
+        "sub": "Absent story angles across both channels",
+        "insights": [
+          { "label": "Patient Narrative",       "text": "Patient experience, caregiver stories, quality-of-life outcomes — nearly absent from both SM and TM. Critical gap for payer trust and brand advocacy." },
+          { "label": "Vaccine Counter-Narrative","text": "Vaccine skepticism on X is uncontested. Without Pfizer deploying pro-science, KOL-backed content on X, critics define the platform conversation." },
+          { "label": "Innovation Depth",        "text": "Weight loss pill and Braftovi pipeline are getting coverage but lack deep narrative development. Long-form LinkedIn and STAT News coverage would build credibility." },
+          { "label": "ESG/Responsibility",      "text": "Environmental, Social, and Governance narratives are underdeveloped. Growing institutional ESG mandates make this a gap in investor audience targeting." }
+        ]
+      },
+      "uni-ch3": {
+        "title": "Strategic Implications",
+        "sub": "Cross-channel integrated strategy",
+        "insights": [
+          { "label": "TikTok Priority",         "text": "994 interactions/post on TikTok with only 63 posts — the clearest single investment opportunity in the dataset. Short-form science content scales here exceptionally." },
+          { "label": "Pipeline Event Windows",  "text": "ASCO 2026 (late May), Phase 2 weight loss pill readout, any FDA approvals — these are coordinated SM + TM burst strategy moments. Pre-plan content kits." },
+          { "label": "X Counter-Narrative",     "text": "Deploying KOL partnerships and rapid-response science content on X to counter vaccine skepticism is the most urgent brand protection investment." },
+          { "label": "LinkedIn Depth",          "text": "LinkedIn professional audience is receptive but underserved with pipeline depth content. Executive thought leadership, clinical data stories, and patient outcomes can drive advocacy." }
+        ]
+      },
+      "uni-reputation": {
+        "title": "Multi-Dimensional Reputation Scorecard",
+        "sub": "Based on SM + TM signals",
+        "insights": [
+          { "label": "Innovation (SM:7, TM:6)",           "text": "Strong — weight loss pill Phase 2 entry, Braftovi BREAKWATER success, Lyme vaccine. Well-covered across channels." },
+          { "label": "Financial Strength (SM:5, TM:9)",   "text": "Very strong in TM (analyst upgrades, buyback, earnings beat). SM underweights financial strength — dominated by stock traders rather than financial advocates." },
+          { "label": "Pipeline Credibility (SM:6, TM:7)", "text": "Good across both channels. BREAKWATER and Lyme vaccine provide genuine clinical credibility. Weight loss pill will be the next inflection point." },
+          { "label": "Patient Trust (SM:3, TM:3)",        "text": "Weak — vaccine skepticism actively undermines patient trust signals on both channels. The most urgent reputation risk to address." },
+          { "label": "Regulatory Standing (SM:4, TM:5)",  "text": "Below average — FDA tension thread creates regulatory perception risk that is unusual for a major pharma company. Active management required." }
+        ]
+      }
+    }
+  },
+
+  "recommendations": {
+    "title": "Strategic Recommendations",
+    "heroPill": "Action Plan",
+    "subtitle": "Scale · Fix · Monitor",
+    "kpis": [
+      { "id": "recs-total",   "label": "Recommendations", "value": "9", "sub": "Across 3 strategic tracks" },
+      { "id": "recs-scale",   "label": "Scale Actions",   "value": "3", "sub": "Amplify what's working" },
+      { "id": "recs-fix",     "label": "Fix Actions",     "value": "3", "sub": "Address visible gaps" },
+      { "id": "recs-monitor", "label": "Monitor Items",   "value": "3", "sub": "Watch for emerging risks" }
+    ],
+    "categories": [
+      {
+        "id": "scale",
+        "label": "Scale",
+        "tagline": "Amplify what's already working",
+        "color": "#0d9488",
+        "bg": "bg-teal-50",
+        "textColor": "text-teal-700",
+        "borderColor": "border-teal-400",
+        "items": [
+          {
+            "id": "rec-1",
+            "title": "Capitalize on Pipeline Milestone Moments",
+            "description": "Braftovi BREAKWATER, Lyme vaccine Phase 3, and the weight loss pill Phase 2 entry are generating strong organic coverage. Build proactive content calendars around ASCO, regulatory submissions, and Phase 3 readouts to pre-seed positive narrative before key windows.",
+            "kpi": "Target: each milestone drives 500+ TM articles, 1,000+ SM posts within 7 days"
+          },
+          {
+            "id": "rec-2",
+            "title": "Invest in TikTok Science Content",
+            "description": "TikTok generates 994 interactions per post — the highest engagement rate of any platform. With only 63 posts monitored, this is a dramatically underutilized channel. Short-form pipeline explainers, clinical trial milestones, and patient science content can reach a younger audience while generating measurable engagement.",
+            "kpi": "Target: 200 TikTok posts/quarter at current engagement rates = ~198,800 interactions"
+          },
+          {
+            "id": "rec-3",
+            "title": "Deepen LinkedIn Pipeline Storytelling",
+            "description": "LinkedIn delivers 5,853 interactions across 662 posts — strong professional engagement. Deploy executive thought leadership, clinical data storytelling, and pipeline explainers to convert passive professional followers into advocates. This is Pfizer's most credible earned social channel.",
+            "kpi": "Target: 15,000+ LinkedIn interactions/quarter (3× current from 1,000 posts)"
+          }
+        ]
+      },
+      {
+        "id": "fix",
+        "label": "Fix",
+        "tagline": "Address visible weaknesses",
+        "color": "#f59e0b",
+        "bg": "bg-amber-50",
+        "textColor": "text-amber-700",
+        "borderColor": "border-amber-400",
+        "items": [
+          {
+            "id": "rec-4",
+            "title": "Build a Vaccine Narrative Counter-Strategy on X",
+            "description": "X/Twitter accounts for 73.6% of SM posts, but vaccine skepticism (COVID-19 trial documents, FDA tensions) fuels the 19.4% negativity rate. Without an active pro-science counter-narrative, the conversation is ceded to skeptics. Deploy a coordinated X engagement strategy with KOL partnerships, real-time fact response, and science-forward content.",
+            "kpi": "Target: SM negative rate Q2: 16% → Q3: 13% → Q4: 10%"
+          },
+          {
+            "id": "rec-5",
+            "title": "Shift TM Narrative from Finance to Pipeline",
+            "description": "91.6% of TM coverage is neutral/financial — purely informational investor reporting. Pfizer's clinical pipeline is among the industry's strongest, yet patient impact stories are nearly absent. Engage trade media journalists (FiercePharma, STAT News, BioPharma Dive) proactively with story angles that lead with patient outcomes, not stock price.",
+            "kpi": "Target: TM positive rate Q2: 7% → Q3: 9% → Q4: 11%"
+          },
+          {
+            "id": "rec-6",
+            "title": "Activate Patient & Caregiver Voice in Social",
+            "description": "Both SM and TM channels are dominated by financial/investor audiences. Patient and caregiver narratives — which drive credibility with payers, advocacy groups, and regulators — are nearly absent from monitored data. Activate patient advocacy partnerships and consider dedicated DTC social content on Instagram, Facebook, and TikTok.",
+            "kpi": "Target: 300 patient-focused posts/quarter on Instagram/TikTok by Q4 2026"
+          }
+        ]
+      },
+      {
+        "id": "monitor",
+        "label": "Monitor",
+        "tagline": "Watch for emerging risks",
+        "color": "#ef4444",
+        "bg": "bg-red-50",
+        "textColor": "text-red-700",
+        "borderColor": "border-red-400",
+        "items": [
+          {
+            "id": "rec-7",
+            "title": "FDA Regulatory Perception Risk",
+            "description": "The Pfizer CEO's public commentary on FDA vaccine leadership has created an adversarial narrative thread. Any escalation — congressional testimony, regulatory delays, or additional FDA friction — could trigger a negative media cascade. Prepare rapid-response comms playbooks for regulatory-related scenarios.",
+            "kpi": "Alert: any new FDA-Pfizer friction event → same-day rapid response activation"
+          },
+          {
+            "id": "rec-8",
+            "title": "Biosimilar & Revenue Headwind Narrative",
+            "description": "Coverage questioning Pfizer's revenue sustainability given biosimilar competition and post-COVID normalization is present in TM. If H2 2026 results disappoint, this narrative could accelerate. Maintain proactive investor communications cadence highlighting pipeline replacement revenue.",
+            "kpi": "Alert threshold: negative TM exceeds 5% any single week → immediate response"
+          },
+          {
+            "id": "rec-9",
+            "title": "Competitor Pipeline SOV Erosion",
+            "description": "Merck, AstraZeneca, Eli Lilly (GLP-1), and Novo Nordisk are all generating strong pipeline narrative simultaneously. Pfizer's weight loss pill entry could reframe the company — or be overshadowed by Lilly's Zepbound leadership. Track weekly SOV against Merck, Lilly, AstraZeneca, and J&J as primary benchmarks.",
+            "kpi": "Alert threshold: Pfizer SOV drops below 15% vs Lilly/Merck → trigger reactive campaign"
+          }
+        ]
+      }
+    ],
+    "drillDown": {
+      "recs-total": {
+        "title": "9 Strategic Recommendations",
+        "sub": "Scale · Fix · Monitor framework",
+        "insights": [
+          { "label": "Scale (3)", "text": "Capitalize on pipeline milestones, invest in TikTok, deepen LinkedIn storytelling. All three are opportunity amplifiers — low risk, high ROI, executable within 90 days." },
+          { "label": "Fix (3)",   "text": "Vaccine counter-narrative on X, TM narrative shift from finance to pipeline, patient voice activation. These address Pfizer's most visible brand vulnerabilities." },
+          { "label": "Monitor (3)","text": "FDA regulatory risk, biosimilar headwinds, competitor SOV erosion. Early-warning alerts prevent reactive crisis management." }
+        ]
+      },
+      "recs-scale": {
+        "title": "Scale Actions Overview",
+        "sub": "3 amplification opportunities",
+        "insights": [
+          { "label": "Pipeline Moments",   "text": "BREAKWATER generated 7,000+ articles. Every Phase 3 readout, approval, or partnership announcement is a potential media wave. Pre-plan each to amplify reach." },
+          { "label": "TikTok Potential",   "text": "994 interactions/post with only 63 posts monitored. This is the clearest single ROI opportunity in the entire dataset. Short-form science content scales here." },
+          { "label": "LinkedIn Depth",     "text": "Professional audience is engaged and receptive. CEO thought leadership, patient science stories, and clinical data explainers can 3× current interaction rates." }
+        ]
+      },
+      "recs-fix": {
+        "title": "Fix Actions Overview",
+        "sub": "3 structural weakness corrections",
+        "insights": [
+          { "label": "X Counter-Narrative", "text": "19.4% SM negative is the single most urgent fix. Vaccine skepticism on X is persistent and uncontested. KOL partnerships and rapid-response science content are the primary tools." },
+          { "label": "TM Narrative Shift",  "text": "91.6% neutral TM coverage means Pfizer is reported on, not advocated for. Proactive trade media engagement can shift 5–10% of neutral to positive within 2 quarters." },
+          { "label": "Patient Voice",       "text": "Both channels lack patient and caregiver voices. This is the biggest credibility gap with payers, advocacy groups, and regulators. Activate partnerships immediately." }
+        ]
+      },
+      "recs-monitor": {
+        "title": "Monitor Items Overview",
+        "sub": "3 risk signals requiring active tracking",
+        "insights": [
+          { "label": "FDA Risk",           "text": "The adversarial FDA thread is unique in pharma TM coverage. Any escalation — hearing, warning letter, denied approval — could cascade rapidly through SM and TM channels." },
+          { "label": "Biosimilar Risk",    "text": "Revenue sustainability questions are present but contained. H2 2026 earnings will be the test. Proactive investor comms on pipeline replacement revenue is the mitigation." },
+          { "label": "Competitor SOV",     "text": "Lilly (GLP-1), Merck (Keytruda), AstraZeneca (oncology) all generating simultaneous positive pipeline narratives. Pfizer's weight loss pill is the SOV counterpunch to execute." }
+        ]
+      },
+      "rec-1": {
+        "title": "Capitalize on Pipeline Milestone Moments",
+        "sub": "Scale · Earned media amplification",
+        "insights": [
+          { "label": "Evidence",           "text": "BREAKWATER Phase III publication generated 7,005 TM articles in a single month — a 7,004× increase from the prior month's baseline." },
+          { "label": "Execution",          "text": "Pre-brief tier-1 trade journalists 2 weeks before each readout. Prepare SM content kits for oncology KOLs. Target 500+ TM articles and 1,000+ SM posts within 7 days of each milestone." },
+          { "label": "Calendar",           "text": "Map upcoming 2026 milestones: ASCO presentations (May), FDA action on weight loss pill (TBD), Lyme vaccine regulatory pathway (H2 2026). Build content plans for each." }
+        ]
+      },
+      "rec-2": {
+        "title": "Invest in TikTok Science Content",
+        "sub": "Scale · Highest-ROI channel opportunity",
+        "insights": [
+          { "label": "Signal",             "text": "63 TikTok posts generated 62,658 interactions = 994/post. This is 9× the engagement efficiency of X/Twitter (108/post) and dramatically underinvested." },
+          { "label": "Content Strategy",   "text": "Short-form pipeline explainers (30–60 seconds), clinical trial milestones, \"Ask a Pfizer Scientist\" format, patient science education. Lead with visual data storytelling." },
+          { "label": "Scale Target",       "text": "200 TikTok posts/quarter at current rates = ~198,800 additional interactions — larger than Pfizer's current total LinkedIn interaction count." }
+        ]
+      },
+      "rec-3": {
+        "title": "Deepen LinkedIn Pipeline Storytelling",
+        "sub": "Scale · Professional audience engagement",
+        "insights": [
+          { "label": "Signal",             "text": "LinkedIn delivers 5,853 interactions from 662 posts (9/post). Professional audience is engaged, receptive, and high-quality for HCP, analyst, and investor targeting." },
+          { "label": "Content Mix",        "text": "Executive thought leadership, clinical data storytelling, pipeline explainers, patient outcome case studies, HCP education content. Long-form with data visualizations perform best." },
+          { "label": "Target",             "text": "Scale to 1,000 LinkedIn posts/quarter at improved content quality. Target 15,000+ interactions/quarter (3× current) by Q4 2026." }
+        ]
+      },
+      "rec-4": {
+        "title": "Build a Vaccine Narrative Counter-Strategy on X",
+        "sub": "Fix · Negative sentiment reduction",
+        "insights": [
+          { "label": "Problem",            "text": "73.6% of SM on X, 19.4% negative rate — vaccine skepticism and FDA commentary drive persistent negative content that currently goes unchallenged." },
+          { "label": "Strategy",           "text": "Deploy coordinated X engagement: KOL partnerships with virologists and vaccine scientists, real-time fact response protocol, science-forward content calendar." },
+          { "label": "Target",             "text": "Reduce SM negative rate: Q2 → 16%, Q3 → 13%, Q4 → 10%. Requires sustained 6–9 month execution — not a quick fix." }
+        ]
+      },
+      "rec-5": {
+        "title": "Shift TM Narrative from Finance to Pipeline",
+        "sub": "Fix · TM positive rate improvement",
+        "insights": [
+          { "label": "Problem",            "text": "91.6% neutral TM — Pfizer's clinical pipeline is among the industry's strongest, yet patient impact stories are nearly absent from earned editorial coverage." },
+          { "label": "Execution",          "text": "Engage FiercePharma, STAT News, BioPharma Dive proactively with patient outcome story angles. Provide on-record executive spokespeople. Build a dedicated healthcare trade media relations program." },
+          { "label": "Target",             "text": "Increase TM positive rate: Q2 → 7%, Q3 → 9%, Q4 → 11%. Each 1% increase = ~100 additional positive articles — meaningful brand equity at scale." }
+        ]
+      },
+      "rec-6": {
+        "title": "Activate Patient & Caregiver Voice in Social",
+        "sub": "Fix · Patient trust building",
+        "insights": [
+          { "label": "Problem",            "text": "Both SM and TM channels are dominated by financial/investor audiences. Patient and caregiver narratives — which drive payer trust and regulatory goodwill — are nearly absent." },
+          { "label": "Channels",           "text": "Instagram (73/post efficiency), Facebook (112/post), and TikTok (994/post) are the right channels for patient-facing content. X/Twitter is not the patient trust channel." },
+          { "label": "Target",             "text": "300 patient-focused posts/quarter on Instagram/TikTok by Q4 2026. Activate patient advocacy partnerships for authentic storytelling (with appropriate regulatory compliance)." }
+        ]
+      },
+      "rec-7": {
+        "title": "FDA Regulatory Perception Risk",
+        "sub": "Monitor · Regulatory narrative management",
+        "insights": [
+          { "label": "Signal",             "text": "CEO commentary on FDA vaccine leadership has created an adversarial editorial thread unique in pharma TM coverage. This is not typical — most pharma companies avoid public FDA friction." },
+          { "label": "Escalation Triggers","text": "Watch for: congressional testimony involving FDA/vaccine, warning letters, Duchenne CRL escalation, any new regulatory delay. Each could trigger a negative cascade." },
+          { "label": "Playbook",           "text": "Prepare rapid-response comms playbook for regulatory scenarios. Limit public escalation. Redirect all media narratives toward clinical data and patient outcomes when FDA threads emerge." }
+        ]
+      },
+      "rec-8": {
+        "title": "Biosimilar & Revenue Headwind Narrative",
+        "sub": "Monitor · Financial narrative resilience",
+        "insights": [
+          { "label": "Signal",             "text": "Coverage questioning Pfizer's revenue sustainability post-COVID and amid biosimilar competition is present but contained. H2 2026 earnings will be the test." },
+          { "label": "Mitigation",         "text": "Maintain proactive investor communications cadence highlighting pipeline replacement revenue. Weight loss pill, BREAKWATER, and Lyme vaccine approvals are the narrative antidotes." },
+          { "label": "Alert Threshold",    "text": "If negative TM exceeds 5% in any single week, activate investor communications response team immediately. Current 3% rate is near alert threshold." }
+        ]
+      },
+      "rec-9": {
+        "title": "Competitor Pipeline SOV Erosion",
+        "sub": "Monitor · Share of voice protection",
+        "insights": [
+          { "label": "Context",            "text": "Merck (Keytruda expansions), AstraZeneca (oncology), Eli Lilly (GLP-1 dominance), Novo Nordisk are generating simultaneous positive pipeline narratives." },
+          { "label": "Pfizer's Counter",   "text": "Pfizer's weight loss pill Phase 2 entry is the highest-visibility SOV counterpunch. If Phase 2 data are strong, this could shift the GLP-1 narrative from Lilly-only to multi-player." },
+          { "label": "Tracking",           "text": "Implement weekly SOV monitoring against Merck, Lilly, AstraZeneca, J&J. Alert threshold: Pfizer SOV drops below 15% relative to Lilly or Merck → trigger proactive media campaign." }
+        ]
+      }
+    }
+  }
+}

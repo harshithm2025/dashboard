@@ -1,0 +1,72 @@
+{
+  "id": "bms",
+  "name": "BMS Intelligence",
+  "fullName": "Bristol-Myers Squibb",
+  "ticker": "BMY",
+  "subtitle": "Brand Measurement Platform",
+  "dataPeriod": {
+    "label": "Data Period",
+    "range": "Jan 1 – Apr 6, 2026",
+    "smPosts": "1,989 posts",
+    "tmArticles": "30,000 articles"
+  },
+  "nav": [
+    {
+      "section": "Overview",
+      "items": [
+        {
+          "id": "exec",
+          "label": "Executive Summary",
+          "icon": "BarChart2"
+        }
+      ]
+    },
+    {
+      "section": "Social Media",
+      "items": [
+        {
+          "id": "sm",
+          "label": "SM Intelligence",
+          "icon": "Smartphone",
+          "children": [
+            { "id": "sm-awareness", "label": "Awareness" },
+            { "id": "sm-sentiment", "label": "Sentiment" },
+            { "id": "sm-platform", "label": "Platform" },
+            { "id": "sm-engagement", "label": "Engagement" }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Traditional Media",
+      "items": [
+        {
+          "id": "tm",
+          "label": "TM Intelligence",
+          "icon": "Newspaper",
+          "children": [
+            { "id": "tm-coverage", "label": "Coverage" },
+            { "id": "tm-sentiment", "label": "Sentiment" },
+            { "id": "tm-pubs", "label": "Publications" },
+            { "id": "tm-themes", "label": "Themes" }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Analysis",
+      "items": [
+        {
+          "id": "unified",
+          "label": "Unified Insights",
+          "icon": "Link2"
+        },
+        {
+          "id": "recs",
+          "label": "Recommendations",
+          "icon": "Target"
+        }
+      ]
+    }
+  ]
+}

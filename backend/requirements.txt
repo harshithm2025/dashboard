@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+httpx
+PyJWT
+passlib
+bcrypt==3.2.2
+python-dotenv
+cloudinary
+python-multipart
+Pillow

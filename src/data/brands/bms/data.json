@@ -1,0 +1,1369 @@
+{
+  "executiveSummary": {
+    "title": "Executive Summary",
+    "heroPill": "Jan–Apr 2026",
+    "subtitle": "BMS Brand Measurement Intelligence · Q1 2026",
+    "badge": "Jan – Apr 2026",
+    "kpis": [
+      {
+        "id": "kpi-posts",
+        "ddKey": "kpi-posts",
+        "label": "SM Posts",
+        "value": "1,989",
+        "sub": "↑ Peak Feb-Mar window",
+        "delta": null,
+        "trend": "up"
+      },
+      {
+        "id": "kpi-audience",
+        "ddKey": "kpi-audience",
+        "label": "SM Reach",
+        "value": "291M",
+        "sub": "Total audience impressions",
+        "delta": null,
+        "trend": "up"
+      },
+      {
+        "id": "kpi-tm-articles",
+        "ddKey": "kpi-tm",
+        "label": "TM Articles",
+        "value": "30K",
+        "sub": "Jan–Mar 2026",
+        "delta": null,
+        "trend": "neutral"
+      },
+      {
+        "id": "kpi-tm-reach",
+        "ddKey": "kpi-tmreach",
+        "label": "TM Media Reach",
+        "value": "399M",
+        "sub": "Cumulative reach",
+        "delta": null,
+        "trend": "up"
+      },
+      {
+        "id": "kpi-sm-pos",
+        "ddKey": "kpi-smpos",
+        "label": "SM Positive",
+        "value": "32%",
+        "sub": "642 positive posts",
+        "delta": null,
+        "trend": "up"
+      },
+      {
+        "id": "kpi-tm-pos",
+        "ddKey": "kpi-tmpos",
+        "label": "TM Positive",
+        "value": "4.5%",
+        "sub": "1,153 positive articles",
+        "delta": null,
+        "trend": "neutral"
+      },
+      {
+        "id": "kpi-interactions",
+        "ddKey": "kpi-interactions",
+        "label": "SM Interactions",
+        "value": "14.5K",
+        "sub": "LinkedIn dominant",
+        "delta": null,
+        "trend": "up"
+      }
+    ],
+    "signals": [
+      {
+        "id": "sig-ma",
+        "ddKey": "sig-driving",
+        "icon": "TrendingUp",
+        "title": "M&A Activity",
+        "desc": "BMS acquisition speculation drove a notable spike in Jan–Feb conversation volume.",
+        "tag": "MONITOR",
+        "tagColor": "red"
+      },
+      {
+        "id": "sig-pipeline",
+        "ddKey": "sig-pipeline",
+        "icon": "FlaskConical",
+        "title": "Pipeline Momentum",
+        "desc": "Phase 3 SCOUT-HCM results for Camzyos generated strong positive earned media.",
+        "tag": "SCALE",
+        "tagColor": "green"
+      },
+      {
+        "id": "sig-ai",
+        "ddKey": "sig-ai",
+        "icon": "Cpu",
+        "title": "AI Partnership",
+        "desc": "Microsoft AI / lung cancer detection deal elevated innovation narrative.",
+        "tag": "SCALE",
+        "tagColor": "green"
+      },
+      {
+        "id": "sig-investor",
+        "ddKey": "sig-investor",
+        "icon": "DollarSign",
+        "title": "Investor Signal",
+        "desc": "Scotiabank raised price target to $60 — broad analyst coverage remained favorable.",
+        "tag": "SCALE",
+        "tagColor": "green"
+      },
+      {
+        "id": "sig-dtc",
+        "ddKey": "sig-radio",
+        "icon": "Radio",
+        "title": "Radio DTC Campaign",
+        "desc": "'No Time to Wait' drove 736 SM radio posts but generated 0 digital interactions.",
+        "tag": "FIX",
+        "tagColor": "amber"
+      }
+    ],
+    "workingItems": {
+      "ddKey": "exec-working",
+      "notWorkingDdKey": "exec-notworking",
+      "working": [
+        "LinkedIn engagement is highest of all SM channels (64% of interactions)",
+        "Pipeline news generating positive earned media at scale",
+        "Institutional analyst coverage broadly favorable across Q1"
+      ],
+      "notWorking": [
+        "57% of SM content is neutral — weak brand voice resonance",
+        "78% of TM overwhelmingly neutral — minimal earned narrative",
+        "Radio DTC (736 posts) generating zero digital interactions"
+      ]
+    },
+    "risksOpportunities": {
+      "risksDdKey": "exec-risks",
+      "oppsDdKey": "exec-opps",
+      "risks": [
+        { "color": "red", "text": "2% negative SM content could amplify if M&A speculation turns hostile" },
+        { "color": "amber", "text": "Low engagement on Radio = wasted DTC investment signal" }
+      ],
+      "opportunities": [
+        { "color": "green", "text": "Oncology/AI narrative resonates — scale proactively" },
+        { "color": "green", "text": "LinkedIn professional audience underserved in depth content" }
+      ]
+    },
+    "drillDown": {
+      "kpi-posts": {
+        "title": "SM Post Volume: 1,989",
+        "sub": "Social Media · Jan–Apr 2026",
+        "insights": [
+          { "label": "Pattern", "text": "February peaks at 859 posts — a 154% increase over January's 338. This aligns with Q4 earnings release on Jan 28 and subsequent analyst day discussions." },
+          { "label": "Driver", "text": "LinkedIn and Radio constitute 76% of total volume. LinkedIn captures professional/investor discourse; Radio reflects DTC broadcast (\"No Time to Wait\" campaign)." },
+          { "label": "Platform", "text": "LinkedIn (793), Radio (736), X/Twitter (253), Video (100), Facebook (76) — a diverse channel mix, but engagement concentration is heavily LinkedIn-weighted." },
+          { "label": "Sustainability", "text": "March sustains at 659 posts (77% of Feb peak), suggesting organic conversation momentum rather than purely event-driven spikes." },
+          { "label": "Opportunity", "text": "April 2026 (partial data, 133 posts through Apr 6) on track for strong month if ASCO or pipeline announcements land in late April." }
+        ]
+      },
+      "kpi-audience": {
+        "title": "SM Total Audience: 291M",
+        "sub": "Cumulative reach across all social posts",
+        "insights": [
+          { "label": "Scale", "text": "291 million total audience impressions across 1,989 posts. Radio-tagged posts carry the largest individual audience figures (avg 330K per Radio post)." },
+          { "label": "Quality vs Quantity", "text": "LinkedIn posts have lower audience figures per post but far higher interaction rates. Radio has massive passive reach but zero active engagement." },
+          { "label": "Risk", "text": "Radio reach is passive-only — audiences cannot interact, share, or amplify. This inflates the \"reach\" metric without contributing to brand advocacy or engagement equity." },
+          { "label": "Benchmark", "text": "For pharma at this scale, 291M impressions across a 90-day window is competitive. Key question is how much converts to message retention vs. passive exposure." },
+          { "label": "Optimization", "text": "Reallocating 20% of Radio budget to LinkedIn and YouTube could convert passive reach to active engagement, potentially 3–5× improvement in interaction rates." }
+        ]
+      },
+      "kpi-tm": {
+        "title": "TM Article Volume: 30,000",
+        "sub": "Traditional Media · Jan–Mar 2026",
+        "insights": [
+          { "label": "Volume Context", "text": "30,000 articles over 3 months averages ~333 articles/day. This reflects the scale of BMS's media footprint — a blue-chip pharma company generating constant financial and clinical news." },
+          { "label": "Structural vs Event", "text": "Volume is remarkably stable across Jan-Feb-Mar (7.1K / 7.4K / 6.7K), suggesting structural/syndication-driven coverage rather than purely event-triggered spikes." },
+          { "label": "Channel", "text": "Online (71%) and Web (26%) dominate — traditional print and broadcast represent a very small fraction of total volume but outsized credibility per placement." },
+          { "label": "Reach Implication", "text": "Most coverage comes from aggregator/syndication sources (PRSync: 522, Market Minute: 120, Local news: 200+). These have high volume but moderate individual reach." },
+          { "label": "Strategic Gap", "text": "High volume but low editorial depth — most articles are wire-service summaries, not investigative or feature coverage. This limits narrative control." }
+        ]
+      },
+      "kpi-tmreach": {
+        "title": "TM Cumulative Reach: 399M",
+        "sub": "Traditional Media readership impressions",
+        "insights": [
+          { "label": "Scale", "text": "399 million cumulative reach from TM vastly exceeds SM (291M), confirming traditional media still delivers superior audience scale for pharma." },
+          { "label": "Quality Note", "text": "Average reach per article (~18,758) is moderate, inflated by high-reach outlets like MSN (71M UMV). Most articles appear in local/aggregator outlets with lower individual reach." },
+          { "label": "Concentration Risk", "text": "A handful of high-reach outlets (MSN, Yahoo Finance, MarketBeat) generate disproportionate reach. Losing favor with these platforms would meaningfully impact total TM footprint." },
+          { "label": "Earned vs Syndicated", "text": "Syndicated wire content (PRSync, openpr.com) makes up ~800+ articles and likely drives significant reach volume but limited editorial credibility." },
+          { "label": "Opportunity", "text": "Converting 5-10 major earned editorial placements in Stat News, FiercePharma, or JAMA would add disproportionate credibility vs. volume wins." }
+        ]
+      },
+      "kpi-smpos": {
+        "title": "SM Positive Rate: 32.3%",
+        "sub": "642 positive posts out of 1,989",
+        "insights": [
+          { "label": "Rate Context", "text": "32.3% positive rate is healthy for a pharma company — industry norms typically run 20-30% positive for large-cap drugmakers. BMS outperforms baseline." },
+          { "label": "Key Drivers", "text": "Positive posts cluster around: Camzyos clinical success, Microsoft AI partnership, analyst upgrades, oncology conference activity (ASCO preview content)." },
+          { "label": "Neutral Concern", "text": "57% neutral content reflects information dissemination without emotional resonance. Brand advocacy requires converting neutrals to positives through narrative investment." },
+          { "label": "Negative Monitoring", "text": "2% negative (40 posts) is manageable. Key themes: valuation skepticism, generic competition concerns. No single crisis-level narrative detected." },
+          { "label": "Platform Differential", "text": "LinkedIn positive rate likely higher than Radio; Radio tends toward neutral (product mentions in ad context). Platform-specific sentiment analysis would sharpen strategy." }
+        ]
+      },
+      "kpi-tmpos": {
+        "title": "TM Positive Rate: 4.5%",
+        "sub": "1,153 positive articles out of 30,000",
+        "insights": [
+          { "label": "Industry Context", "text": "4.5% positive in TM is typical for pharma, where neutral/informational coverage dominates. Financial media in particular skews neutral by editorial standards." },
+          { "label": "Positive Drivers", "text": "Investment/analyst upgrades (Scotiabank, BMO, Jefferies), clinical trial successes, and M&A opportunity framing drive the positive pool." },
+          { "label": "Gap vs SM", "text": "SM generates 32% positive vs TM's 4.5% — a 7× gap. Social channels are the primary venue for brand enthusiasm. TM shapes credibility, SM shapes affinity." },
+          { "label": "Negative is Low", "text": "1.5% negative (384 articles) indicates no crisis-level events in Q1. Patent concerns and valuation debate generate scattered negatives, not concentrated attacks." },
+          { "label": "Benchmark Target", "text": "With proactive media engagement targeting financial publications with pipeline wins, TM positive rate target of 6-8% is achievable by Q4 2026." }
+        ]
+      },
+      "kpi-interactions": {
+        "title": "SM Interactions: 14,466",
+        "sub": "Likes, shares, comments across all platforms",
+        "insights": [
+          { "label": "Composition", "text": "LinkedIn drives 9,354 interactions (64.7%), X/Twitter 1,982 (13.7%), Facebook 1,909 (13.2%), Video 1,192 (8.2%), Instagram minimal." },
+          { "label": "Engagement Rate", "text": "14,466 interactions across 291M audience = 0.005% engagement rate. Pharma benchmark is typically 0.01-0.05%. Headroom to improve content quality and calls-to-action." },
+          { "label": "LinkedIn Depth", "text": "LinkedIn's high interaction count signals engaged professional audience (HCPs, investors, analysts). Long-form content and clinical data receive strongest response." },
+          { "label": "Facebook Surprise", "text": "Facebook generates 1,909 interactions from only 76 posts (25 interactions/post average) — highest per-post engagement of any channel. Possibly patient/consumer community activity." },
+          { "label": "Amplification Gap", "text": "Radio (736 posts) contributes 0 interactions. Redirecting 30% of Radio content budget to LinkedIn/Facebook would likely 2-3× total interaction count." }
+        ]
+      },
+      "sig-driving": {
+        "title": "M&A Activity Driving Conversation",
+        "sub": "Biopharma consolidation wave",
+        "insights": [
+          { "label": "Pattern", "text": "Q1 2026 saw $47B+ in biopharma M&A activity (Merck $6.7B, Lilly $6.3B, Biogen $5.6B). BMS is repeatedly named alongside Amgen and AbbVie as the next potential dealmaker." },
+          { "label": "Driver", "text": "BMO and Jefferies analyst notes explicitly call out \"return of large-scale deal making\" and flag BMS as having balance sheet capacity. This amplifies BMS coverage across financial media." },
+          { "label": "Opportunity", "text": "M&A speculation elevates brand awareness among institutional investors and business media. Use this moment to reinforce BMS strategic vision — position deals as pipeline-driven, not defensive." },
+          { "label": "Risk", "text": "If BMS is seen as reactive or FOMO-driven in M&A, perception could shift negative. Messaging should proactively frame any deal as scientific strategy, not financial engineering." },
+          { "label": "Monitoring Priority", "text": "Set alerts for: \"BMS acquires,\" \"Bristol-Myers deal,\" analyst notes on BMS capital deployment. Any misinformation needs rapid correction." }
+        ]
+      },
+      "sig-pipeline": {
+        "title": "Pipeline Momentum: SCOUT-HCM",
+        "sub": "Camzyos Phase 3 results coverage",
+        "insights": [
+          { "label": "Clinical Signal", "text": "Phase 3 SCOUT-HCM positive topline results for Camzyos in adolescent HCM patients generated a wave of clinical media coverage in mid-January 2026." },
+          { "label": "Coverage Quality", "text": "Coverage spans trade media (Healthcare Research Reports, StreetInsider) and financial media (Yahoo Finance, MSN). Both high-credibility channels for this audience." },
+          { "label": "Brand Lift", "text": "Clinical success stories convert neutral TM coverage into positive branded narratives. Each Phase 3 win should be exploited across SM within 24-48 hours for maximum amplification." },
+          { "label": "Portfolio Depth", "text": "BMS pipeline includes 50+ compounds across oncology, hematology, neuroscience, immunology, cardiovascular. This breadth is underutilized in public narrative." },
+          { "label": "Action", "text": "Build a \"Pipeline Pipeline\" content calendar: map each Phase 2/3 readout in 2026 to a pre-planned social and media outreach moment. Don't let wins pass without brand amplification." }
+        ]
+      },
+      "sig-ai": {
+        "title": "AI Partnership: Microsoft Collaboration",
+        "sub": "Lung cancer early detection partnership",
+        "insights": [
+          { "label": "Signal", "text": "January 20 announcement of BMS-Microsoft partnership to enhance early lung cancer detection using AI generated immediate multi-channel coverage." },
+          { "label": "Narrative Value", "text": "AI partnerships are a high-signal indicator of innovation positioning in 2026. BMS being associated with Microsoft (the AI market leader) elevates brand perception among tech-savvy investors and HCPs." },
+          { "label": "Audience Resonance", "text": "Oncology professionals and investors both respond strongly to AI-driven diagnostic partnerships. LinkedIn is the ideal channel — professionals trust scientific collaborations here." },
+          { "label": "Competitor Gap", "text": "Few traditional pharma peers have announced comparable high-profile AI partnerships. BMS has a 6-12 month window to own this narrative before competitors catch up." },
+          { "label": "Content Strategy", "text": "Develop a \"BMS x AI\" content series: feature Microsoft collaboration updates, AI-assisted trial design, precision medicine case studies. Target Science, Nature Medicine, STAT News for earned placements." }
+        ]
+      },
+      "sig-investor": {
+        "title": "Scotiabank Price Target Raise",
+        "sub": "BMY target raised to $60 from $53",
+        "insights": [
+          { "label": "Event", "text": "January 9 Scotiabank analyst raise to $60 (from $53) was among top 10 most-reached articles in the dataset. Signal cascades: multiple financial outlets syndicate analyst rating changes." },
+          { "label": "Cascade Effect", "text": "A single positive analyst note generates 50-100+ downstream articles across financial media (American Banking News, Yahoo Finance, FinancialContent, etc.) — this is the TM syndication amplification machine." },
+          { "label": "Sentiment Impact", "text": "Analyst upgrades are the single most reliable driver of positive TM sentiment for large-cap pharma. Cultivating relationships with bulge-bracket analysts is a high-ROI communications investment." },
+          { "label": "Risk", "text": "Analyst sentiment can reverse quickly. If Q2 2026 results disappoint, downgrades would generate equivalent negative cascade. Maintain consistent analyst communications cadence." },
+          { "label": "Opportunity", "text": "Identify which additional analysts are on the fence (Sector Perform / Hold ratings). Targeted investor day content could move 2-3 analysts to Buy, generating another positive coverage wave." }
+        ]
+      },
+      "sig-radio": {
+        "title": "Radio DTC Campaign: No Time to Wait",
+        "sub": "736 Radio SM posts · 0 digital interactions",
+        "insights": [
+          { "label": "Observation", "text": "\"No Time to Wait\" campaign (AFib/stroke awareness, sponsored by BMS & Pfizer) is heavily represented in Radio social media data — 736 posts from FM stations across Florida, Pennsylvania, and other markets." },
+          { "label": "Reach Without Engagement", "text": "Individual Radio posts show audience figures of 300K-400K each, contributing to total SM reach but generating zero digital interactions. DTC reach is passive." },
+          { "label": "Implication", "text": "Radio DTC awareness may not be converting to digital search or HCP-directed action. The absence of digital amplification means the campaign lives in broadcast silos." },
+          { "label": "Risk", "text": "Budget allocation to Radio without measurable digital ROI is a strategic vulnerability. As audiences continue shifting to digital/streaming, Radio's effectiveness should be questioned." },
+          { "label": "Recommendation", "text": "Add QR codes, vanity URLs, or social hashtag pushes to radio ads to create digital thread. Retarget radio-exposed audiences through programmatic digital to complete the conversion funnel." }
+        ]
+      },
+      "exec-working": {
+        "title": "What's Working: Key Strengths",
+        "sub": "Momentum drivers across SM and TM",
+        "insights": [
+          { "label": "LinkedIn Dominance", "text": "LinkedIn generates 64% of all SM interactions from 40% of posts. Professional audience is highly engaged with clinical, scientific, and investment content." },
+          { "label": "Pipeline Resonance", "text": "Phase 3 clinical data, new compound readouts, and therapy approvals are generating organic earned media that builds genuine brand credibility." },
+          { "label": "Financial Media Coverage", "text": "Major financial outlets (Yahoo Finance, MSN, StreetInsider) regularly feature BMS news — ensuring institutional investor audiences stay informed and confident." },
+          { "label": "Innovation Narrative", "text": "The Microsoft AI partnership seeds BMS as a technology-forward pharma. This narrative differentiates BMS from \"traditional\" drug companies in a competitive landscape." },
+          { "label": "Analyst Consensus", "text": "Predominantly positive-to-neutral analyst coverage (Scotiabank, BMO, Jefferies all constructive) provides a favorable investment-grade halo that amplifies across media." }
+        ]
+      },
+      "exec-notworking": {
+        "title": "What's Not Working: Friction Points",
+        "sub": "Areas requiring strategic attention",
+        "insights": [
+          { "label": "Neutral Dominance", "text": "57% of SM and 78% of TM is neutral — informational without advocacy. Brand coverage is comprehensive but emotionally flat, limiting share-of-mind impact." },
+          { "label": "Radio ROI Gap", "text": "736 Radio posts generate 0 digital interactions. A major media investment that creates awareness but no measurable digital engagement, conversions, or brand advocacy." },
+          { "label": "Patient Voice Absent", "text": "Patient and caregiver perspectives are nearly absent in social media data. For a healthcare company, this is a credibility gap — authentic patient stories drive advocacy and payer support." },
+          { "label": "Low Engagement Rate", "text": "Overall SM engagement rate of ~0.005% is below pharma benchmarks. Content resonates with a narrow professional audience but fails to achieve broad consumer-grade engagement." },
+          { "label": "Syndication-Heavy TM", "text": "Most TM coverage is syndicated wire content (PRSync, FinancialContent, etc.) — not original editorial. This means BMS gets volume but limited narrative influence or brand building." }
+        ]
+      },
+      "exec-risks": {
+        "title": "Key Risks Identified",
+        "sub": "Potential threat vectors",
+        "insights": [
+          { "label": "M&A Speculation", "text": "If BMS is involved in leaked or inaccurate acquisition rumors, negative sentiment could spike rapidly. Social media escalation from M&A misinformation can be swift and damaging." },
+          { "label": "LOE/Patent Cliff", "text": "References to loss of exclusivity and generic competition appear in negative coverage pool. If this narrative gains momentum in H2 2026, financial media could amplify." },
+          { "label": "Analyst Reversal Risk", "text": "Current positive analyst consensus could reverse on Q2 earnings miss. A cluster of analyst downgrades would trigger a negative TM cascade (same mechanism as the Scotiabank upgrade worked positively)." },
+          { "label": "Radio Waste", "text": "Continued investment in radio DTC without digital conversion tracking risks perpetuating an unproven spend while digital channels demonstrate measurable ROI." },
+          { "label": "Patient Narrative Vacuum", "text": "Without a proactive patient voice strategy, BMS is vulnerable to third-party patient advocacy groups or competitors defining the patient experience narrative." }
+        ]
+      },
+      "exec-opps": {
+        "title": "Key Opportunities",
+        "sub": "High-priority growth vectors",
+        "insights": [
+          { "label": "AI/Tech Narrative", "text": "The Microsoft partnership is an uncrowded differentiator in pharma. Developing a sustained \"digital health innovation\" content program positions BMS as a forward-looking leader, not a legacy company." },
+          { "label": "LinkedIn Depth", "text": "LinkedIn professional audience (HCPs, investors, scientists) is highly engaged. Deploying richer content — clinical data stories, exec perspectives, pipeline updates — can amplify brand authority." },
+          { "label": "Pipeline Calendar", "text": "Multiple Phase 2/3 readouts expected in 2026 across oncology, neuroscience, cardiovascular. Proactively mapping these to a content calendar creates 8-12 \"planned\" positive news moments." },
+          { "label": "Patient Stories", "text": "Authentic patient testimonials (with appropriate regulatory compliance) on LinkedIn and YouTube create emotional resonance that financial coverage cannot achieve — and builds payer trust." },
+          { "label": "Trade Media Depth", "text": "Trade media (Healthcare Research Reports, StreetInsider, STAT News equivalent) generates highest credibility per impression. Targeted pitching to these outlets amplifies scientific authority." }
+        ]
+      },
+      "trend-sm": {
+        "title": "SM Volume Trend Analysis",
+        "sub": "Monthly post breakdown",
+        "insights": [
+          { "label": "Pattern", "text": "January: 338 posts (baseline). February: 859 (+154%). March: 659 (-23% from peak). April: 133 partial through Apr 6." },
+          { "label": "Driver", "text": "February spike driven by: Q4 2025 earnings release (Jan 28), SCOUT-HCM results, Scotiabank price target raise, and biopharma M&A wave coverage cascade." },
+          { "label": "Sustainability", "text": "March sustained at 659 (77% of Feb peak) suggests genuine organic conversation momentum, not purely event-driven flash. Positive indicator for brand relevance." },
+          { "label": "Seasonality Watch", "text": "Medical conference season (ASCO in late May, ASH in December) will drive future peaks. Pre-conference content building is advised to maximize coverage windows." },
+          { "label": "Forecast", "text": "April-May trajectory likely accelerates if Q1 2026 earnings (expected late April) and ASCO registration activity generate coverage. Model a similar Feb-level peak window." }
+        ]
+      },
+      "trend-tm": {
+        "title": "TM Volume Trend Analysis",
+        "sub": "Monthly article breakdown Jan–Mar 2026",
+        "insights": [
+          { "label": "Pattern", "text": "Jan: 7,151 · Feb: 7,431 · Mar: 6,696. Stable with a modest February peak. Far less volatile than SM volume, reflecting structural syndication coverage." },
+          { "label": "Driver", "text": "February uptick corresponds to earnings season (Jan 28 earnings) generating analyst commentary, financial results coverage, and follow-on discussion across trade/financial media." },
+          { "label": "Structural vs. Earned", "text": "The stability across months suggests most TM coverage is structural (wire syndication, financial data services) rather than earned editorial. This is high-volume but low-impact coverage." },
+          { "label": "Risk", "text": "High structural coverage volume creates a false sense of media security. The real metric is percentage of earned editorial coverage vs. syndicated repetition." },
+          { "label": "Implication", "text": "Target increasing earned editorial by 20-30% by Q4 2026 through proactive media outreach to top-tier publications. Track earned vs. syndicated ratio monthly." }
+        ]
+      }
+    },
+    "volumeTrendSection": "Volume Trend Overview",
+    "smVolChart": {
+      "ddKey": "trend-sm",
+      "title": "Social Media Monthly Volume",
+      "subtitle": "Posts by month",
+      "data": [
+        { "month": "Jan", "posts": 338 },
+        { "month": "Feb", "posts": 859 },
+        { "month": "Mar", "posts": 659 },
+        { "month": "Apr", "posts": 133 }
+      ]
+    },
+    "tmVolChart": {
+      "ddKey": "trend-tm",
+      "title": "Traditional Media Monthly Volume",
+      "subtitle": "Articles by month",
+      "data": [
+        { "month": "Jan", "articles": 7151 },
+        { "month": "Feb", "articles": 7431 },
+        { "month": "Mar", "articles": 6696 }
+      ]
+    },
+    "smSentiment": [
+      { "label": "Positive", "value": 642, "pct": 32.3, "color": "#22c55e" },
+      { "label": "Neutral", "value": 1133, "pct": 57.0, "color": "#94a3b8" },
+      { "label": "No Sentiment", "value": 174, "pct": 8.7, "color": "#e2e8f0" },
+      { "label": "Negative", "value": 40, "pct": 2.0, "color": "#ef4444" }
+    ],
+    "tmSentiment": [
+      { "label": "Neutral", "value": 19741, "pct": 78, "color": "#94a3b8" },
+      { "label": "Positive", "value": 1153, "pct": 4.5, "color": "#22c55e" },
+      { "label": "Negative", "value": 384, "pct": 1.5, "color": "#ef4444" },
+      { "label": "Other", "value": 4722, "pct": 16, "color": "#e2e8f0" }
+    ]
+  },
+  "socialMedia": {
+    "title": "Social Media Intelligence",
+    "subtitle": "1,989 posts · Jan 6 – Apr 6, 2026",
+    "badge": "SM Analysis",
+    "kpis": [
+      { "id": "sm-kpi-posts", "label": "Total Posts", "value": "1,989", "sub": "Jan 6 – Apr 6, 2026", "trend": "up" },
+      { "id": "sm-kpi-reach", "label": "Total Audience", "value": "291M", "sub": "Cumulative impressions", "trend": "up" },
+      { "id": "sm-kpi-int", "label": "Interactions", "value": "14.5K", "sub": "Likes, shares, comments", "trend": "up" },
+      { "id": "sm-kpi-pos", "label": "Positive Rate", "value": "32.3%", "sub": "642 / 1,989 posts", "trend": "up" },
+      { "id": "sm-kpi-neg", "label": "Negative Rate", "value": "2.0%", "sub": "40 posts — manageable", "trend": "down" }
+    ]
+  },
+  "traditionalMedia": {
+    "title": "Traditional Media Intelligence",
+    "subtitle": "30,000 articles · Jan – Mar 2026",
+    "badge": "TM Analysis",
+    "kpis": [
+      { "id": "tm-kpi-art", "label": "Total Articles", "value": "30K", "sub": "Jan – Mar 2026", "trend": "neutral" },
+      { "id": "tm-kpi-reach", "label": "Total Reach", "value": "399M", "sub": "Cumulative reach", "trend": "up" },
+      { "id": "tm-kpi-pos", "label": "Positive Rate", "value": "4.5%", "sub": "1,153 articles", "trend": "up" },
+      { "id": "tm-kpi-neg", "label": "Negative Rate", "value": "1.5%", "sub": "384 articles", "trend": "down" },
+      { "id": "tm-kpi-neu", "label": "Neutral Rate", "value": "78%", "sub": "Dominant tone", "trend": "neutral" }
+    ]
+  },
+  "smIntelligence": {
+    "title": "Social Media Intelligence",
+    "heroPill": "SM Analysis",
+    "subtitle": "1,989 posts · Jan 6 – Apr 6, 2026",
+    "kpis": [
+      { "id": "sm-total",           "ddKey": "sm-total",  "label": "Total Posts",    "value": "1,989",  "sub": "Jan 6 – Apr 6, 2026" },
+      { "id": "sm-reach",           "ddKey": "sm-reach",  "label": "Total Audience", "value": "291M",   "sub": "Cumulative impressions" },
+      { "id": "sm-interactions-kpi","ddKey": null,         "label": "Interactions",   "value": "14.5K",  "sub": "Likes, shares, comments" },
+      { "id": "sm-sentiment-kpi",   "ddKey": null,         "label": "Positive Rate",  "value": "32.3%",  "sub": "642 / 1,989 posts" },
+      { "id": "sm-neg",             "ddKey": null,         "label": "Negative Rate",  "value": "2.0%",   "sub": "40 posts — manageable" }
+    ],
+    "volTrendChart": {
+      "ddKey": "sm-vol-trend",
+      "title": "Monthly Post Volume Trend",
+      "subtitle": "Jan–Apr 2026 · Peak: February",
+      "takeaway": "↑ February peak (859 posts) driven by earnings speculation & pipeline announcements. March sustained at 659.",
+      "data": [
+        { "month": "Jan", "posts": 338 },
+        { "month": "Feb", "posts": 859 },
+        { "month": "Mar", "posts": 659 },
+        { "month": "Apr", "posts": 133 }
+      ]
+    },
+    "platformVolChart": {
+      "ddKey": "sm-platform-vol",
+      "title": "Platform Contribution to Volume",
+      "subtitle": "Share of total posts",
+      "data": [
+        { "name": "LinkedIn",   "value": 793, "color": "#0ea5e9" },
+        { "name": "Radio",      "value": 736, "color": "#f59e0b" },
+        { "name": "X/Twitter",  "value": 253, "color": "#8b5cf6" },
+        { "name": "Video",      "value": 100, "color": "#10b981" },
+        { "name": "Facebook",   "value": 76,  "color": "#3b82f6" },
+        { "name": "Other",      "value": 31,  "color": "#94a3b8" }
+      ],
+      "insights": [
+        { "type": "default", "text": "LinkedIn + Radio = 76% of all social posts" },
+        { "type": "amber",   "text": "Radio (736) shows DTC reach but 0 digital interactions" }
+      ]
+    },
+    "sentimentChart": {
+      "ddKey": "sm-sentiment-detail",
+      "title": "Sentiment Distribution & Trend",
+      "subtitle": "Overall sentiment split across all SM channels",
+      "takeaway": "57% neutral indicates passive brand awareness vs. active brand affinity. Pipeline & partnership events create positive spikes.",
+      "data": [
+        { "label": "Positive",      "value": 642,  "pct": 32.3, "color": "#22c55e" },
+        { "label": "Neutral",       "value": 1133, "pct": 57.0, "color": "#94a3b8" },
+        { "label": "No Sentiment",  "value": 174,  "pct": 8.7,  "color": "#cbd5e1" },
+        { "label": "Negative",      "value": 40,   "pct": 2.0,  "color": "#ef4444" }
+      ]
+    },
+    "sentimentDrivers": {
+      "ddKey": "sm-pos-drivers",
+      "title": "Sentiment Drivers",
+      "subtitle": "Key themes",
+      "positive": [
+        "Clinical trial success (Camzyos/SCOUT-HCM)",
+        "AI + Microsoft partnership",
+        "M&A deal environment bullish",
+        "Scotiabank price target raise"
+      ],
+      "negative": [
+        "Mixed ROE / valuation concerns",
+        "Market headwinds around patent cliff"
+      ]
+    },
+    "platformEngChart": {
+      "ddKey": "sm-platform-detail",
+      "title": "Platform Volume vs. Engagement",
+      "subtitle": "Volume (posts) vs interaction quality",
+      "data": [
+        { "platform": "LinkedIn",  "posts": 793, "interactions": 9354 },
+        { "platform": "X/Twitter", "posts": 253, "interactions": 1982 },
+        { "platform": "Video",     "posts": 100, "interactions": 1192 },
+        { "platform": "Facebook",  "posts": 76,  "interactions": 1909 },
+        { "platform": "Instagram", "posts": 23,  "interactions": 25   },
+        { "platform": "Radio",     "posts": 736, "interactions": 0    }
+      ]
+    },
+    "platformBreakdown": {
+      "ddKey": "sm-platform-breakdown",
+      "title": "Platform Breakdown",
+      "subtitle": "Posts & interactions per platform",
+      "platforms": [
+        { "name": "LinkedIn",  "posts": "793", "interactions": "9,354" },
+        { "name": "Radio",     "posts": "736", "interactions": "0" },
+        { "name": "X/Twitter", "posts": "253", "interactions": "1,982" },
+        { "name": "Video",     "posts": "100", "interactions": "1,192" },
+        { "name": "Facebook",  "posts": "76",  "interactions": "1,909" },
+        { "name": "Instagram", "posts": "23",  "interactions": "25" }
+      ],
+      "takeaway": "Radio has volume but zero digital engagement. LinkedIn delivers highest absolute interactions. Facebook punches above its post volume in interactions."
+    },
+    "interactionsChart": {
+      "ddKey": "sm-engagement-detail",
+      "title": "Interactions by Platform",
+      "subtitle": "Total interactions (likes, shares, comments)",
+      "data": [
+        { "platform": "LinkedIn",  "interactions": 9354 },
+        { "platform": "Facebook",  "interactions": 1909 },
+        { "platform": "X/Twitter", "interactions": 1982 },
+        { "platform": "Video",     "interactions": 1192 },
+        { "platform": "Instagram", "interactions": 25   }
+      ]
+    },
+    "audienceRanking": {
+      "ddKey": "sm-ranking",
+      "title": "Audience Ranking Distribution",
+      "subtitle": "Source authority score (1=highest)",
+      "data": [
+        { "rank": "Rank 1",    "posts": 355 },
+        { "rank": "Rank 2",    "posts": 546 },
+        { "rank": "Rank 3",    "posts": 66  },
+        { "rank": "Rank 4",    "posts": 111 },
+        { "rank": "Rank 5",    "posts": 180 },
+        { "rank": "Ranks 6-10","posts": 731 }
+      ],
+      "insights": [
+        { "type": "default", "text": "546 posts from Rank 2 sources — broadcast/wire news distribution" },
+        { "type": "amber",   "text": "Only 355 posts from Rank 1 (top-tier) sources" }
+      ]
+    },
+    "drillDown": {
+      "sm-total": {
+        "title": "SM Total Post Volume: 1,989",
+        "sub": "Jan 6 – Apr 6, 2026",
+        "insights": [
+          { "label": "Volume Context",    "text": "For a large-cap pharma company, 1,989 SM posts over 90 days is moderate. Financial services and consumer brands at similar market cap typically generate 3-5× more volume." },
+          { "label": "Channel Mix",       "text": "LinkedIn 40% + Radio 37% = 77% of volume. The remaining 23% (Twitter, Video, Facebook, Instagram) represents true social engagement channels." },
+          { "label": "Posting Cadence",   "text": "Average 22 posts/day. LinkedIn posts average ~5-8/day. Radio represents background noise at a media monitoring level rather than active brand posting." },
+          { "label": "Benchmark",         "text": "Peer pharma companies (Pfizer, Merck, AbbVie) typically generate 2,500-4,000 LinkedIn posts/quarter at similar scale. BMS has room to increase owned content frequency." },
+          { "label": "Quality vs Quantity","text": "Focusing on quality (engagement-optimized) content over volume is the right strategy for pharma where regulatory compliance limits content types." }
+        ]
+      },
+      "sm-reach": {
+        "title": "SM Total Audience: 291M",
+        "sub": "Cumulative impression reach",
+        "insights": [
+          { "label": "Composition",       "text": "Radio posts dominate raw reach (avg 300-400K per post x 736 = ~220-280M). LinkedIn posts add ~5-15K per post. Combined radio + LinkedIn = 90%+ of total reach." },
+          { "label": "Engagement Quality","text": "Higher reach ≠ higher impact. Radio reach is passive consumption; LinkedIn reach generates active professional engagement." },
+          { "label": "Unique vs. Total",  "text": "Cumulative impressions include re-exposure. Unique audience likely 60-70% of total (180-200M unique individuals)." },
+          { "label": "Benchmark",         "text": "For pharma, 291M impressions per quarter from ~$X in media spend requires CPM analysis to optimize channel mix." },
+          { "label": "Optimization",      "text": "Shift reach strategy: deprioritize passive Radio reach in favor of LinkedIn reach which has 1000× higher engagement conversion potential." }
+        ]
+      },
+      "sm-vol-trend": {
+        "title": "Monthly SM Volume Deep Dive",
+        "sub": "Volume trend with context",
+        "insights": [
+          { "label": "Jan Baseline",    "text": "338 posts — low activity month. Q4 2025 results not yet released; news flow relatively quiet outside Scotiabank upgrade Jan 9." },
+          { "label": "Feb Spike",       "text": "859 posts — driven by earnings release (Jan 28), Phase 3 SCOUT-HCM results, Microsoft AI partnership announcement, and M&A speculation cascade from industry deal wave." },
+          { "label": "Mar Sustained",   "text": "659 posts — decay from peak but significantly above January. Suggests BMS \"found its voice\" — conversation became self-sustaining as pipeline momentum continued." },
+          { "label": "Apr Early",       "text": "133 posts through April 6 — pace suggests full-month projection of ~500-600 posts, declining from Q1 peak but above pre-earnings baseline." },
+          { "label": "Content Strategy","text": "Create a content bridge between event peaks (earnings, clinical data) and off-peak periods. Year-round editorial calendar prevents volume collapse between news events." }
+        ]
+      },
+      "sm-platform-vol": {
+        "title": "Platform Volume Breakdown",
+        "sub": "Share of total SM posts",
+        "insights": [
+          { "label": "LinkedIn Dominance","text": "793 posts (40%) — professional networking platform drives highest-quality brand coverage and engagement. Largest share of genuine owned media." },
+          { "label": "Radio Scale",       "text": "736 posts (37%) — DTC broadcast creates massive passive volume. These posts are captured by media monitoring but represent broadcast ads, not social engagement." },
+          { "label": "X/Twitter",         "text": "253 posts (12.7%) — meaningful reach among HCPs, analysts, and journalists. Key opinion leaders active here. Quality over quantity channel." },
+          { "label": "Video",             "text": "100 posts (5%) — highest per-post interaction rate relative to volume among \"true\" social channels. Underutilized for the impact it delivers." },
+          { "label": "Instagram",         "text": "23 posts (1.2%) — nearly absent. Significant patient and caregiver community exists here. Major untapped opportunity for consumer pharma narrative." }
+        ]
+      },
+      "sm-sentiment-detail": {
+        "title": "SM Sentiment Distribution",
+        "sub": "Full breakdown of 1,989 posts",
+        "insights": [
+          { "label": "Positive (32.3%)",    "text": "642 posts. Primary drivers: clinical trial successes, partnership announcements, analyst upgrades, oncology conference content. Science and innovation content creates positive halo." },
+          { "label": "Neutral (57%)",       "text": "1,133 posts. Majority of coverage is informational — DTC radio ads (neutral tonality by design), market data posts, factual press releases. Neutral ≠ bad, but high neutral rates mean low emotional resonance." },
+          { "label": "No Sentiment (8.7%)", "text": "174 posts. Content where sentiment classifier couldn't determine tone — likely technical/scientific content with specialized language." },
+          { "label": "Negative (2%)",       "text": "40 posts. Primarily: valuation concerns, generic competition references, mixed ROE narratives. Concentrated, not widespread. Manageable." },
+          { "label": "Platform Differential","text": "LinkedIn likely higher positive rate (professional enthusiasm, clinical announcements). Radio likely higher neutral. Platform-split sentiment would sharpen strategy significantly." }
+        ]
+      },
+      "sm-pos-drivers": {
+        "title": "SM Sentiment Drivers",
+        "sub": "What creates positive & negative content",
+        "insights": [
+          { "label": "Top Positive",         "text": "Camzyos SCOUT-HCM Phase 3 success, Microsoft AI partnership, Q4 2025 earnings beat narrative, Scotiabank price target raise, biopharma M&A positioning." },
+          { "label": "Top Negative",         "text": "Patent cliff/LOE concerns, valuation debate (is $54-60 justified?), \"mixed returns\" narrative, generic competition in legacy products." },
+          { "label": "Neutral Composition",  "text": "Largely DTC radio content (\"No Time to Wait\" ads) and financial data syndication — informational, not emotional." },
+          { "label": "Conversion Opportunity","text": "Converting neutral LinkedIn content to positive is the highest-leverage intervention. Adding patient stories, clinical impact data, and exec voices to LinkedIn posts can shift 10-15% of neutrals to positive." },
+          { "label": "Negative Mitigation",  "text": "Proactive narrative about pipeline replacements for LOE drugs (Breyanzi, Abecma, Sotyktu, Reblozyl growth stories) can directly counter the \"patent cliff\" negative narrative." }
+        ]
+      },
+      "sm-platform-detail": {
+        "title": "Platform Volume vs. Engagement",
+        "sub": "Mismatch analysis",
+        "insights": [
+          { "label": "The Radio Paradox",      "text": "Radio = 37% of posts, 0% of interactions. This is the most significant mismatch in the dataset — massive volume investment returning no social currency." },
+          { "label": "LinkedIn Efficiency",    "text": "LinkedIn = 40% of posts, 64% of interactions. Highest ROI platform by a wide margin. Every LinkedIn post averages 11.8 interactions vs Radio's 0." },
+          { "label": "Facebook Hidden Strength","text": "Facebook = 3.8% of posts, 13.2% of interactions. At 25 interactions/post average, Facebook may be reaching an engaged patient/consumer community that warrants more attention." },
+          { "label": "Video Potential",        "text": "Video = 5% of posts, 8.2% of interactions (11.9 int/post average). Video content performs comparably to LinkedIn per post but is severely underutilized — only 100 posts in 90 days." },
+          { "label": "Instagram Gap",          "text": "Instagram = 1.2% of posts, 0.2% of interactions. Extremely underperforming for the channel — either the content isn't resonating or BMS doesn't have an established Instagram audience." }
+        ]
+      },
+      "sm-platform-breakdown": {
+        "title": "Platform Detail Card",
+        "sub": "Full breakdown with interaction data",
+        "insights": [
+          { "label": "LinkedIn (793 posts)", "text": "9,354 interactions = 11.8 int/post. Professional B2B platform ideal for HCP, investor, and scientist audiences. Highest engagement and credibility per impression." },
+          { "label": "Radio (736 posts)",    "text": "0 interactions. DTC broadcast monitoring. High passive reach (avg 330K per post) but no digital engagement. Question: what is the conversion path from radio hearing to digital action?" },
+          { "label": "X/Twitter (253 posts)","text": "1,982 interactions = 7.8 int/post. Real-time news distribution and KOL engagement. Key for breaking news amplification and clinical conference live coverage." },
+          { "label": "Facebook (76 posts)",  "text": "1,909 interactions = 25 int/post. Unexpectedly high per-post performance — suggests an engaged community that BMS is underserving with low posting frequency." },
+          { "label": "Video + Others",       "text": "Video (100 posts, 1,192 int = 11.9/post), Instagram (23 posts, 25 int = 1.1/post). Video matches LinkedIn efficiency; Instagram severely underperforms." }
+        ]
+      },
+      "sm-engagement-detail": {
+        "title": "SM Engagement Deep Dive",
+        "sub": "Interaction analysis by channel",
+        "insights": [
+          { "label": "Total Interactions","text": "14,466 total interactions across all SM channels. This is cumulative across 90 days — approximately 161 interactions per day across all platforms." },
+          { "label": "LinkedIn Core",     "text": "LinkedIn's 9,354 interactions are anchored in long-form posts about pipeline, partnerships, and exec content. The top performers likely achieve 500-2,000+ interactions." },
+          { "label": "Viral vs Passive",  "text": "No evidence of viral content (1M+ interactions) in this dataset. BMS SM is steady professional engagement, not viral consumer moments. This is appropriate for pharma but limits brand salience." },
+          { "label": "Amplification Gap", "text": "No data on shares/reposts specifically. But high interaction counts on LinkedIn suggest content is being amplified through professional networks — a positive chain effect." },
+          { "label": "Action",            "text": "Implement a content testing framework: A/B test post formats (image vs. carousel, data visualization vs. executive quote) on LinkedIn to identify highest-engagement content types." }
+        ]
+      },
+      "sm-ranking": {
+        "title": "Audience Ranking Distribution",
+        "sub": "Source authority scores",
+        "insights": [
+          { "label": "Rank 1 (355 posts)", "text": "Top-tier sources — likely major media outlets, high-follower professionals, verified accounts. These posts deliver highest quality signal and brand impact per post." },
+          { "label": "Rank 2 (546 posts)", "text": "Largest single category — suggests substantial wire service / broadcast pickup. High frequency but moderate individual authority." },
+          { "label": "Ranks 3-5",          "text": "Represents local/regional outlets, niche publications, mid-tier influencers. Important for geographic reach and niche audience penetration." },
+          { "label": "Concentration Risk", "text": "Top 3 ranks (1,311 posts combined) deliver majority of brand impact. If Rank 1 sources reduce BMS coverage, impact would be disproportionate." },
+          { "label": "Strategy",           "text": "Deliberately cultivate Rank 1 source relationships: top journalists, analysts, HCP influencers on LinkedIn/Twitter. 5 Rank 1 advocates > 50 Rank 5 mentions." }
+        ]
+      }
+    }
+  },
+  "tmIntelligence": {
+    "title": "Traditional Media Intelligence",
+    "heroPill": "TM Analysis",
+    "subtitle": "30,000 articles · Jan – Mar 2026",
+    "kpis": [
+      { "id": "tm-total",     "ddKey": "tm-total",     "label": "Total Articles", "value": "30K",   "sub": "Jan–Mar 2026" },
+      { "id": "tm-reach-kpi", "ddKey": "tm-reach-kpi", "label": "Total Reach",    "value": "399M",  "sub": "Cumulative readership" },
+      { "id": "tm-pos-kpi",   "ddKey": "tm-pos-kpi",   "label": "Positive",       "value": "4.5%",  "sub": "1,153 articles" },
+      { "id": "tm-neg-kpi",   "ddKey": "tm-neg-kpi",   "label": "Negative",       "value": "1.5%",  "sub": "384 articles" },
+      { "id": "tm-neu-kpi",   "ddKey": "tm-neu-kpi",   "label": "Neutral",        "value": "78%",   "sub": "Factual/informational" }
+    ],
+    "volTrendChart": {
+      "ddKey": "tm-vol-trend",
+      "title": "Monthly Article Volume",
+      "subtitle": "Jan: 7,151 · Feb: 7,431 · Mar: 6,696",
+      "takeaway": "February peak aligns with earnings release (Jan 28) afterglow. Volumes remarkably stable across the quarter — structural coverage, not event-driven spikes.",
+      "data": [
+        { "month": "Jan", "articles": 7151 },
+        { "month": "Feb", "articles": 7431 },
+        { "month": "Mar", "articles": 6696 }
+      ]
+    },
+    "mediaTypeChart": {
+      "ddKey": "tm-type",
+      "title": "Media Type Distribution",
+      "subtitle": "Online, Web, News, Trade, Magazine",
+      "data": [
+        { "name": "Online",   "value": 21278, "color": "#0d9488" },
+        { "name": "Web",      "value": 7761,  "color": "#99f6e4" },
+        { "name": "News",     "value": 802,   "color": "#3b82f6" },
+        { "name": "Trade",    "value": 132,   "color": "#f59e0b" },
+        { "name": "Magazine", "value": 107,   "color": "#8b5cf6" }
+      ],
+      "insights": [
+        { "color": "default", "text": "Online dominates (71%) — digital-first coverage landscape" },
+        { "color": "teal",    "text": "Trade media (132 articles) high-value for pharma stakeholders" }
+      ]
+    },
+    "sentimentChart": {
+      "ddKey": "tm-sentiment-detail",
+      "title": "Traditional Media Sentiment Split",
+      "subtitle": "30,000 articles analyzed",
+      "takeaway": "Overwhelmingly neutral TM coverage (78%) indicates BMS is reported on factually but not celebrated. Positive-to-negative ratio 3:1 — healthy baseline but lacks advocacy.",
+      "data": [
+        { "label": "Neutral",  "value": 19741, "pct": 78.0, "color": "#94a3b8" },
+        { "label": "Positive", "value": 1153,  "pct": 4.5,  "color": "#22c55e" },
+        { "label": "Negative", "value": 384,   "pct": 1.5,  "color": "#ef4444" },
+        { "label": "Other",    "value": 4722,  "pct": 16.0, "color": "#e2e8f0" }
+      ]
+    },
+    "narratives": {
+      "ddKey": "tm-narrative",
+      "title": "Dominant TM Narratives",
+      "subtitle": "Theme analysis from top publications",
+      "takeaway": "Financial/investment narrative dominates over brand/patient narrative — opportunity to shift coverage toward therapeutic impact.",
+      "items": [
+        { "color": "blue",  "label": "Investment Story (primary):", "text": "Scotiabank, Jefferies, BMO analyst upgrades dominate Q1 framing" },
+        { "color": "teal",  "label": "Pipeline Progress:",          "text": "Camzyos (SCOUT-HCM), oncology compounds generate scientific credibility" },
+        { "color": "green", "label": "M&A Landscape:",              "text": "BMS named alongside Amgen/AbbVie as potential acquirer in biopharma consolidation wave" },
+        { "color": "amber", "label": "Valuation Debate:",           "text": "Mixed views at $54-60 price range — \"buying opportunity\" vs \"wait-and-see\"" },
+        { "color": "red",   "label": "ROE/Profitability:",          "text": "Some coverage questions sustainability of 33% ROE amid LOE pressures" }
+      ]
+    },
+    "publications": {
+      "ddKey": "tm-pubs-detail",
+      "title": "Top Publication Sources",
+      "subtitle": "By article volume",
+      "rows": [
+        { "name": "PRSync",                "articles": 522, "type": "Wire",      "pos": false },
+        { "name": "Intellectia",           "articles": 146, "type": "Financial", "pos": false },
+        { "name": "Market Minute",         "articles": 120, "type": "Financial", "pos": false },
+        { "name": "Holliston Town News",   "articles": 111, "type": "Local",     "pos": false },
+        { "name": "Healthcare Res. Reports","articles": 102, "type": "Trade",    "pos": true  },
+        { "name": "Markets Insider",       "articles": 101, "type": "Financial", "pos": false },
+        { "name": "MSN Health",            "articles": 74,  "type": "Digital",   "pos": false },
+        { "name": "Yahoo Finance",         "articles": 208, "type": "Financial", "pos": true  },
+        { "name": "American Banking News", "articles": 206, "type": "Financial", "pos": false },
+        { "name": "StreetInsider",         "articles": 186, "type": "Trade",     "pos": true  }
+      ]
+    },
+    "subTypeChart": {
+      "ddKey": "tm-subtype",
+      "title": "Sub-Media Type Distribution",
+      "subtitle": "News, Trade, Web, Magazine",
+      "data": [
+        { "name": "Web",      "articles": 17167 },
+        { "name": "News",     "articles": 2575  },
+        { "name": "Trade",    "articles": 1428  },
+        { "name": "Magazine", "articles": 107   },
+        { "name": "Other",    "articles": 8723  }
+      ],
+      "insights": [
+        { "color": "default", "text": "Web/Online (17,167) = syndicated financial content dominating volume" },
+        { "color": "teal",    "text": "Trade (1,428) = high-value pharma/biotech industry coverage" },
+        { "color": "amber",   "text": "News (2,575) = earned editorial coverage — most credibility-building" }
+      ]
+    },
+    "themes": [
+      {
+        "id": "tm-theme-invest",
+        "ddKey": "tm-theme-invest",
+        "title": "Investment Theme",
+        "subtitle": "~45% of coverage",
+        "items": [
+          { "color": "default", "text": "Analyst upgrades & price targets drive volume" },
+          { "color": "default", "text": "BMY stock performance covered extensively" },
+          { "color": "green",   "text": "Net positive sentiment in this bucket" }
+        ]
+      },
+      {
+        "id": "tm-theme-pipeline",
+        "ddKey": "tm-theme-pipeline",
+        "title": "Pipeline Theme",
+        "subtitle": "~30% of coverage",
+        "items": [
+          { "color": "teal",    "text": "Phase 3 SCOUT-HCM (Camzyos) results" },
+          { "color": "teal",    "text": "Oncology portfolio breadth recognized" },
+          { "color": "default", "text": "AI/tech partnership elevates innovation perception" }
+        ]
+      },
+      {
+        "id": "tm-theme-macro",
+        "ddKey": "tm-theme-macro",
+        "title": "M&A/Macro Theme",
+        "subtitle": "~15% of coverage",
+        "items": [
+          { "color": "amber",   "text": "Speculation as potential acquirer" },
+          { "color": "default", "text": "Industry consolidation context" },
+          { "color": "default", "text": "$47B+ Q1 biopharma M&A backdrop" }
+        ]
+      }
+    ],
+    "drillDown": {
+      "tm-total": {
+        "title": "TM Volume: 30,000 Articles",
+        "sub": "Q1 2026 traditional media landscape",
+        "insights": [
+          { "label": "Scale Context",      "text": "30,000 articles in 90 days = 333/day. This reflects BMS's status as a major public company — constant financial, clinical, and regulatory news flow generates perpetual coverage." },
+          { "label": "Geographic Spread",  "text": "Data shows US-centric coverage with international syndication. Local news outlets (Holliston Town News, West Jordan Journal) appear due to wire syndication, not local relevance." },
+          { "label": "Structural vs Earned","text": "Estimated 60-70% structural/syndicated, 30-40% earned editorial. Improving earned editorial percentage is the key leverage point for narrative control." },
+          { "label": "Language Mix",       "text": "Majority English, some international English outlets. Non-English coverage likely undercaptured in this dataset — potential monitoring gap for global brand health." },
+          { "label": "Opportunity",        "text": "The high volume creates noise. The strategic goal should be signal amplification: get fewer, better stories in top-tier publications rather than maximizing raw article count." }
+        ]
+      },
+      "tm-reach-kpi": {
+        "title": "TM Cumulative Reach: 399M",
+        "sub": "Traditional media audience coverage",
+        "insights": [
+          { "label": "Volume Driver",    "text": "High-reach outlets (MSN: 71M UMV, Yahoo Finance: 32M UMV) drive the reach concentration. A single MSN placement delivers as much reach as ~200 local news placements." },
+          { "label": "Average Reach",   "text": "Average 18,758 per article reflects the dominance of local/aggregator outlets. Median reach likely much lower — 5,000-8,000 per article." },
+          { "label": "Total Comparison","text": "399M TM vs 291M SM. TM wins on raw reach but SM wins on engagement intensity. Combined footprint of 690M impressions is strong for Q1." },
+          { "label": "Quality Weighting","text": "A better metric than total reach is quality-weighted reach: multiplying reach × editorial credibility score. Trade media at 1M reach × high credibility > aggregator at 50M reach × minimal credibility." },
+          { "label": "Action",          "text": "Build a \"reach quality\" tracking metric: segment reach by Tier 1 (top 20 publications), Tier 2 (trade media), Tier 3 (syndication/local). Target increasing Tier 1 reach as % of total." }
+        ]
+      },
+      "tm-pos-kpi": {
+        "title": "TM Positive Rate: 4.5%",
+        "sub": "1,153 positive articles",
+        "insights": [
+          { "label": "Context",             "text": "4.5% positive is industry-typical for pharma. Financial media editorial standards require balance, limiting organic positive coverage without a story to tell." },
+          { "label": "Positive Themes",     "text": "Investment upgrades, clinical successes, partnership announcements. These three categories drive essentially all positive TM coverage." },
+          { "label": "Lift Opportunity",    "text": "Moving from 4.5% to 7-8% positive would add ~800-1,000 positive articles per quarter — meaningful brand impact across financial and health media audiences." },
+          { "label": "Method",              "text": "Securing proactive feature stories (executive profiles, disease area thought leadership) in top-tier publications converts neutral coverage to positive without requiring product news." },
+          { "label": "Target Publications", "text": "STAT News, FiercePharma, BioPharma Dive, Modern Healthcare — these outlets generate positive sentiment when given compelling stories. They are currently underrepresented in this dataset." }
+        ]
+      },
+      "tm-neg-kpi": {
+        "title": "TM Negative Rate: 1.5%",
+        "sub": "384 negative articles",
+        "insights": [
+          { "label": "Volume Context",      "text": "384 negative articles out of 30,000 = 1.3%. No crisis. Negative coverage is scattered and manageable — no sustained attack narrative detected." },
+          { "label": "Primary Themes",      "text": "Valuation skepticism at $54-60 (is it overpriced?), patent expiration concerns, \"mixed returns\" narrative for long-term investors, generic competition mentions." },
+          { "label": "Escalation Risk",     "text": "If a single major negative event occurs (clinical failure, safety signal, earnings miss), negative articles could triple or quadruple quickly through the same syndication mechanics that amplifies positives." },
+          { "label": "Monitoring Priority", "text": "Set daily negative coverage alerts. Any article reaching >100K readers with negative sentiment warrants same-day rapid response assessment." },
+          { "label": "Structural Negative", "text": "Some negative is structural — skeptical financial analysis is a feature of healthy markets. The goal is managing narrative, not eliminating all negative coverage." }
+        ]
+      },
+      "tm-neu-kpi": {
+        "title": "TM Neutral Rate: 78%",
+        "sub": "19,741+ neutral articles",
+        "insights": [
+          { "label": "What Neutral Means",  "text": "78% neutral reflects a coverage landscape dominated by factual reporting without editorial perspective — wire service summaries, financial data republication, SEC filing coverage." },
+          { "label": "Hidden Cost",         "text": "Overwhelming neutrality means BMS is not generating emotional or reputational capital through media. Awareness without affinity is a strategic ceiling." },
+          { "label": "Conversion Target",   "text": "If BMS could shift 10% of neutral coverage to positive (adding perspective, advocacy, emotional resonance), that's ~1,900 new positive articles — a 165% increase in positive TM volume." },
+          { "label": "Method",              "text": "Proactive media pitching with strong story angles, providing expert spokespeople for background briefings, issuing thought leadership op-eds — these create opinion where there was only fact." },
+          { "label": "Benchmark",           "text": "Pharma peers with strong positive TM profiles (Eli Lilly at its peak, Moderna during COVID) achieved 10-15% positive rates through aggressive narrative management. Achievable for BMS." }
+        ]
+      },
+      "tm-vol-trend": {
+        "title": "TM Monthly Volume Deep Dive",
+        "sub": "Jan: 7,151 · Feb: 7,431 · Mar: 6,696",
+        "insights": [
+          { "label": "Pattern",           "text": "Remarkably stable quarter-to-quarter — standard deviation of ~373 articles/month. Structural coverage > event-driven spikes explains this stability." },
+          { "label": "February Peak",     "text": "Feb 7,431 peak = earnings-related afterglow (Jan 28 Q4 2025 results), Microsoft AI deal coverage, Scotiabank upgrade, SCOUT-HCM coverage cascade." },
+          { "label": "March Normalization","text": "March 6,696 = natural post-earnings normalization. No major pipeline news in March likely explains the moderate decline from Feb levels." },
+          { "label": "Upcoming Triggers", "text": "Q1 2026 earnings (late April), ASCO 2026 (late May), potential Phase 3 readouts in oncology pipeline — these are predictable volume triggers to prepare content around." },
+          { "label": "Action",            "text": "Map TM volume to event calendar: identify low-news months (likely June-July) and develop proactive media pitching to maintain coverage floor and prevent brand silence periods." }
+        ]
+      },
+      "tm-type": {
+        "title": "TM Media Type Distribution",
+        "sub": "Online, Web, News, Trade breakdown",
+        "insights": [
+          { "label": "Online (71%)", "text": "21,278 articles from digital online sources. Primarily financial news aggregators, health media platforms, and content syndication networks. High volume, moderate quality." },
+          { "label": "Web (26%)",    "text": "7,761 web articles — blogs, corporate news sites, information aggregators. Strong in financial research and investor relations contexts." },
+          { "label": "News (3%)",    "text": "802 news articles — traditional editorial journalism. Highest quality per article but smallest volume. These are the \"earned\" placements with most brand impact." },
+          { "label": "Trade (0.4%)","text": "132 trade media articles — pharma/biotech specialized publications. Despite tiny volume, these reach HCPs, analysts, and industry decision makers with highest relevance." },
+          { "label": "Strategy",    "text": "Invest in trade and traditional news coverage quality. Shift KPI from total article count to tier-weighted reach score: (News × 10 + Trade × 8 + Online × 2 + Web × 1)." }
+        ]
+      },
+      "tm-sentiment-detail": {
+        "title": "TM Sentiment Analysis",
+        "sub": "Full breakdown of 30,000 articles",
+        "insights": [
+          { "label": "Neutral Dominance",   "text": "78% neutral reflects the objective, factual tone of financial and health journalism. Expected for a large-cap pharma company without a major crisis or breakthrough." },
+          { "label": "Positive Composition","text": "4.5% positive = ~1,153 articles. These are anchored in: analyst upgrades, Phase 3 successes, partnership announcements, and earnings beat narratives." },
+          { "label": "Negative Details",    "text": "1.5% negative = ~384 articles. Themes: patent cliff, valuation debate, pipeline risk, generic competition concerns. None appear to be sustained attack campaigns." },
+          { "label": "Positive-to-Negative","text": "3:1 ratio (positive:negative) is healthy baseline. Industry benchmark for large pharma is typically 2:1 to 4:1. BMS is within healthy range." },
+          { "label": "Other (16%)",         "text": "The \"other\" category (Online, Web classifications that don't map cleanly to POS/NEU/NEG) suggests some data classification nuance. Worth reviewing sentiment methodology for these articles." }
+        ]
+      },
+      "tm-narrative": {
+        "title": "TM Dominant Narratives",
+        "sub": "Theme analysis Q1 2026",
+        "insights": [
+          { "label": "Investment Story (Primary)", "text": "BMS is primarily framed as an investment opportunity — price targets, analyst ratings, valuation debates. This makes BMS a financial asset rather than a healthcare company in media perception." },
+          { "label": "Pipeline Progress",          "text": "Clinical trial successes (Camzyos, oncology compounds) generate authentic scientific credibility. These stories are the most valuable for long-term brand equity with HCPs and patients." },
+          { "label": "M&A Landscape",              "text": "BMS's potential role in the biopharma consolidation wave is a significant coverage driver. This is largely neutral/positive — investors view M&A capacity favorably." },
+          { "label": "Valuation Debate",           "text": "A vocal minority of coverage questions whether BMS's ROE and growth profile justifies current valuation. Countering with consistent pipeline progress messaging is the recommended approach." },
+          { "label": "Patient/Disease Impact (Missing)","text": "Disease burden, patient outcomes, and therapeutic impact narratives are nearly absent from TM coverage — they exist primarily in trade/specialty outlets rather than mainstream financial media." }
+        ]
+      },
+      "tm-pubs-detail": {
+        "title": "Top TM Publication Analysis",
+        "sub": "Source breakdown and quality tiers",
+        "insights": [
+          { "label": "PRSync (522)",                    "text": "Press release syndication service — represents controlled BMS messaging being distributed. High volume but low editorial authority. Signal: BMS is actively issuing communications." },
+          { "label": "Yahoo Finance (208)",             "text": "32M monthly unique visitors. High-reach financial platform. Content here reaches retail investors, institutional monitors, and journalists doing background research." },
+          { "label": "MarketBeat (344)",                "text": "Financial research aggregator. High volume reflects algorithmic financial content generation around BMS stock. Significant institutional investor readership." },
+          { "label": "Healthcare Research Reports (175)","text": "Specialty trade outlet. Lower volume but high-value — reaching HCP, biotech, and pharma industry decision-makers with specialized scientific and commercial framing." },
+          { "label": "Target Tier-1 Gaps",             "text": "Notable absences from Tier 1: STAT News, FiercePharma, Wall Street Journal Health, New England Journal of Medicine. Securing coverage in these outlets would disproportionately elevate brand credibility." }
+        ]
+      },
+      "tm-subtype": {
+        "title": "TM Sub-Media Type Distribution",
+        "sub": "News, Trade, Web, Magazine breakdown",
+        "insights": [
+          { "label": "Web/Online (17,167)", "text": "Syndicated financial content dominates — primarily aggregator platforms republishing wire content. High volume, lower editorial impact per article." },
+          { "label": "News (2,575)",        "text": "Earned editorial coverage — written by journalists, not syndicated. These articles have the highest credibility and longest shelf life. 8.6% of total volume but much higher proportion of impact." },
+          { "label": "Trade (1,428)",       "text": "Specialty pharma, biotech, and financial trade outlets. Smaller audience but highly relevant to R&D professionals, investors, and HCPs. Premium quality coverage." },
+          { "label": "Magazine (107)",      "text": "107 magazine articles — long-form, likely feature/profile coverage. Each represents significant editorial attention. Strongest for narrative development and brand positioning." },
+          { "label": "Strategy",           "text": "Allocate comms resources to News and Trade tiers (combined 4,003 articles). These require relationship investment and proactive pitching but deliver superior brand outcomes vs. syndicated volume." }
+        ]
+      },
+      "tm-theme-invest": {
+        "title": "Investment Theme Analysis",
+        "sub": "~45% of TM coverage",
+        "insights": [
+          { "label": "Coverage Type",           "text": "Analyst price target changes, earnings previews/results coverage, valuation analysis, stock performance commentary. Dominant driver of TM volume." },
+          { "label": "Sentiment",               "text": "Net positive in investment theme — more upgrades than downgrades in Q1 2026. Scotiabank, BMO, Jefferies all constructive. Retail investor confidence high." },
+          { "label": "Risk",                    "text": "Investment narrative dominance means BMS brand equity is closely tied to stock performance. If BMY stock underperforms for 2 consecutive quarters, media narrative could flip quickly." },
+          { "label": "Narrative Diversification","text": "Reducing dependence on investment narrative by building clinical/patient/innovation story presence would create more durable brand equity independent of short-term stock movements." },
+          { "label": "Action",                  "text": "Ensure pre-earnings communications prime key investment narratives: pipeline optionality, cost discipline, strategic M&A capacity. These shape analyst note framing before publication." }
+        ]
+      },
+      "tm-theme-pipeline": {
+        "title": "Pipeline Theme Analysis",
+        "sub": "~30% of TM coverage",
+        "insights": [
+          { "label": "Coverage Type",  "text": "Phase 2/3 clinical trial results, regulatory submissions, FDA actions, therapy approvals, conference data presentations. Second-largest narrative in TM." },
+          { "label": "Key Stories Q1", "text": "SCOUT-HCM (Camzyos in adolescents), AI/lung cancer detection collaboration, targeted protein degradation pipeline, stem cell and gene therapy market context." },
+          { "label": "Quality Premium","text": "Pipeline coverage tends to appear in higher-quality, higher-reach outlets (Yahoo Finance, MSN, trade media) and carries more sustained positive sentiment than investment coverage." },
+          { "label": "Opportunity",    "text": "With 50+ compounds in development, BMS has more pipeline news to distribute than it currently publishes. Many Phase 2 readouts likely go unannounced in media-friendly formats." },
+          { "label": "Action",         "text": "Develop a \"BMS Science\" media program: regular updates on pipeline milestones, written for non-specialist journalists. Make it easy for generalist reporters to cover BMS science." }
+        ]
+      },
+      "tm-theme-macro": {
+        "title": "M&A/Macro Theme Analysis",
+        "sub": "~15% of TM coverage",
+        "insights": [
+          { "label": "Context",          "text": "Q1 2026 biopharma M&A reached $47B+ with Merck, Lilly, Biogen all closing major deals. BMS is consistently named as a logical next acquirer." },
+          { "label": "Coverage Tone",    "text": "Mostly positive/neutral — investors view M&A capacity as a strength signal. \"BMS has the balance sheet to do a deal\" is framed as positive capability, not financial desperation." },
+          { "label": "Risk",             "text": "If BMS is seen to delay in a hot M&A market, \"strategic uncertainty\" narratives could emerge. Analysts may question capital allocation strategy if no deal is announced by mid-2026." },
+          { "label": "Response Strategy","text": "Maintain clear and consistent public messaging around business development strategy: disciplined, science-driven, value-creating. Avoid being perceived as reactive or aimless in M&A approach." },
+          { "label": "Monitoring",       "text": "Track competitor deals weekly. If Amgen or AbbVie close a major deal that BMS was also rumored for, prepare reactive communications to maintain investor confidence." }
+        ]
+      }
+    }
+  },
+
+  "unifiedInsights": {
+    "title": "Unified Insights",
+    "heroPill": "Cross-Channel",
+    "subtitle": "SM + TM combined signals",
+    "badge": "Cross-Channel",
+    "kpis": [
+      { "id": "uni-alignment", "ddKey": "uni-alignment", "label": "Narrative Alignment", "value": "Medium",    "sub": "SM & TM themes partially overlap" },
+      { "id": "uni-sm-pos",    "ddKey": "uni-sm-pos",    "label": "SM Positive Rate",    "value": "32.3%",     "sub": "vs TM 4.5%" },
+      { "id": "uni-lag",       "ddKey": "uni-lag",       "label": "Media Lag Effect",    "value": "~3-5 days", "sub": "SM reacts first to events" },
+      { "id": "uni-reach",     "ddKey": "uni-reach",     "label": "Combined Reach",      "value": "690M",      "sub": "SM 291M + TM 399M" }
+    ],
+    "sentimentCompare": {
+      "ddKey": "uni-sentiment-compare",
+      "title": "Sentiment Comparison: SM vs. TM",
+      "subtitle": "Positive · Neutral · Negative rates",
+      "takeaway": "SM generates 7\u00d7 more positive sentiment than TM. Social channels are the brand's emotional amplifier \u2014 traditional media remains predominantly informational.",
+      "labels": ["Positive", "Neutral", "Negative"],
+      "datasets": [
+        { "label": "SM", "data": [32.3, 57, 2],   "color": "#3b82f6" },
+        { "label": "TM", "data": [4.5,  78, 1.5], "color": "#0d9488" }
+      ]
+    },
+    "volCompare": {
+      "ddKey": "uni-vol-compare",
+      "title": "Monthly Volume Overlay",
+      "subtitle": "SM posts vs. TM articles (normalized)",
+      "labels": ["January", "February", "March"],
+      "datasets": [
+        { "label": "SM Posts (\u00f710)", "data": [33.8, 85.9, 65.9], "color": "#3b82f6" },
+        { "label": "TM Articles (\u00f7100)", "data": [71.5, 74.3, 66.9], "color": "#0d9488" }
+      ],
+      "insights": [
+        { "color": "default", "text": "Both channels peak in February \u2014 aligned to earnings cycle" },
+        { "color": "teal",    "text": "SM declines faster post-event than TM (TM sustains via syndication)" }
+      ]
+    },
+    "channelCards": [
+      {
+        "id": "uni-ch1",
+        "ddKey": "uni-ch1",
+        "title": "Volume Dominance",
+        "items": [
+          { "color": "default", "text": "TM 15\u00d7 more volume than SM (30K vs 1.9K)" },
+          { "color": "amber",   "text": "SM punch above their weight on engagement quality" },
+          { "color": "default", "text": "Radio SM posts = 37% of SM volume but 0 digital engagement" }
+        ]
+      },
+      {
+        "id": "uni-ch2",
+        "ddKey": "uni-ch2",
+        "title": "Narrative Gaps",
+        "items": [
+          { "color": "red",     "text": "Patient narrative nearly absent from both channels" },
+          { "color": "amber",   "text": "ESG/sustainability story underdeveloped in SM" },
+          { "color": "default", "text": "TM focuses on finance; SM captures clinical/science enthusiasm" }
+        ]
+      },
+      {
+        "id": "uni-ch3",
+        "ddKey": "uni-ch3",
+        "title": "Strategic Implication",
+        "items": [
+          { "color": "green", "text": "LinkedIn = primary owned channel for brand building \u2014 invest more" },
+          { "color": "green", "text": "Use TM-confirmed M&A/pipeline moments to amplify on SM within 24hrs" },
+          { "color": "teal",  "text": "Trade media engagement converts to professional credibility" }
+        ]
+      }
+    ],
+    "reputation": {
+      "ddKey": "uni-reputation",
+      "title": "Multi-Dimensional Reputation Scorecard",
+      "subtitle": "Based on SM + TM signal analysis",
+      "labels": ["Innovation", "Financial Strength", "Pipeline Credibility", "Patient Trust", "Brand Advocacy", "Media Presence", "Analyst Sentiment"],
+      "datasets": [
+        { "label": "SM Signals", "data": [8, 6, 7, 3, 6, 5, 7], "color": "#3b82f6", "bg": "rgba(59,130,246,0.15)" },
+        { "label": "TM Signals", "data": [6, 9, 7, 4, 4, 8, 8], "color": "#0d9488", "bg": "rgba(13,148,136,0.10)" }
+      ],
+      "scores": [
+        { "label": "Innovation",           "sm": 8, "tm": 6, "note": "Microsoft AI partnership, 50+ pipeline compounds" },
+        { "label": "Financial Strength",   "sm": 6, "tm": 9, "note": "Analyst upgrades, $111B market cap, Q4 results" },
+        { "label": "Pipeline Credibility", "sm": 7, "tm": 7, "note": "SCOUT-HCM success, multiple Phase 3 assets" },
+        { "label": "Patient Trust",        "sm": 3, "tm": 4, "note": "DTC present but patient voice largely absent" },
+        { "label": "Brand Advocacy",       "sm": 6, "tm": 4, "note": "32% SM positive but neutral dominance limits champions" },
+        { "label": "Media Presence",       "sm": 5, "tm": 8, "note": "690M combined reach, TM structural coverage floor" },
+        { "label": "Analyst Sentiment",    "sm": 7, "tm": 8, "note": "Scotiabank, BMO, Jefferies upgrades dominant" }
+      ]
+    },
+    "drillDown": {
+      "uni-alignment": {
+        "title": "Narrative Alignment: SM vs. TM",
+        "sub": "Channel coherence analysis",
+        "insights": [
+          { "label": "Aligned Themes",         "text": "Both SM and TM cover: M&A speculation, pipeline progress (Camzyos, AI/cancer), investment/analyst narrative. Thematic alignment is strong on major stories." },
+          { "label": "Divergence",             "text": "SM carries more DTC/patient-facing content (Radio ads) while TM is purely financial/scientific. The two channels serve different audiences with limited overlap." },
+          { "label": "Lag Observed",           "text": "SM reacts faster to news (within hours) while TM takes 24-72 hours to fully process and distribute stories. This lag is normal but creates amplification windows to exploit." },
+          { "label": "Reputation Gaps",        "text": "Patient/caregiver narrative is essentially absent from both channels. ESG/corporate responsibility is also underdeveloped. Neither channel tells the \"human impact\" story." },
+          { "label": "Integration Opportunity","text": "When TM breaks a major clinical or investment story, use SM within 6-12 hours to amplify with owned content — CEO LinkedIn post, infographic, patient story. Synchronize channels." }
+        ]
+      },
+      "uni-sm-pos": {
+        "title": "Sentiment Gap: SM 32.3% vs TM 4.5%",
+        "sub": "7\u00d7 positive sentiment differential",
+        "insights": [
+          { "label": "The Gap",                "text": "SM generates 7\u00d7 more positive sentiment than TM. This is a structural feature of media types, not a failure \u2014 but it has strategic implications." },
+          { "label": "Why SM is More Positive","text": "Social audiences self-select for interest in BMS. People who follow BMS on LinkedIn are more likely to be enthusiastic. TM audiences are neutral by default \u2014 they didn't choose to read a BMS story." },
+          { "label": "Brand Equity Location",  "text": "Brand emotional equity lives in SM; brand factual credibility lives in TM. Both are necessary. Neither alone is sufficient for comprehensive brand health." },
+          { "label": "Influencing TM Sentiment","text": "To lift TM sentiment: (1) secure feature/profile coverage, (2) provide on-record positive spokesperson quotes, (3) generate newsworthy clinical/patient outcomes that journalists can write positively about." },
+          { "label": "Balanced Strategy",      "text": "Don't just optimize for SM positive rate. A 5-6% TM positive rate with 3:1 ratio maintained is a realistic 12-month target that provides strong investment-grade brand health." }
+        ]
+      },
+      "uni-lag": {
+        "title": "Media Lag Effect Analysis",
+        "sub": "SM reacts first, TM sustains",
+        "insights": [
+          { "label": "SM First Mover",         "text": "Social media (especially LinkedIn and X) break and amplify BMS news within hours of announcement. Analysts tweet, executives post, investors react \u2014 all before TM has written articles." },
+          { "label": "TM Sustainer",           "text": "Traditional media coverage extends 2-7 days post-event through editorial cycles, wire syndication, and follow-on analysis pieces. TM prolongs the life of each story." },
+          { "label": "Window of Opportunity",  "text": "The 3-5 day window between SM peak and TM peak is critical for narrative seeding. What SM says first often shapes what TM writes next." },
+          { "label": "Exploitation",           "text": "Pre-brief key journalists 24 hours before announcements to enable same-day TM coverage that amplifies (not follows) SM reactions. Synchronize owned SM posts with press releases." },
+          { "label": "Monitoring",             "text": "Track daily SM mention volume as an early warning system. A spike on Day 1 (SM) that isn't matched by TM by Day 3 suggests a story that lost legs \u2014 diagnose why." }
+        ]
+      },
+      "uni-reach": {
+        "title": "Combined Reach: 690M",
+        "sub": "SM 291M + TM 399M",
+        "insights": [
+          { "label": "Total Scale",            "text": "690M combined impressions in Q1 2026. For a single pharma brand, this is enterprise-scale media presence. Represents multiple full exposures to key institutional audiences." },
+          { "label": "Audience Quality",       "text": "TM reach quality is moderate (dominated by aggregators). SM reach quality is higher per impression (active professional audience on LinkedIn). Combined quality score is medium-high." },
+          { "label": "Unique Audience",        "text": "Significant overlap between SM and TM audiences (same analysts, investors, journalists read both). Actual unique reach probably 400-500M after deduplication." },
+          { "label": "Share of Voice",         "text": "With $111B market cap, BMS competes for media attention against Pfizer ($150B), Merck ($200B+), and AbbVie ($250B+). Higher market cap peers likely command proportionally larger media footprints." },
+          { "label": "Efficiency Target",      "text": "Focus on reach efficiency: CPM improvement through better content quality, not just volume expansion. Goal: same reach, 2\u00d7 engagement rate by Q3 2026." }
+        ]
+      },
+      "uni-sentiment-compare": {
+        "title": "SM vs TM Sentiment Comparison",
+        "sub": "Channel-by-channel positive/neutral/negative",
+        "insights": [
+          { "label": "Positive Gap",           "text": "SM: 32.3% positive vs TM: 4.5% positive. Gap is structural (audience self-selection, content type differences) but can be partially closed through proactive TM narrative management." },
+          { "label": "Neutral Contrast",       "text": "SM: 57% neutral vs TM: 78% neutral. TM has far more neutral coverage \u2014 wire/financial journalism defaults to factual without advocacy. Reducing TM neutral requires earned editorial investment." },
+          { "label": "Negative Comparison",    "text": "SM: 2% negative vs TM: 1.5% negative. Both low and comparable. SM's slightly higher negative rate reflects the broader range of voices (including skeptics) on social platforms." },
+          { "label": "Combined View",          "text": "BMS has a balanced, non-crisis media landscape. Neither channel shows alarming negative trends. The strategic opportunity is positive rate improvement, not crisis management." },
+          { "label": "Channel Mix",            "text": "Ideal channel mix uses SM to build emotional brand equity (capitalize on higher positive rate) and TM to build factual credibility (scientific, clinical, financial validation)." }
+        ]
+      },
+      "uni-vol-compare": {
+        "title": "Volume Overlay: SM vs TM",
+        "sub": "Comparative monthly trajectory",
+        "insights": [
+          { "label": "Synchronization",        "text": "Both channels peak in February \u2014 confirming that earnings and clinical news drive simultaneous SM and TM volume spikes. Channels amplify each other around major events." },
+          { "label": "Scale Difference",       "text": "TM (7-8K articles/month) is 8-10\u00d7 SM volume (660-860 posts/month). TM provides the structural coverage floor; SM provides the engagement amplification layer." },
+          { "label": "SM Volatility",          "text": "SM volume fluctuates more dramatically (Jan 338 \u2192 Feb 859 = +154%) than TM (Jan 7.1K \u2192 Feb 7.4K = +4%). SM is more responsive to events; TM is more stable." },
+          { "label": "Post-Event Decay",       "text": "SM decays faster post-event than TM (March SM dropped 23% from Feb peak; TM only 10%). TM syndication machine sustains coverage longer after initial events." },
+          { "label": "Opportunity Windows",    "text": "April-June 2026 likely shows SM decline (unless pipeline events), while TM maintains structural floor. Strategic comms investment in April-May proactive pitching will prevent brand silence." }
+        ]
+      },
+      "uni-ch1": {
+        "title": "Volume Dominance: TM vs SM",
+        "sub": "Scale comparison",
+        "insights": [
+          { "label": "TM Scale",               "text": "30,000 TM articles vs 1,989 SM posts \u2014 TM is 15\u00d7 SM by article count. For pharma, this ratio is normal: financial and medical media generate high organic coverage volume." },
+          { "label": "SM Quality Premium",     "text": "Despite 1/15th the volume, SM generates more brand engagement (14,466 interactions vs essentially 0 TM interactions). SM content converts to brand action." },
+          { "label": "Radio Distortion",       "text": "If Radio posts (736) are excluded from SM, the active social media volume drops to 1,253 posts \u2014 24\u00d7 smaller than TM. True owned SM content is a fraction of monitored SM coverage." },
+          { "label": "Implication",            "text": "BMS has significant opportunity to grow owned SM content (corporate LinkedIn posts, @BMS tweets, owned YouTube) which would improve both volume and quality metrics." },
+          { "label": "Action",                 "text": "Target 2,500 genuine owned SM posts per quarter (excluding radio) by Q4 2026 through expanded content program. Hire/activate an enterprise social media content team." }
+        ]
+      },
+      "uni-ch2": {
+        "title": "Narrative Gaps: What's Missing",
+        "sub": "Absent story angles across both channels",
+        "insights": [
+          { "label": "Patient Narrative",      "text": "Patient experience, caregiver stories, quality-of-life outcomes \u2014 nearly absent from both SM and TM. This is the gap most likely to build genuine consumer brand equity and payer trust." },
+          { "label": "ESG/Sustainability",     "text": "Environmental, Social, and Governance narratives are underdeveloped. Given growing ESG investment mandates, this represents a gap in institutional investor targeting." },
+          { "label": "Employee Voice",         "text": "Employee advocacy content (Glassdoor-style, LinkedIn employee stories) is minimal. Employer brand health affects talent acquisition and corporate reputation." },
+          { "label": "Disease Education",      "text": "BMS addresses oncology, hematology, neuroscience \u2014 high-burden disease areas. Disease awareness content can build brand affinity before patients/HCPs need treatment." },
+          { "label": "Global Narrative",       "text": "US-centric coverage with minimal international narrative. If BMS has significant international operations, building coverage in EU5, Japan, and emerging markets would expand brand footprint." }
+        ]
+      },
+      "uni-ch3": {
+        "title": "Strategic Implications",
+        "sub": "Cross-channel integrated strategy",
+        "insights": [
+          { "label": "LinkedIn Priority",      "text": "LinkedIn is BMS's highest-ROI single channel. Every additional owned post averages 11.8 interactions. Scale content investment here first \u2014 the audience is already present and engaged." },
+          { "label": "Moment Amplification",   "text": "When TM breaks a story (clinical win, analyst upgrade, partnership), BMS has a 6-12 hour window to amplify on LinkedIn/Twitter before the moment fades. Speed is the execution gap." },
+          { "label": "Trade Media Cultivation","text": "The 132 trade media articles in Q1 reach the most valuable audiences (HCPs, biotech leaders, institutional investors). A dedicated healthcare trade media relations program would compound returns." },
+          { "label": "Integrated Calendar",    "text": "Build an integrated 12-month content calendar that maps clinical milestones, earnings events, conference seasons, and disease awareness months \u2014 coordinate SM and TM strategies in advance." },
+          { "label": "Measurement",            "text": "Establish a unified brand health scorecard: SM engagement rate + TM positive % + combined reach quality score. Review monthly, present to leadership quarterly." }
+        ]
+      },
+      "uni-reputation": {
+        "title": "Multi-Dimensional Reputation Scorecard",
+        "sub": "Based on SM + TM signals",
+        "insights": [
+          { "label": "Innovation",           "text": "Strong \u2014 Microsoft AI partnership, 50+ compound pipeline, protein degradation technology. Well-covered in both SM and TM. Score: 7/10." },
+          { "label": "Financial Strength",   "text": "Strong \u2014 analyst upgrades, $111B market cap, strong Q4 results. Dominant TM narrative. Score: 8/10." },
+          { "label": "Pipeline Credibility", "text": "Good \u2014 SCOUT-HCM success, multiple Phase 3 assets. Could be stronger with more proactive pipeline communications. Score: 7/10." },
+          { "label": "Patient Trust",        "text": "Weak \u2014 \"No Time to Wait\" DTC present but patient voice largely absent. No patient storytelling detected in SM data. Score: 4/10." },
+          { "label": "Brand Advocacy",       "text": "Moderate \u2014 32% positive SM rate suggests engaged professional advocates, but neutral dominance means limited brand champions. Score: 5/10." }
+        ]
+      }
+    }
+  },
+
+  "recommendations": {
+    "title": "Strategic Recommendations",
+    "heroPill": "Action Plan",
+    "subtitle": "Scale \u00b7 Fix \u00b7 Monitor",
+    "kpis": [
+      { "id": "recs-total",   "label": "Recommendations",  "value": "9",      "sub": "Across 3 strategic tracks" },
+      { "id": "recs-scale",   "label": "Scale Actions",    "value": "3",      "sub": "Amplify what\u2019s working" },
+      { "id": "recs-fix",     "label": "Fix Actions",      "value": "3",      "sub": "Address visible gaps" },
+      { "id": "recs-monitor", "label": "Monitor Items",    "value": "3",      "sub": "Watch for emerging risks" }
+    ],
+    "categories": [
+      {
+        "id": "scale",
+        "label": "Scale",
+        "tagline": "Amplify what\u2019s already working",
+        "color": "#0d9488",
+        "bg": "bg-teal-50",
+        "textColor": "text-teal-700",
+        "borderColor": "border-teal-400",
+        "items": [
+          {
+            "id": "rec-1",
+            "title": "Double LinkedIn Content Investment",
+            "description": "LinkedIn is 40% of SM volume but drives 64% of all interactions. Deploy deeper editorial \u2014 pipeline explainers, clinical data storytelling, executive thought leadership \u2014 to convert passive followers into brand advocates.",
+            "kpi": "Target: 18,000+ interactions/quarter (from current 9,354)"
+          },
+          {
+            "id": "rec-2",
+            "title": "Capitalize on Pipeline Milestone Moments",
+            "description": "SCOUT-HCM, AI/lung cancer detection, and protein degradation pipeline are generating strong organic coverage. Build proactive content calendars around ASCO, ASH, and regulatory milestones to pre-seed positive narrative.",
+            "kpi": "Target: each milestone drives 200+ TM articles, 500+ SM posts within 7 days"
+          },
+          {
+            "id": "rec-3",
+            "title": "Leverage Microsoft AI Partnership for Innovation Positioning",
+            "description": "The Microsoft/AI lung cancer deal is a signal investors and innovators respond to. Create a sustained \u201cBMS + AI\u201d content series targeting LinkedIn, X, and trade media to anchor BMS as a tech-forward pharma company.",
+            "kpi": "Target: \u201cBMS AI\u201d mentions grow 3\u00d7 by Q4 2026. 5 Tier 1 placements/quarter"
+          }
+        ]
+      },
+      {
+        "id": "fix",
+        "label": "Fix",
+        "tagline": "Address visible weaknesses",
+        "color": "#f59e0b",
+        "bg": "bg-teal-50",
+        "textColor": "text-teal-700",
+        "borderColor": "border-teal-400",
+        "items": [
+          {
+            "id": "rec-4",
+            "title": "Optimize or Redirect Radio/DTC Spend",
+            "description": "Radio accounts for 37% of SM posts (736 posts) but generates 0 digital interactions. Add a digital/social retargeting layer to capture radio-exposed audiences and create a measurable funnel.",
+            "kpi": "Target: 500 social actions per 100 radio impressions within 30 days"
+          },
+          {
+            "id": "rec-5",
+            "title": "Reduce Neutral Content Volume in TM",
+            "description": "78% of TM coverage is neutral \u2014 purely informational. Develop a proactive media engagement strategy targeting top financial publications with story angles that drive opinion and advocacy, not just reportage.",
+            "kpi": "Target: TM positive rate Q2: 5% \u2192 Q3: 6% \u2192 Q4: 7%"
+          },
+          {
+            "id": "rec-6",
+            "title": "Build Patient/Caregiver Voice in Social",
+            "description": "The social conversation is dominated by financial/professional audiences. The patient narrative \u2014 which drives credibility with payers, advocacy groups, and regulators \u2014 is nearly absent from monitored data.",
+            "kpi": "Target: 100 patient-focused posts/quarter on Instagram/YouTube by Q4 2026"
+          }
+        ]
+      },
+      {
+        "id": "monitor",
+        "label": "Monitor",
+        "tagline": "Watch for emerging risks",
+        "color": "#ef4444",
+        "bg": "bg-red-50",
+        "textColor": "text-red-700",
+        "borderColor": "border-red-400",
+        "items": [
+          {
+            "id": "rec-7",
+            "title": "M&A Speculation Risk",
+            "description": "BMS is named as a potential acquirer in the biopharma M&A wave. If a deal rumor breaks inaccurately or a failed bid surfaces, negative sentiment could spike. Prepare rapid-response comms playbook for M&A scenarios.",
+            "kpi": "Conduct M&A scenario planning exercise Q2 2026. Real-time alert activation"
+          },
+          {
+            "id": "rec-8",
+            "title": "Valuation Credibility Under Pressure",
+            "description": "A vocal minority of financial media questions BMS valuation sustainability at $54\u201360 given LOE headwinds. Maintain a steady cadence of investor-facing pipeline updates to counter this narrative.",
+            "kpi": "Alert threshold: negative TM exceeds 3% any single week \u2192 immediate response"
+          },
+          {
+            "id": "rec-9",
+            "title": "Competitor SOV Erosion",
+            "description": "With Merck, AbbVie, Amgen, AstraZeneca all generating comparable M&A/pipeline buzz simultaneously, BMS risks losing relative share of voice. Track weekly SOV against Merck, AbbVie, and Pfizer as primary benchmarks.",
+            "kpi": "Alert threshold: BMS SOV drops below 12% \u2192 trigger reactive campaign"
+          }
+        ]
+      }
+    ],
+    "drillDown": {
+      "recs-total": {
+        "title": "9 Strategic Recommendations",
+        "sub": "Scale \u00b7 Fix \u00b7 Monitor framework",
+        "insights": [
+          { "label": "Scale (3)", "text": "Double LinkedIn investment, capitalize on pipeline milestones, leverage Microsoft AI partnership. All three are opportunity amplifiers \u2014 low risk, high ROI, executable within 90 days." },
+          { "label": "Fix (3)", "text": "Radio/DTC optimization, TM neutral reduction, patient voice activation. These address structural gaps in BMS\u2019s media footprint that limit brand credibility with key audiences." },
+          { "label": "Monitor (3)", "text": "M&A speculation, valuation pressure, competitor SOV. These are not crises \u2014 but unchecked, any one could materially shift BMS\u2019s media standing within a single news cycle." },
+          { "label": "Priority Order", "text": "Recommended execution sequence: (1) LinkedIn scale-up (immediate, Q2), (2) Radio optimization (immediate, Q2), (3) Pipeline calendar (Q2 planning, Q3 execution), (4) Patient voice program (Q3), (5) Monitor/alert setup (Q2)." }
+        ]
+      },
+      "recs-scale": {
+        "title": "Scale Track: Amplify What Works",
+        "sub": "3 high-ROI amplification opportunities",
+        "insights": [
+          { "label": "Why Scale First", "text": "Scaling proven channels has higher certainty of ROI than fixing broken ones. LinkedIn, pipeline storytelling, and AI narrative are all validated \u2014 the investment thesis is proven, now execute at higher volume." },
+          { "label": "Budget Implication", "text": "Scale actions require primarily human capital investment (content creators, editors, PR managers) rather than media spend. Estimated $500K\u2013$1M incremental annual investment for full execution of all three." },
+          { "label": "90-Day Wins", "text": "LinkedIn frequency increase can show results in 30-60 days. Pipeline calendar requires Q2 planning but delivers Q3 results. Microsoft AI series can begin publishing within 45 days of approval." }
+        ]
+      },
+      "recs-fix": {
+        "title": "Fix Track: Address Visible Gaps",
+        "sub": "3 structural weaknesses to resolve",
+        "insights": [
+          { "label": "Why Fix Matters", "text": "Fix actions don\u2019t just improve metrics \u2014 they prevent competitor exploitation of gaps. A BMS that doesn\u2019t tell the patient story cedes that narrative to disease advocacy groups who may not align with corporate messaging." },
+          { "label": "Compliance Note", "text": "Patient storytelling in pharma requires MLR (medical, legal, regulatory) review. Build the compliance pathway first (Q2) before launching content programs (Q3). This is a regulatory discipline, not a creative one." },
+          { "label": "Quick Win", "text": "The radio/DTC call-to-action addition is a 2-week creative execution that costs almost nothing and creates measurable digital attribution for a $5M+ broadcast investment." }
+        ]
+      },
+      "recs-monitor": {
+        "title": "Monitor Track: Watch for Emerging Risks",
+        "sub": "3 risk scenarios requiring active surveillance",
+        "insights": [
+          { "label": "Not a Crisis \u2014 Yet", "text": "None of the three monitor items are active crises. M&A speculation is normal at BMS\u2019s market cap, valuation concerns are minority view, and SOV is stable. The risk is inaction if conditions change." },
+          { "label": "Alert Infrastructure", "text": "Implement real-time media monitoring alerts for: \u201cBMS acquires\u201d (M&A), negative TM >3% weekly (valuation), BMS SOV <12% (competitor). Set up a weekly media risk dashboard reviewed by Corporate Affairs." },
+          { "label": "Scenario Planning", "text": "Conduct a Q2 2026 communications scenario planning session. Pre-draft 3 holding statements per risk scenario. Designate a rapid-response team for sub-2-hour media inquiry turnaround." }
+        ]
+      },
+      "rec-1": {
+        "title": "Double LinkedIn Content Investment",
+        "sub": "Scale \u00b7 LinkedIn Strategy",
+        "insights": [
+          { "label": "Evidence", "text": "LinkedIn generates 64% of all SM interactions from 40% of posts. ROI per post (11.8 avg interactions) is significantly higher than any other channel. The audience is already present and engaged." },
+          { "label": "Action", "text": "Increase LinkedIn post frequency from ~9/day to 15\u201320/day through expanded content types: clinical data explainers, executive thought leadership, pipeline updates, employee stories." },
+          { "label": "Content Mix", "text": "Recommended split: 30% clinical/scientific, 25% executive/company voice, 20% pipeline/R&D, 15% partnership/innovation, 10% patient/disease awareness." },
+          { "label": "KPI", "text": "Target: 18,000+ interactions/quarter (from current 9,354). 85% of followers reached. 5% interaction rate per post." },
+          { "label": "Investment", "text": "Estimated 2\u20133 dedicated LinkedIn content creators/editors with pharma-grade compliance review process. ROI measured in brand affinity, HCP reach, and investor sentiment uplift." }
+        ]
+      },
+      "rec-2": {
+        "title": "Capitalize on Pipeline Milestone Moments",
+        "sub": "Scale \u00b7 Content Calendar Strategy",
+        "insights": [
+          { "label": "Insight", "text": "SCOUT-HCM, Microsoft AI deal, and analyst upgrades drove the February SM/TM peaks. These were reactive amplifications. A proactive content calendar converts reactive to strategic." },
+          { "label": "Identify Triggers", "text": "Map all known 2026 milestones: Phase 3 readouts, FDA PDUFA dates, conference presentations (ASCO, ASH, AHA, ESMO), investor days, earnings dates. ~12\u201316 identified milestone windows per year." },
+          { "label": "Pre-seed Content", "text": "2 weeks before each milestone, seed educational content (disease burden, treatment landscape) on LinkedIn to prime audience. Day-of: press release + LinkedIn post + Twitter thread. Days 2\u20137: follow-on content with analyst reactions." },
+          { "label": "Trade Media", "text": "Pre-brief top 5 trade outlets (FiercePharma, STAT News, BioPharma Dive) 24 hours before announcements. Increases chance of day-one editorial vs. wire syndication only." },
+          { "label": "KPI", "text": "Target: each major milestone drives 200+ TM articles, 500+ SM posts, 5,000+ interactions within 7 days of announcement." }
+        ]
+      },
+      "rec-3": {
+        "title": "Leverage Microsoft AI Partnership for Innovation Positioning",
+        "sub": "Scale \u00b7 AI Brand Narrative",
+        "insights": [
+          { "label": "Context", "text": "The Microsoft lung cancer AI partnership generated strong earned media and social engagement. This narrative differentiates BMS in a field of legacy drug companies." },
+          { "label": "Content Series", "text": "Launch \u201cBMS Science + Technology\u201d content series: monthly LinkedIn articles on AI applications in R&D, interviews with data science team, patient benefit framing of AI tools." },
+          { "label": "Media Targeting", "text": "Pitch AI-in-pharma stories to: MIT Technology Review, Wired, STAT News, Forbes Health, FierceBiotech. These non-traditional pharma outlets reach new audiences (tech, investor, talent)." },
+          { "label": "Partnership Visibility", "text": "Activate Microsoft marketing to co-amplify the partnership story. Microsoft has 19M LinkedIn followers \u2014 a co-authored post would dramatically extend BMS reach." },
+          { "label": "KPI", "text": "Target: \u201cBMS AI\u201d branded mentions grow 3\u00d7 from current Q1 level by Q4 2026. 5 Tier 1 media placements on AI-in-pharma angle per quarter." }
+        ]
+      },
+      "rec-4": {
+        "title": "Optimize or Redirect Radio/DTC Spend",
+        "sub": "Fix \u00b7 Channel Attribution",
+        "insights": [
+          { "label": "Problem", "text": "736 radio posts in SM monitoring = significant DTC broadcast spend. 0 digital interactions = zero measurable social ROI. The two channels are completely siloed." },
+          { "label": "Quick Win", "text": "Add social call-to-action to radio ads: \u201cSearch \u2018No Time to Wait\u2019 and follow us on LinkedIn for the latest on AFib treatment.\u201d Direct broadcast audiences to owned digital channels." },
+          { "label": "Retargeting", "text": "Implement programmatic retargeting of radio-exposed audiences via geo-data and audio ad measurement tools. Serve digital ads to people who heard the radio spot within 7 days." },
+          { "label": "URL/QR", "text": "Add vanity URL (notimetowait.com) or QR code to all radio creative. Track digital visits from radio exposure to create a measurable funnel: radio \u2192 digital \u2192 conversion." },
+          { "label": "KPI", "text": "Target: 500 social actions (follows, website visits, video views) per 100 radio broadcast impressions within 30 days. If unachievable, reassess radio budget allocation." }
+        ]
+      },
+      "rec-5": {
+        "title": "Reduce Neutral Content Volume in TM",
+        "sub": "Fix \u00b7 TM Sentiment Strategy",
+        "insights": [
+          { "label": "Mechanism", "text": "Most TM neutrality is structural \u2014 wire syndication creates informational content without opinion. To change this, BMS needs to give journalists compelling stories with emotional angles." },
+          { "label": "Spokesperson Program", "text": "Develop a roster of BMS scientists, executives, and patients who provide on-record quotes for journalists. A good quote transforms a neutral wire pickup into a positive featured article." },
+          { "label": "Feature Pitching", "text": "Identify 5 Tier 1 journalists covering pharma/biotech at major outlets. Build relationships with quarterly briefings. Offer exclusive data/access for feature stories that go beyond earnings coverage." },
+          { "label": "Op-Ed Strategy", "text": "Commission executive op-eds in STAT News, Wall Street Journal Health, Forbes Health on: precision medicine, AI in oncology, the future of cardiovascular treatment." },
+          { "label": "KPI", "text": "Target TM positive rate progression: Q2: 5%, Q3: 6%, Q4: 7%. Corresponding neutral reduction: 78% \u2192 70% by Q4 2026." }
+        ]
+      },
+      "rec-6": {
+        "title": "Build Patient/Caregiver Voice in Social",
+        "sub": "Fix \u00b7 Audience Diversification",
+        "insights": [
+          { "label": "Gap", "text": "Patient and caregiver voices are essentially absent from monitored SM data. For a company treating cancer, heart disease, and neurological conditions, this is a credibility gap competitors can exploit." },
+          { "label": "Compliance Path", "text": "Regulatory-compliant patient storytelling on social media is achievable with proper legal/medical/regulatory review. Use pre-reviewed testimonial frameworks and video formats." },
+          { "label": "Partnerships", "text": "Partner with patient advocacy organizations (American Cancer Society, American Heart Association, National MS Society) to co-create and amplify patient-centered content." },
+          { "label": "Platform", "text": "Instagram and YouTube are underutilized BMS channels with strong patient/caregiver communities. Invest here specifically for patient narrative \u2014 different audience from LinkedIn." },
+          { "label": "KPI", "text": "Target: 100 patient-focused social posts per quarter on Instagram/YouTube by Q4 2026. Monitor Net Promoter Score with patient community surveys." }
+        ]
+      },
+      "rec-7": {
+        "title": "M&A Speculation Risk",
+        "sub": "Monitor \u00b7 Rapid Response Readiness",
+        "insights": [
+          { "label": "Trigger Conditions", "text": "M&A risk escalates if: (1) a specific target company is leaked to media, (2) BMS files an SEC notice, (3) a competitor deal falls apart and BMS is named as alternate buyer." },
+          { "label": "Rapid Response", "text": "Prepare 3 holding statements: (1) \u201cWe don\u2019t comment on rumors,\u201d (2) \u201cWe have a disciplined M&A strategy focused on scientific value,\u201d (3) Full announcement for actual deal. Activate within 2 hours of media inquiry." },
+          { "label": "Social Monitoring", "text": "Set real-time alerts for: \u201cBMS acquires,\u201d \u201cBristol-Myers deal,\u201d \u201cBMY merger.\u201d Include financial media and Twitter/X monitoring for analyst speculation before it goes to print." },
+          { "label": "Analyst Relations", "text": "Maintain active dialogue with key analysts (Scotiabank, BMO, Jefferies) to ensure coverage of BMS M&A activity reflects accurate strategic context, not speculation." },
+          { "label": "Timeline", "text": "Conduct M&A communications scenario planning exercise Q2 2026. Identify top 3 likely deal scenarios and pre-draft stakeholder communications for each." }
+        ]
+      },
+      "rec-8": {
+        "title": "Valuation Credibility Under Pressure",
+        "sub": "Monitor \u00b7 Investor Narrative Defense",
+        "insights": [
+          { "label": "Current Status", "text": "384 negative TM articles focus on valuation concerns and LOE risks. Not a crisis \u2014 but a structural negative narrative that could amplify if Q2/Q3 revenue disappoints." },
+          { "label": "Proactive Counter", "text": "The best defense against LOE coverage is a compelling growth pipeline story. Every Phase 3 success, BD deal, or growth brand milestone should be positioned as \u201cthe next chapter.\u201d" },
+          { "label": "Growth Brand Amplification", "text": "Breyanzi, Abecma, Sotyktu, Reblozyl, Augtyro are BMS growth drivers post-Revlimid LOE. Develop a \u201cNext Generation BMS\u201d narrative featuring these brands prominently in communications." },
+          { "label": "Investor Communications", "text": "At investor days and earnings calls, proactively quantify pipeline value. Show analysts that pipeline NPV exceeds LOE revenue impact. Third-party analyst validation is most credible." },
+          { "label": "Alert Threshold", "text": "If negative TM exceeds 3% for any single week (vs current 1.5%), trigger comms team response. If a single negative article reaches >5M readers, same-day response required." }
+        ]
+      },
+      "rec-9": {
+        "title": "Competitor SOV Erosion",
+        "sub": "Monitor \u00b7 Share of Voice Surveillance",
+        "insights": [
+          { "label": "Current Landscape", "text": "Merck, AbbVie, Amgen, Pfizer, AstraZeneca all generating comparable M&A/pipeline coverage in Q1 2026. BMS holds its own currently but active monitoring is essential." },
+          { "label": "SOV Measurement", "text": "Establish weekly SOV tracking: BMS mentions vs. Merck + AbbVie + Pfizer + Amgen. SOV should be maintained at 15\u201320% of the total \u201cbig pharma\u201d conversation." },
+          { "label": "Trigger Events", "text": "A competitor FDA approval, major M&A announcement, or clinical breakthrough could rapidly shift SOV. BMS needs a 48-hour response protocol to maintain relevance in these windows." },
+          { "label": "Differentiation Strategy", "text": "In commodity news moments, BMS can differentiate by commenting through scientific/patient lens rather than financial. This creates distinct brand voice vs. finance-first competitors." },
+          { "label": "Reporting Cadence", "text": "Monthly SOV report to CMO/Corporate Affairs VP. Quarterly SOV trend to executive leadership. Alert threshold: BMS SOV drops below 12% \u2192 trigger reactive comms campaign." }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1123 @@
+{
+  "label": "ACME Intelligence",
+  "description": "ACME Corp brand dashboard",
+  "tagline": "Jan–Mar 2026 · 1,200 SM posts · 8,500 TM articles",
+  "isBuiltin": false,
+  "tokens": {
+    "primaryColor": "#2563eb",
+    "secondaryColor": "#0d9488",
+    "navActiveBg": "#2563eb",
+    "navActiveColor": "#ffffff",
+    "smColor": "#2563eb",
+    "tmColor": "#0d9488",
+    "chartColors": ["#893ffc", "#d02670", "#1192e8", "#eb6200", "#007d79", "#d2a106"],
+    "paletteId": "default"
+  },
+  "config": {
+    "id": "acme",
+    "name": "ACME Intelligence",
+    "fullName": "ACME Corporation",
+    "ticker": "ACME",
+    "subtitle": "Brand Measurement Platform",
+    "dataPeriod": {
+      "label": "Data Period",
+      "range": "Jan 1 – Mar 31, 2026",
+      "smPosts": "1,200 posts",
+      "tmArticles": "8,500 articles"
+    },
+    "nav": [
+      {
+        "section": "Overview",
+        "items": [
+          { "id": "exec", "label": "Executive Summary", "icon": "BarChart2" }
+        ]
+      },
+      {
+        "section": "Social Media",
+        "items": [
+          {
+            "id": "sm",
+            "label": "SM Intelligence",
+            "icon": "Smartphone",
+            "children": [
+              { "id": "sm-awareness", "label": "Awareness" },
+              { "id": "sm-sentiment", "label": "Sentiment" },
+              { "id": "sm-platform", "label": "Platform" },
+              { "id": "sm-engagement", "label": "Engagement" }
+            ]
+          }
+        ]
+      },
+      {
+        "section": "Traditional Media",
+        "items": [
+          {
+            "id": "tm",
+            "label": "TM Intelligence",
+            "icon": "Newspaper",
+            "children": [
+              { "id": "tm-coverage", "label": "Coverage" },
+              { "id": "tm-sentiment", "label": "Sentiment" },
+              { "id": "tm-pubs", "label": "Publications" },
+              { "id": "tm-themes", "label": "Themes" }
+            ]
+          }
+        ]
+      },
+      {
+        "section": "Analysis",
+        "items": [
+          { "id": "unified", "label": "Unified Insights", "icon": "Link2" },
+          { "id": "recs", "label": "Recommendations", "icon": "Target" }
+        ]
+      }
+    ]
+  },
+  "data": {
+    "executiveSummary": {
+      "title": "Executive Summary",
+      "subtitle": "ACME Corp Brand Measurement Intelligence · Q1 2026",
+      "heroPill": "Jan–Mar 2026",
+      "badge": "Jan – Mar 2026",
+      "kpis": [
+        {
+          "id": "kpi-posts",
+          "ddKey": "kpi-posts",
+          "label": "SM Posts",
+          "value": "1,200",
+          "delta": "+18%",
+          "deltaLabel": "vs prior period",
+          "trend": "up"
+        },
+        {
+          "id": "kpi-reach",
+          "ddKey": "kpi-reach",
+          "label": "SM Reach",
+          "value": "142M",
+          "delta": "+12%",
+          "deltaLabel": "vs prior period",
+          "trend": "up"
+        },
+        {
+          "id": "kpi-tm-articles",
+          "ddKey": "kpi-tm",
+          "label": "TM Articles",
+          "value": "8,500",
+          "delta": "0%",
+          "deltaLabel": "stable",
+          "trend": "neutral"
+        },
+        {
+          "id": "kpi-tm-reach",
+          "ddKey": "kpi-tmreach",
+          "label": "TM Reach",
+          "value": "210M",
+          "delta": "+5%",
+          "deltaLabel": "vs prior period",
+          "trend": "up"
+        },
+        {
+          "id": "kpi-smpos",
+          "ddKey": "kpi-smpos",
+          "label": "SM Positive",
+          "value": "41%",
+          "delta": "+4pp",
+          "deltaLabel": "vs prior period",
+          "trend": "up"
+        }
+      ],
+      "volumeTrendSection": "Volume Trend Overview",
+      "smVolChart": {
+        "title": "Social Media Monthly Volume",
+        "subtitle": "Posts by month",
+        "ddKey": "trend-sm",
+        "data": [
+          { "month": "Jan", "posts": 350 },
+          { "month": "Feb", "posts": 510 },
+          { "month": "Mar", "posts": 340 }
+        ],
+        "takeaway": "February peak driven by product launch announcement. March returned to baseline as campaign settled."
+      },
+      "tmVolChart": {
+        "title": "Traditional Media Monthly Volume",
+        "subtitle": "Articles by month",
+        "ddKey": "trend-tm",
+        "data": [
+          { "month": "Jan", "articles": 2800 },
+          { "month": "Feb", "articles": 3100 },
+          { "month": "Mar", "articles": 2600 }
+        ],
+        "takeaway": "TM volume stable with modest February lift tied to launch coverage and analyst commentary."
+      },
+      "signals": [
+        {
+          "id": "sig-launch",
+          "ddKey": "sig-launch",
+          "icon": "TrendingUp",
+          "title": "Product Launch",
+          "desc": "ACME X1 product launch in February drove a 46% spike in SM volume and significant earned media coverage.",
+          "tag": "SCALE",
+          "tagColor": "green"
+        },
+        {
+          "id": "sig-innovation",
+          "ddKey": "sig-innovation",
+          "icon": "Cpu",
+          "title": "AI Integration",
+          "desc": "ACME's announced AI-powered platform upgrade elevated innovation perception among tech and enterprise media.",
+          "tag": "SCALE",
+          "tagColor": "green"
+        },
+        {
+          "id": "sig-crisis",
+          "ddKey": "sig-crisis",
+          "icon": "FlaskConical",
+          "title": "Supply Chain Risk",
+          "desc": "Q1 supply disruption in APAC attracted negative coverage in trade media and social skepticism.",
+          "tag": "MONITOR",
+          "tagColor": "red"
+        }
+      ],
+      "workingItems": {
+        "ddKey": "exec-working",
+        "notWorkingDdKey": "exec-notworking",
+        "working": [
+          "Product launch generated strong earned media with 41% SM positive rate",
+          "AI narrative resonating with enterprise and tech press audiences",
+          "LinkedIn engagement rate outperforming industry average at 8.2 interactions/post"
+        ],
+        "notWorking": [
+          "Supply chain narrative creating persistent negative tail in TM (3.2% negative)",
+          "Instagram and TikTok severely underutilized — combined 4% of posts, minimal engagement"
+        ]
+      },
+      "risksOpportunities": {
+        "risksDdKey": "exec-risks",
+        "oppsDdKey": "exec-opps",
+        "risks": [
+          { "text": "Supply chain disruption could escalate if APAC issues persist into Q2", "color": "red" },
+          { "text": "Competitor X2 launch in April may absorb earned media share of voice", "color": "amber" }
+        ],
+        "opportunities": [
+          { "text": "AI platform story is uncrowded — window to own the narrative before competitors" },
+          { "text": "LinkedIn professional audience is highly engaged and underserved with depth content" }
+        ]
+      },
+      "drillDown": {
+        "kpi-posts": {
+          "title": "SM Post Volume: 1,200",
+          "sub": "Social Media · Jan–Mar 2026",
+          "insights": [
+            { "label": "Pattern", "text": "February peaked at 510 posts (+46% vs January) driven by the ACME X1 product launch on Feb 8. Volume returned to 340 in March as launch coverage normalized." },
+            { "label": "Platform", "text": "LinkedIn accounts for 42% of total volume, followed by X/Twitter at 28%, Instagram at 18%, and YouTube at 12%. LinkedIn is the dominant professional engagement channel." },
+            { "label": "Driver", "text": "Launch announcement, partnership news, and analyst coverage drove the February spike. Organic community conversation sustained March volume above January baseline." },
+            { "label": "Opportunity", "text": "Consistent content cadence between launch events could smooth volume curves. A monthly editorial calendar with 2-3 owned thought leadership pieces per week would maintain 400+ posts/month." }
+          ]
+        },
+        "kpi-reach": {
+          "title": "SM Total Reach: 142M",
+          "sub": "Cumulative impression reach across all SM channels",
+          "insights": [
+            { "label": "Composition", "text": "LinkedIn contributes ~60M impressions; X/Twitter ~45M; Instagram and YouTube the remainder. LinkedIn reach correlates to professional/enterprise buyer audience." },
+            { "label": "Context", "text": "142M impressions across 1,200 posts averages 118,333 impressions per post — well above industry median of 60,000 for mid-cap brands, indicating strong follower base quality." },
+            { "label": "Opportunity", "text": "TikTok and YouTube are absent from top reach drivers despite high per-post engagement potential. Adding short-form video could add 20-30M incremental reach per quarter." },
+            { "label": "Risk", "text": "Reach concentration on LinkedIn creates dependency. If LinkedIn algorithm changes reduce organic reach (as has occurred in 2024-2025), total SM reach would drop materially." }
+          ]
+        },
+        "kpi-tm": {
+          "title": "TM Article Volume: 8,500",
+          "sub": "Traditional Media · Jan–Mar 2026",
+          "insights": [
+            { "label": "Volume Context", "text": "8,500 articles over 90 days is strong for a mid-cap company — approximately 94 articles per day. This reflects solid financial media footprint and active product news flow." },
+            { "label": "Channel", "text": "Online outlets represent 68% of volume, followed by wire services at 22%, and trade publications at 10%. Trade coverage — though smallest in volume — has highest audience quality." },
+            { "label": "Earned vs Syndicated", "text": "Estimated 65% syndicated wire content vs 35% earned editorial. Increasing the earned editorial share is the key narrative leverage opportunity." },
+            { "label": "Pattern", "text": "February spike (3,100 articles) closely tracks the product launch press cycle. January and March reflect structural/syndication-level baseline (~2,700 articles)." }
+          ]
+        },
+        "kpi-tmreach": {
+          "title": "TM Cumulative Reach: 210M",
+          "sub": "Traditional media readership impressions",
+          "insights": [
+            { "label": "Scale", "text": "210M TM reach exceeds SM reach (142M) by 48%, consistent with traditional media's broader distribution. High-reach outlets (MSN, Yahoo Finance) disproportionately drive this figure." },
+            { "label": "Average Reach", "text": "Average 24,700 reach per article reflects a mix of high-reach aggregators and low-reach local/trade outlets. Median per-article reach is likely closer to 8,000-12,000." },
+            { "label": "Quality Note", "text": "Trade media articles (850 articles) carry the highest credibility per impression despite lower total reach. Prioritizing trade relationships yields outsized brand equity per reader." },
+            { "label": "Opportunity", "text": "Securing 5 placements per quarter in Tier 1 outlets (WSJ, Forbes, TechCrunch) each at 5M+ reach would add 25M+ high-quality impressions and meaningfully shift narrative perception." }
+          ]
+        },
+        "kpi-smpos": {
+          "title": "SM Positive Rate: 41%",
+          "sub": "492 positive posts out of 1,200",
+          "insights": [
+            { "label": "Rate Context", "text": "41% positive rate is above average for mid-cap brands in the enterprise software/technology sector (industry norm: 28-35%). Product launch enthusiasm and AI narrative are key drivers." },
+            { "label": "Key Drivers", "text": "Positive sentiment concentrated around: ACME X1 launch coverage, AI platform announcement, enterprise customer testimonials shared on LinkedIn, and analyst upgrade on Feb 12." },
+            { "label": "Negative Monitoring", "text": "4% negative (48 posts) is low overall but supply chain skepticism creates a concentrated negative thread. Proactive counter-messaging is recommended before Q2." },
+            { "label": "Platform Differential", "text": "LinkedIn likely 50%+ positive (professional community, brand advocates); X/Twitter likely more mixed given broader audience including skeptics and competitors." }
+          ]
+        },
+        "trend-sm": {
+          "title": "SM Volume Trend Analysis",
+          "sub": "Monthly post breakdown Jan–Mar 2026",
+          "insights": [
+            { "label": "Pattern", "text": "January: 350 posts (baseline). February: 510 posts (+46%). March: 340 posts (-33% from peak, essentially back to baseline). Classic launch spike with normal decay." },
+            { "label": "Driver", "text": "February spike driven by ACME X1 product launch (Feb 8), analyst upgrade (Feb 12), and enterprise customer announcement (Feb 19). Three compounding events in 12 days." },
+            { "label": "Sustainability", "text": "March at 340 posts (within 3% of January baseline) suggests launch enthusiasm was event-driven, not organic community growth. Sustained content program needed to prevent Q2 trough." },
+            { "label": "Forecast", "text": "April-May volume depends on whether follow-on milestones (customer wins, feature releases, industry conference presentations) are planned. Without new catalysts, volume may dip to 280-300 posts." }
+          ]
+        },
+        "trend-tm": {
+          "title": "TM Volume Trend Analysis",
+          "sub": "Monthly article breakdown Jan–Mar 2026",
+          "insights": [
+            { "label": "Pattern", "text": "Jan: 2,800 · Feb: 3,100 (+11%) · Mar: 2,600 (-16%). TM volume is far more stable than SM, reflecting structural syndication coverage baseline." },
+            { "label": "Driver", "text": "February uptick tied to launch press release syndication and analyst note distribution. Less volatile than SM because wire services distribute stories regardless of audience interest signals." },
+            { "label": "Structural vs Earned", "text": "Month-to-month stability (±15%) suggests the majority of TM coverage is structural syndication. Earned editorial coverage would show sharper peaks and troughs aligned to news events." },
+            { "label": "Opportunity", "text": "Build a proactive media relations program targeting 10 Tier 1 journalists. Converting 5% of monthly volume from syndicated to earned editorial would significantly improve brand narrative quality." }
+          ]
+        },
+        "sig-launch": {
+          "title": "ACME X1 Product Launch Coverage",
+          "sub": "February 2026 launch event",
+          "insights": [
+            { "label": "Pattern", "text": "The Feb 8 launch generated the single-largest SM and TM volume spike of Q1. Social volume was 510 posts in February vs. 350 in January — a 46% increase." },
+            { "label": "Coverage Quality", "text": "Launch coverage spanned enterprise tech media (TechCrunch, ZDNet, CRN), financial media (Yahoo Finance, MarketWatch), and LinkedIn thought leadership — a strong multi-channel footprint." },
+            { "label": "Opportunity", "text": "The launch narrative is still fresh. Q2 follow-on content (customer case studies, performance benchmarks, analyst deep dives) can extend the earned media lifecycle by 60-90 days." },
+            { "label": "Risk", "text": "Supply chain concerns surfaced in the same month as launch, creating a mixed narrative moment. Ensuring supply issues are visibly resolved before Q2 reviews is critical to protecting launch momentum." }
+          ]
+        },
+        "sig-innovation": {
+          "title": "AI Platform Integration Signal",
+          "sub": "ACME AI-powered platform upgrade",
+          "insights": [
+            { "label": "Signal", "text": "AI platform announcement in mid-February generated coverage in both enterprise tech media and general business press — a broader audience than typical product upgrade coverage." },
+            { "label": "Narrative Value", "text": "AI integration positions ACME alongside technology leaders in enterprise software. Competitor brands (CompetitorA, CompetitorB) have not yet made comparable AI announcements." },
+            { "label": "Audience Resonance", "text": "CTO and enterprise decision-maker audiences respond strongly to AI capabilities messaging. LinkedIn is the optimal channel — verified use-case posts receive 3-5× engagement vs generic product posts." },
+            { "label": "Window", "text": "ACME has an estimated 2-3 quarter window before competitors announce comparable AI roadmaps. Use this period to define the category terms and secure thought leadership positioning." }
+          ]
+        },
+        "sig-crisis": {
+          "title": "Supply Chain Risk: APAC Disruption",
+          "sub": "Negative TM narrative thread",
+          "insights": [
+            { "label": "Pattern", "text": "Supply chain disruption mentioned in 8-12% of negative TM articles in Q1. Coverage concentrated in trade press (Supply Chain Dive, Logistics Management) and financial analyst notes." },
+            { "label": "Risk Level", "text": "Current risk level is moderate. Supply chain narratives are standard business reporting, not crisis-level. However, if Q2 earnings show revenue impact, TM negative rate could spike from 3.2% to 6-8%." },
+            { "label": "Counter Strategy", "text": "Proactive mitigation: issue a supplier diversification update in April, highlighting APAC recovery timeline and contingency measures. Show investors and press the problem is being managed." },
+            { "label": "Monitoring", "text": "Set real-time alerts for 'ACME supply chain,' 'ACME shortage,' 'ACME APAC.' If coverage reaches 15+ articles in a single week, activate rapid-response communications." }
+          ]
+        },
+        "exec-working": {
+          "title": "What's Working: Key Strengths",
+          "sub": "Momentum drivers across SM and TM",
+          "insights": [
+            { "label": "Launch Momentum", "text": "Product launch generated strong earned media across enterprise tech, financial, and trade press — a multi-audience footprint rare for a single announcement." },
+            { "label": "AI Narrative", "text": "AI platform positioning is generating positive coverage in non-traditional channels (tech press, innovation media) that expand ACME's audience beyond core enterprise buyers." },
+            { "label": "LinkedIn Efficiency", "text": "LinkedIn is generating 8.2 interactions per post — above the enterprise software benchmark of 6.0. Professional audience is engaged and advocates for ACME content." }
+          ]
+        },
+        "exec-notworking": {
+          "title": "What's Not Working: Friction Points",
+          "sub": "Areas requiring strategic attention",
+          "insights": [
+            { "label": "Supply Chain Narrative", "text": "APAC disruption is creating a persistent negative thread in TM that is undermining the positive launch and AI stories. Two competing narratives in the same quarter dilutes brand momentum." },
+            { "label": "Instagram and TikTok Gap", "text": "Both platforms are severely underutilized. Combined, they represent 4% of SM posts. Younger enterprise decision-makers and technical talent increasingly discover brands on these platforms." },
+            { "label": "Neutral TM Dominance", "text": "76% of TM coverage is neutral/informational. ACME is being reported on factually but not celebrated. Converting even 5% of neutral coverage to positive requires proactive editorial engagement." }
+          ]
+        },
+        "exec-risks": {
+          "title": "Key Risks Identified",
+          "sub": "Potential threat vectors",
+          "insights": [
+            { "label": "Supply Chain Escalation", "text": "If APAC supply issues persist into Q2 and affect revenue guidance, TM negative coverage could spike to 7-10%, materially shifting brand perception among investors and enterprise buyers." },
+            { "label": "Competitor Launch", "text": "CompetitorX is rumored to launch a competing product in April 2026. If their launch generates stronger SM volume and TM coverage, ACME's share of voice could erode by 20-30% by end of Q2." },
+            { "label": "Narrative Dilution", "text": "Running three simultaneous narratives (product launch, AI platform, supply chain) risks audience attention fragmentation. A focused communications hierarchy is needed for Q2." }
+          ]
+        },
+        "exec-opps": {
+          "title": "Key Opportunities",
+          "sub": "High-priority growth vectors",
+          "insights": [
+            { "label": "AI Category Ownership", "text": "No direct competitor has established an 'AI-first enterprise platform' narrative. ACME has a 2-3 quarter window to own this positioning before the market becomes crowded." },
+            { "label": "LinkedIn Depth Content", "text": "LinkedIn engagement rate (8.2 int/post) signals an active, interested professional community. Deploying richer content — customer case studies, CTO perspective series, data-driven thought leadership — can compound engagement." },
+            { "label": "Trade Media Investment", "text": "Trade press coverage (enterprise tech, industry-specific publications) remains underdeveloped at 10% of TM volume. Targeted pitch programs for Tier 1 trade outlets would increase credibility per impression significantly." }
+          ]
+        }
+      }
+    },
+
+    "smIntelligence": {
+      "title": "Social Media Intelligence",
+      "subtitle": "1,200 posts · Jan 1 – Mar 31, 2026",
+      "heroPill": "SM Analysis",
+      "kpis": [
+        { "id": "sm-total",            "ddKey": "sm-total",  "label": "Total Posts",    "value": "1,200",  "delta": "+18%", "deltaLabel": "vs prior period", "trend": "up" },
+        { "id": "sm-reach",            "ddKey": "sm-reach",  "label": "Total Audience", "value": "142M",   "delta": "+12%", "deltaLabel": "vs prior period", "trend": "up" },
+        { "id": "sm-interactions-kpi", "ddKey": null,        "label": "Interactions",   "value": "9,840",  "delta": "+22%", "deltaLabel": "vs prior period", "trend": "up" },
+        { "id": "sm-sentiment-kpi",    "ddKey": null,        "label": "Positive Rate",  "value": "41%",    "delta": "+4pp", "deltaLabel": "vs prior period", "trend": "up" }
+      ],
+      "volTrendChart": {
+        "title": "Monthly Post Volume Trend",
+        "subtitle": "Jan–Mar 2026 · Peak: February",
+        "ddKey": "sm-vol-trend",
+        "data": [
+          { "month": "Jan", "posts": 350 },
+          { "month": "Feb", "posts": 510 },
+          { "month": "Mar", "posts": 340 }
+        ],
+        "takeaway": "February peak driven by ACME X1 launch. March decay indicates event-driven spike; sustained content strategy needed to maintain 400+ posts/month baseline."
+      },
+      "platformVolChart": {
+        "title": "Platform Contribution to Volume",
+        "subtitle": "Share of total posts",
+        "ddKey": "sm-platform-vol",
+        "data": [
+          { "name": "LinkedIn",  "value": 504, "color": "#0ea5e9" },
+          { "name": "X/Twitter", "value": 336, "color": "#8b5cf6" },
+          { "name": "Instagram", "value": 216, "color": "#f472b6" },
+          { "name": "YouTube",   "value": 144, "color": "#ef4444" }
+        ]
+      },
+      "sentimentChart": {
+        "title": "Sentiment Distribution",
+        "subtitle": "Overall sentiment split across all SM channels",
+        "ddKey": "sm-sentiment-detail",
+        "data": [
+          { "label": "Positive", "value": 492, "pct": 41.0, "color": "#22c55e" },
+          { "label": "Neutral",  "value": 648, "pct": 54.0, "color": "#94a3b8" },
+          { "label": "Negative", "value": 48,  "pct": 4.0,  "color": "#ef4444" }
+        ],
+        "takeaway": "41% positive rate is above industry average. 54% neutral reflects informational content cadence. 4% negative tied primarily to supply chain coverage."
+      },
+      "sentimentDrivers": {
+        "title": "Sentiment Drivers",
+        "subtitle": "Key themes behind positive and negative content",
+        "ddKey": "sm-pos-drivers",
+        "positive": [
+          "ACME X1 product launch enthusiasm from enterprise customers",
+          "AI platform integration story resonating with tech-forward audience",
+          "Analyst upgrade Feb 12 generating investor community enthusiasm"
+        ],
+        "negative": [
+          "APAC supply chain disruption flagged by logistics and financial press",
+          "Competitive pricing pressure mentioned in enterprise buyer forums"
+        ]
+      },
+      "platformEngChart": {
+        "title": "Platform Volume vs. Engagement",
+        "subtitle": "Volume (posts) vs interaction quality",
+        "ddKey": "sm-platform-detail",
+        "data": [
+          { "platform": "LinkedIn",  "posts": 504, "interactions": 4133 },
+          { "platform": "X/Twitter", "posts": 336, "interactions": 2688 },
+          { "platform": "Instagram", "posts": 216, "interactions": 1728 },
+          { "platform": "YouTube",   "posts": 144, "interactions": 1291 }
+        ]
+      },
+      "platformBreakdown": {
+        "title": "Platform Breakdown",
+        "subtitle": "Posts and interactions per platform",
+        "ddKey": "sm-platform-breakdown",
+        "platforms": [
+          { "name": "LinkedIn",  "posts": "504", "interactions": "4,133" },
+          { "name": "X/Twitter", "posts": "336", "interactions": "2,688" },
+          { "name": "Instagram", "posts": "216", "interactions": "1,728" },
+          { "name": "YouTube",   "posts": "144", "interactions": "1,291" }
+        ],
+        "takeaway": "LinkedIn drives highest absolute interactions. YouTube punches above its post volume (8.96 int/post vs LinkedIn's 8.2). Instagram at 8.0 int/post is competitive — increase posting frequency."
+      },
+      "interactionsChart": {
+        "title": "Interactions by Platform",
+        "subtitle": "Total interactions (likes, shares, comments)",
+        "ddKey": "sm-engagement-detail",
+        "data": [
+          { "platform": "LinkedIn",  "interactions": 4133, "color": "#0ea5e9" },
+          { "platform": "X/Twitter", "interactions": 2688, "color": "#8b5cf6" },
+          { "platform": "Instagram", "interactions": 1728, "color": "#f472b6" },
+          { "platform": "YouTube",   "interactions": 1291, "color": "#ef4444" }
+        ]
+      },
+      "audienceRanking": {
+        "title": "Audience Ranking Distribution",
+        "subtitle": "Source authority score (1=highest)",
+        "ddKey": "sm-ranking",
+        "data": [
+          { "rank": "Rank 1",    "posts": 240 },
+          { "rank": "Rank 2",    "posts": 360 },
+          { "rank": "Rank 3",    "posts": 288 },
+          { "rank": "Ranks 4-5", "posts": 312 }
+        ],
+        "insights": [
+          { "text": "Rank 2 sources (360 posts) are the largest contributor — primarily wire distribution and mid-tier tech press.", "type": "default" },
+          { "text": "Only 240 posts from Rank 1 top-tier sources. Targeted Tier 1 outreach could double this in Q2.", "type": "amber" }
+        ]
+      },
+      "drillDown": {
+        "sm-total": {
+          "title": "SM Total Post Volume: 1,200",
+          "sub": "Jan 1 – Mar 31, 2026",
+          "insights": [
+            { "label": "Volume Context", "text": "1,200 SM posts over 90 days averages 13.3 posts/day across all platforms. For an enterprise technology company of ACME's scale, this is competitive but has room to grow." },
+            { "label": "Platform Mix", "text": "LinkedIn 42% + X/Twitter 28% = 70% of volume. Instagram (18%) and YouTube (12%) represent genuine social engagement channels that are underutilized relative to their engagement rate performance." },
+            { "label": "Benchmark", "text": "Peer enterprise software companies at comparable revenue scale typically generate 1,800-2,500 social posts/quarter. ACME has room to increase owned content frequency by 50% without quality tradeoff." },
+            { "label": "Opportunity", "text": "Establishing a consistent content calendar with 3-4 owned posts per day (LinkedIn, X, Instagram) would increase quarterly volume to ~1,800 posts while improving audience familiarity and algorithm reach." }
+          ]
+        },
+        "sm-reach": {
+          "title": "SM Total Audience: 142M",
+          "sub": "Cumulative impression reach",
+          "insights": [
+            { "label": "Composition", "text": "LinkedIn contributes ~60M impressions on the strength of a large professional follower base. X/Twitter adds ~45M; Instagram ~25M; YouTube ~12M." },
+            { "label": "Engagement Quality", "text": "LinkedIn and YouTube audiences are high-intent — they follow ACME specifically. X/Twitter reach includes more passive/incidental exposure from hashtags and trends." },
+            { "label": "Optimization", "text": "Adding consistent YouTube content (3-4 videos/month) at current engagement velocity would add 15-20M reach per quarter with above-average interaction rates (8.96 int/post)." },
+            { "label": "Risk", "text": "Heavy reliance on LinkedIn algorithm for organic reach is a platform dependency risk. Building email/newsletter audience as an owned channel provides algorithm-resilient reach." }
+          ]
+        },
+        "sm-vol-trend": {
+          "title": "Monthly SM Volume Deep Dive",
+          "sub": "Volume trend with context",
+          "insights": [
+            { "label": "Jan Baseline", "text": "350 posts — normal operating cadence without major news catalysts. Consistent with Q4 2025 trailing average, suggesting healthy organic community activity." },
+            { "label": "Feb Spike", "text": "510 posts — driven by three compounding events in 12 days: ACME X1 launch (Feb 8), analyst upgrade (Feb 12), enterprise customer partnership announcement (Feb 19)." },
+            { "label": "Mar Decay", "text": "340 posts — 33% decline from February peak, returning to near-January baseline. Normal post-launch decay; indicates conversation was primarily event-driven, not self-sustaining." },
+            { "label": "Content Strategy", "text": "Create a 'bridge content' program between event peaks: monthly product deep-dives, weekly feature spotlights, biweekly customer stories. Goal: maintain 400+ posts/month floor without relying on launch events." }
+          ]
+        },
+        "sm-platform-vol": {
+          "title": "Platform Volume Breakdown",
+          "sub": "Share of total SM posts",
+          "insights": [
+            { "label": "LinkedIn Dominance", "text": "504 posts (42%) — professional network delivering highest interaction count. Core channel for enterprise B2B storytelling, executive thought leadership, and analyst engagement." },
+            { "label": "X/Twitter", "text": "336 posts (28%) — real-time news distribution and industry commentary. Key for breaking news amplification, conference live coverage, and engaging technology journalists." },
+            { "label": "Instagram Gap", "text": "216 posts (18%) — present but underperforming relative to engagement rate (8.0 int/post). Increasing frequency to 5 posts/day would dramatically improve both reach and interactions from this channel." },
+            { "label": "YouTube Opportunity", "text": "144 posts (12%) — highest per-post engagement rate at 8.96 int/post. Severely underutilized. 3-4 video posts/week would generate disproportionate engagement growth relative to effort." }
+          ]
+        },
+        "sm-sentiment-detail": {
+          "title": "SM Sentiment Distribution",
+          "sub": "Full breakdown of 1,200 posts",
+          "insights": [
+            { "label": "Positive (41%)", "text": "492 posts. Driven primarily by launch excitement, AI innovation story, and analyst upgrade. Enterprise customer testimonials on LinkedIn are the highest-quality positive content." },
+            { "label": "Neutral (54%)", "text": "648 posts. Majority is informational — product feature announcements, event recaps, industry statistics shared without strong editorial voice. Converting 10% of neutrals to positive is the highest-leverage sentiment intervention." },
+            { "label": "Negative (4%)", "text": "48 posts. Concentrated around supply chain narrative and competitive pricing concerns. Not a crisis, but requires proactive counter-messaging before the narrative consolidates." },
+            { "label": "Platform Differential", "text": "LinkedIn positive rate likely 48-52% (engaged professional advocates). X/Twitter likely 30-35% positive given broader, more critical audience. Platform-split sentiment analysis would sharpen targeting." }
+          ]
+        },
+        "sm-pos-drivers": {
+          "title": "SM Sentiment Drivers",
+          "sub": "What creates positive and negative content",
+          "insights": [
+            { "label": "Top Positive", "text": "ACME X1 launch enthusiasm, AI platform announcement, analyst upgrade (Feb 12), enterprise customer testimonials, industry award recognition in March." },
+            { "label": "Top Negative", "text": "APAC supply chain disruption (primary), competitive pricing pressure from emerging rivals, delayed shipping timelines mentioned in customer-facing posts." },
+            { "label": "Neutral Composition", "text": "Product feature announcements, industry event coverage, and company news that lacks a persuasive editorial angle. Adding a customer impact statement to each announcement shifts neutral to positive." },
+            { "label": "Conversion Opportunity", "text": "LinkedIn's 648 neutral posts contain significant conversion potential. Adding a customer outcome statistic or exec perspective sentence to each post could shift 15-20% from neutral to positive in 90 days." }
+          ]
+        },
+        "sm-platform-detail": {
+          "title": "Platform Volume vs. Engagement",
+          "sub": "Mismatch analysis",
+          "insights": [
+            { "label": "LinkedIn Efficiency", "text": "LinkedIn = 42% of posts, 42% of interactions (8.2 int/post). Consistent performer — the platform delivers in proportion to its investment." },
+            { "label": "YouTube Hidden Strength", "text": "YouTube = 12% of posts but delivers 8.96 int/post — the highest rate across all platforms. Dramatically underutilized. 2× increase in YouTube frequency would likely drive 2× total interaction growth." },
+            { "label": "Instagram Proportionate", "text": "Instagram at 8.0 int/post is competitive. 18% of posts generating 17.6% of interactions is efficient. Increasing post frequency here has clear positive expected value." },
+            { "label": "X/Twitter Scale", "text": "X/Twitter at 8.0 int/post matches Instagram. As the highest-volume secondary platform, even small per-post improvements here would materially move total interaction count." }
+          ]
+        },
+        "sm-platform-breakdown": {
+          "title": "Platform Detail Card",
+          "sub": "Full breakdown with interaction data",
+          "insights": [
+            { "label": "LinkedIn (504 posts)", "text": "4,133 interactions = 8.2 int/post. Primary professional channel. Strong for executive content, technical deep-dives, and customer case studies targeting enterprise buyers and analysts." },
+            { "label": "X/Twitter (336 posts)", "text": "2,688 interactions = 8.0 int/post. Real-time and news-reactive. Best for breaking news amplification, conference coverage, and engaging technology journalists and industry influencers." },
+            { "label": "Instagram (216 posts)", "text": "1,728 interactions = 8.0 int/post. Healthy engagement rate but underpowered by post frequency. Visual product demos, team culture, and customer success imagery perform best here." },
+            { "label": "YouTube (144 posts)", "text": "1,291 interactions = 8.96 int/post. Highest engagement rate — strongest ROI per post of any channel. Product walkthroughs, customer testimonials, and exec interviews drive exceptional engagement." }
+          ]
+        },
+        "sm-engagement-detail": {
+          "title": "SM Engagement Deep Dive",
+          "sub": "Interaction analysis by channel",
+          "insights": [
+            { "label": "Total Interactions", "text": "9,840 total interactions across 1,200 posts = 8.2 interactions per post average. This is above the enterprise software benchmark of 6.0-6.5 int/post, indicating a quality-engaged follower base." },
+            { "label": "Channel Consistency", "text": "All four platforms perform within a tight range (8.0-8.96 int/post). This consistency signals that content quality is uniformly strong, rather than one breakout channel masking underperformers." },
+            { "label": "Growth Opportunity", "text": "9,840 interactions across 1,200 posts. Increasing post volume to 1,800/quarter while maintaining engagement rate would yield ~14,800 interactions — a 50% increase from volume alone." },
+            { "label": "Action", "text": "Test content formats systematically: A/B test carousel vs. single-image posts on LinkedIn, long vs. short video on YouTube, question-format vs. statement-format X/Twitter posts. Optimize toward highest-performing formats." }
+          ]
+        },
+        "sm-ranking": {
+          "title": "Audience Ranking Distribution",
+          "sub": "Source authority scores",
+          "insights": [
+            { "label": "Rank 1 (240 posts)", "text": "Top-tier influencers, major publications, and verified enterprise accounts. These posts generate the highest downstream amplification and brand credibility signal." },
+            { "label": "Rank 2 (360 posts)", "text": "Wire services and mid-tier tech press — the largest category. Consistent distribution but moderate individual brand impact. Syndication layer for launch news." },
+            { "label": "Ranks 3-4 (600 posts)", "text": "Niche publications, regional outlets, individual professional voices. Important for long-tail topic coverage and reaching specific industry micro-communities." },
+            { "label": "Strategy", "text": "Prioritize outreach to 10-15 Rank 1 accounts: enterprise tech analysts, CTO/CISO-level influencers on LinkedIn, top-tier trade journalists. 10 Rank 1 advocates outperform 100 Rank 3 mentions in brand authority terms." }
+          ]
+        }
+      }
+    },
+
+    "tmIntelligence": {
+      "title": "Traditional Media Intelligence",
+      "subtitle": "8,500 articles · Jan – Mar 2026",
+      "heroPill": "TM Analysis",
+      "kpis": [
+        { "id": "tm-total",     "ddKey": "tm-total",     "label": "Total Articles", "value": "8,500",  "delta": "0%",   "deltaLabel": "stable",          "trend": "neutral" },
+        { "id": "tm-reach-kpi", "ddKey": "tm-reach-kpi", "label": "Total Reach",    "value": "210M",   "delta": "+5%",  "deltaLabel": "vs prior period", "trend": "up" },
+        { "id": "tm-pos-kpi",   "ddKey": "tm-pos-kpi",   "label": "Positive",       "value": "5.8%",   "delta": "+1pp", "deltaLabel": "vs prior period", "trend": "up" },
+        { "id": "tm-neg-kpi",   "ddKey": "tm-neg-kpi",   "label": "Negative",       "value": "3.2%",   "delta": "+1pp", "deltaLabel": "supply chain",    "trend": "down" }
+      ],
+      "volTrendChart": {
+        "title": "Monthly Article Volume",
+        "subtitle": "Jan: 2,800 · Feb: 3,100 · Mar: 2,600",
+        "ddKey": "tm-vol-trend",
+        "data": [
+          { "month": "Jan", "articles": 2800 },
+          { "month": "Feb", "articles": 3100 },
+          { "month": "Mar", "articles": 2600 }
+        ],
+        "takeaway": "February peak aligns with product launch press cycle. Volume is structurally stable — wire syndication creates consistent coverage floor independent of news events."
+      },
+      "mediaTypeChart": {
+        "title": "Media Type Distribution",
+        "subtitle": "Online, Web, Trade, News, Magazine",
+        "ddKey": "tm-type",
+        "data": [
+          { "name": "Online", "value": 5780, "color": "#0d9488" },
+          { "name": "Web",    "value": 1870, "color": "#99f6e4" },
+          { "name": "Trade",  "value": 850,  "color": "#f59e0b" }
+        ],
+        "insights": [
+          { "text": "Online dominates (68%) — digital-first enterprise tech coverage landscape", "color": "default" },
+          { "text": "Trade media (850 articles, 10%) carries highest audience quality for enterprise buyers", "color": "teal" }
+        ]
+      },
+      "sentimentChart": {
+        "title": "Traditional Media Sentiment Split",
+        "subtitle": "8,500 articles analyzed",
+        "ddKey": "tm-sentiment-detail",
+        "data": [
+          { "label": "Neutral",  "value": 6035, "pct": 71.0, "color": "#94a3b8" },
+          { "label": "Positive", "value": 493,  "pct": 5.8,  "color": "#22c55e" },
+          { "label": "Negative", "value": 272,  "pct": 3.2,  "color": "#ef4444" }
+        ],
+        "takeaway": "71% neutral reflects structural wire coverage. 5.8% positive is above industry average for enterprise tech. 3.2% negative tied primarily to supply chain coverage — actionable with proactive messaging."
+      },
+      "narratives": {
+        "title": "Dominant TM Narratives",
+        "subtitle": "Theme analysis from top publications",
+        "ddKey": "tm-narrative",
+        "items": [
+          { "color": "blue",  "text": "Product launch and innovation story dominating enterprise tech coverage (primary)" },
+          { "color": "teal",  "text": "Analyst upgrades and revenue growth narrative building investor confidence" },
+          { "color": "amber", "text": "Supply chain disruption creating a persistent but manageable negative thread" }
+        ],
+        "takeaway": "Innovation and product narrative leading TM coverage is a strong brand signal. Supply chain counter-messaging needed to prevent narrative contamination in Q2."
+      },
+      "publications": {
+        "title": "Top Publication Sources",
+        "subtitle": "By article volume",
+        "ddKey": "tm-pubs-detail",
+        "rows": [
+          { "name": "BusinessWire",     "articles": 420, "type": "Wire",     "pos": false },
+          { "name": "Yahoo Finance",    "articles": 310, "type": "Financial","pos": true  },
+          { "name": "TechCrunch",       "articles": 185, "type": "Tech",    "pos": true  },
+          { "name": "Supply Chain Dive","articles": 140, "type": "Trade",   "pos": false }
+        ]
+      },
+      "subTypeChart": {
+        "title": "Sub-Media Type Distribution",
+        "subtitle": "Online, Trade, Web, News",
+        "ddKey": "tm-subtype",
+        "data": [
+          { "name": "Online", "articles": 5780, "color": "#0d9488" },
+          { "name": "Trade",  "articles": 850,  "color": "#f59e0b" },
+          { "name": "News",   "articles": 1870, "color": "#3b82f6" }
+        ],
+        "insights": [
+          { "text": "Online/Web (5,780) = syndicated financial and tech wire content dominating volume", "color": "default" },
+          { "text": "Trade (850) = high-value enterprise and industry-specific coverage", "color": "teal" }
+        ]
+      },
+      "themes": [
+        {
+          "id": "tm-theme-product",
+          "ddKey": "tm-theme-product",
+          "title": "Product Launch Theme",
+          "subtitle": "~40% of coverage",
+          "items": [
+            { "color": "teal",    "text": "ACME X1 generating cross-sector enterprise tech coverage" },
+            { "color": "green",   "text": "Analyst responses predominantly positive" },
+            { "color": "default", "text": "Feature coverage in TechCrunch and ZDNet anchoring narrative" }
+          ]
+        },
+        {
+          "id": "tm-theme-financial",
+          "ddKey": "tm-theme-financial",
+          "title": "Financial Story Theme",
+          "subtitle": "~35% of coverage",
+          "items": [
+            { "color": "default", "text": "Analyst upgrade Feb 12 generating downstream financial media pickup" },
+            { "color": "green",   "text": "Revenue growth guidance well-received in earnings commentary" },
+            { "color": "default", "text": "Stock coverage broadly favorable with positive-to-neutral balance" }
+          ]
+        },
+        {
+          "id": "tm-theme-risk",
+          "ddKey": "tm-theme-risk",
+          "title": "Risk/Headwind Theme",
+          "subtitle": "~15% of coverage",
+          "items": [
+            { "color": "amber", "text": "APAC supply chain disruption covered in trade and logistics press" },
+            { "color": "amber", "text": "Competitive pricing pressure referenced in analyst commentary" },
+            { "color": "default", "text": "Risk coverage concentrated in specialist outlets, not mainstream press" }
+          ]
+        }
+      ],
+      "drillDown": {
+        "tm-total": {
+          "title": "TM Volume: 8,500 Articles",
+          "sub": "Q1 2026 traditional media landscape",
+          "insights": [
+            { "label": "Scale Context", "text": "8,500 articles over 90 days = 94 articles/day. For an enterprise technology company at ACME's scale, this reflects a solid media footprint with active product and financial news flow." },
+            { "label": "Structural vs Earned", "text": "Estimated 65% syndicated wire content vs 35% earned editorial. Improving the earned editorial ratio is the primary narrative leverage opportunity for Q2." },
+            { "label": "Geographic Focus", "text": "Coverage is predominantly US-centric with some UK and APAC pickup from international wire distribution. International earned media is a development opportunity." },
+            { "label": "Opportunity", "text": "Target increasing earned editorial from 35% to 50% of total coverage by Q4 2026. This requires proactive journalist relationships with 15-20 Tier 1 enterprise tech reporters." }
+          ]
+        },
+        "tm-reach-kpi": {
+          "title": "TM Cumulative Reach: 210M",
+          "sub": "Traditional media audience coverage",
+          "insights": [
+            { "label": "Volume Driver", "text": "High-reach digital outlets (Yahoo Finance: 30M+ UMV, MSN: 65M+ UMV) drive the reach concentration. A single major outlet placement can deliver more reach than 500 local articles." },
+            { "label": "Average Reach", "text": "Average 24,700 per article reflects a mix of high-reach aggregators and specialist trade outlets. Median per-article reach is likely 8,000-12,000." },
+            { "label": "Quality Weighting", "text": "TechCrunch (185 articles, ~8M UMV) and Yahoo Finance (310 articles, ~30M UMV) are the quality/reach sweet spot. These outlets deliver both credibility and audience scale." },
+            { "label": "Action", "text": "Build a monthly 'reach quality index': segment total reach by Tier 1 (top 20 publications), Tier 2 (trade media), Tier 3 (wire/local). Track and improve the Tier 1 share over time." }
+          ]
+        },
+        "tm-pos-kpi": {
+          "title": "TM Positive Rate: 5.8%",
+          "sub": "493 positive articles out of 8,500",
+          "insights": [
+            { "label": "Context", "text": "5.8% positive is above average for enterprise technology companies (industry norm: 3-5%). Product launch momentum and analyst upgrade are the primary drivers of above-baseline positive coverage." },
+            { "label": "Positive Drivers", "text": "Investment analyst upgrade (Feb 12), TechCrunch feature on ACME X1 innovation, enterprise customer case study coverage, and AI platform announcement in trade press." },
+            { "label": "Benchmark Target", "text": "With continued launch momentum and proactive trade media engagement, a 7-8% TM positive rate is achievable by Q3 2026. Target: 5 proactive earned editorial placements per month." },
+            { "label": "Gap Opportunity", "text": "SM generates 41% positive vs TM's 5.8% — a 7× gap that is structurally normal but indicates TM narrative management has significant headroom for improvement." }
+          ]
+        },
+        "tm-neg-kpi": {
+          "title": "TM Negative Rate: 3.2%",
+          "sub": "272 negative articles",
+          "insights": [
+            { "label": "Sources", "text": "Supply chain disruption coverage (primary, ~60% of negative articles) concentrated in logistics and operations trade media. Competitive pricing pressure commentary accounts for ~30%." },
+            { "label": "Risk Level", "text": "3.2% negative is at the upper threshold of normal for this industry. If supply chain issues persist and revenue impact is reported in Q2, negative rate could spike to 6-8%." },
+            { "label": "Mitigation", "text": "Issue a proactive supply chain update in April: announce mitigation measures, APAC recovery timeline, and diversification strategy. Proactive communication reduces negative article potential by 40-60%." },
+            { "label": "Monitoring", "text": "Set real-time alerts for 'ACME supply chain,' 'ACME shortage,' 'ACME delivery.' Threshold: if negative rate exceeds 5% in any single week, activate rapid-response communications within 48 hours." }
+          ]
+        },
+        "tm-vol-trend": {
+          "title": "TM Monthly Volume Deep Dive",
+          "sub": "Volume trend with context",
+          "insights": [
+            { "label": "Jan Baseline", "text": "2,800 articles — structural coverage baseline. Wire syndication creates consistent article volume independent of specific news events. Q4 earnings follow-on coverage contributes." },
+            { "label": "Feb Peak", "text": "3,100 articles (+11%) — product launch press release distribution drives the spike. Unlike SM which showed 46% increase, TM shows only 11% — reflecting the syndication machine's stability." },
+            { "label": "Mar Decay", "text": "2,600 articles (-16% from February) — slightly below baseline, possibly reflecting a news-light post-launch period. Proactive media pitching in March could have maintained 2,800+ articles." },
+            { "label": "Structural Insight", "text": "TM volume stability (±15%) confirms that most coverage is wire-driven. Building proactive earned editorial relationships would create sharper peaks aligned to strategic news moments without losing the structural floor." }
+          ]
+        },
+        "tm-type": {
+          "title": "Media Type Distribution Analysis",
+          "sub": "Online, Web, Trade breakdown",
+          "insights": [
+            { "label": "Online Dominance", "text": "5,780 articles (68%) from online outlets. This reflects the digital-first media landscape for enterprise tech. Online is high-volume but moderate credibility per article." },
+            { "label": "Trade Value", "text": "850 trade articles (10%) reach the highest-value audience for ACME: enterprise buyers, IT decision-makers, procurement professionals. Quality over quantity is the trade media thesis." },
+            { "label": "Wire Architecture", "text": "BusinessWire and PR Newswire distribution underpins the online volume. Each press release spawns 50-150 syndicated articles across aggregator sites." },
+            { "label": "Optimization", "text": "Increasing trade media coverage from 10% to 15% of total volume (an additional 425 articles) would require direct journalist pitching and potentially 1-2 dedicated enterprise tech PR resources." }
+          ]
+        },
+        "tm-sentiment-detail": {
+          "title": "TM Sentiment Distribution",
+          "sub": "Full breakdown of 8,500 articles",
+          "insights": [
+            { "label": "Neutral (71%)", "text": "6,035 articles. Structural wire and financial journalism defaults to factual, balanced reporting. This is industry-standard, not a brand failure. However, proactive story pitching can shift portions from neutral to positive." },
+            { "label": "Positive (5.8%)", "text": "493 articles. Primary drivers: analyst upgrade coverage, product launch feature coverage, AI innovation stories, enterprise customer case studies. Above-average for the sector." },
+            { "label": "Negative (3.2%)", "text": "272 articles. Supply chain narrative is the dominant driver. Concentrated in trade and logistics media rather than mainstream press — manageable with proactive counter-messaging." },
+            { "label": "Strategic Target", "text": "Q2 goal: positive rate to 7%, negative rate to 2%. Achievable through (1) supply chain proactive update, (2) 5 earned editorial pitches/month, (3) analyst briefing before Q2 earnings." }
+          ]
+        },
+        "tm-narrative": {
+          "title": "TM Dominant Narratives",
+          "sub": "Theme breakdown across 8,500 articles",
+          "insights": [
+            { "label": "Product Leadership", "text": "ACME X1 launch coverage establishing 'next-generation enterprise platform' narrative. This is the most valuable narrative to sustain — each customer win story can extend it organically." },
+            { "label": "Investment Story", "text": "Analyst upgrade and revenue guidance coverage anchors positive investor narrative. Consistent investor communications cadence will maintain this framing through Q2." },
+            { "label": "Supply Chain Risk", "text": "The supply chain thread is negative but isolated to specialist outlets. Mainstream financial and tech press are not amplifying it — yet. Proactive resolution messaging keeps it contained." },
+            { "label": "AI Opportunity", "text": "AI integration story is underrepresented in TM relative to its SM resonance. Proactive pitching to AI-focused tech publications (The Verge, MIT Technology Review, Wired) would build TM AI narrative to match SM." }
+          ]
+        },
+        "tm-pubs-detail": {
+          "title": "Top Publication Sources",
+          "sub": "By article volume and strategic value",
+          "insights": [
+            { "label": "BusinessWire (420)", "text": "Primary wire distribution vehicle — high volume, moderate individual credibility. Ensures broad aggregator pickup of ACME press releases across 4,000+ outlets." },
+            { "label": "Yahoo Finance (310)", "text": "High-reach financial aggregator (30M+ UMV). Positive presence here builds investor community awareness. Analyst upgrade coverage here delivers maximum financial audience reach." },
+            { "label": "TechCrunch (185)", "text": "Highest editorial credibility for enterprise tech. 185 articles in Q1 is strong — indicates genuine editorial interest in ACME. Nurture this relationship with exclusive briefings." },
+            { "label": "Supply Chain Dive (140)", "text": "Trade outlet concentrated in supply chain coverage — ACME's negative narrative hub in Q1. A proactive resolution story pitched here would directly address the negative thread at its source." }
+          ]
+        },
+        "tm-subtype": {
+          "title": "Sub-Media Type Analysis",
+          "sub": "Detailed content type breakdown",
+          "insights": [
+            { "label": "Online/Web (5,780)", "text": "Digital-first coverage combining aggregator syndication and direct online editorial. High volume supports baseline brand visibility but limited editorial depth or narrative control." },
+            { "label": "Trade (850)", "text": "Enterprise tech, supply chain, and industry-specific trade publications. Despite lowest volume, delivers the highest-value audience. Priority for proactive pitching investment." },
+            { "label": "News (1,870)", "text": "Wire-distributed news content reaching regional and national outlets. Strong for geographic reach breadth; lower per-article brand narrative impact than earned editorial." }
+          ]
+        },
+        "tm-theme-product": {
+          "title": "Product Launch Theme Analysis",
+          "sub": "~40% of TM coverage",
+          "insights": [
+            { "label": "Coverage Type", "text": "Product reviews, launch announcements, feature analyses, and competitive comparisons. TechCrunch and ZDNet providing the editorial anchor pieces that drive credibility." },
+            { "label": "Key Stories Q1", "text": "ACME X1 launch announcement (Feb 8), TechCrunch editorial feature (Feb 11), enterprise customer partnership announcement (Feb 19), industry analyst validation commentary." },
+            { "label": "Quality Premium", "text": "Product launch coverage tends to appear in higher-credibility tech outlets. These articles have disproportionate influence on enterprise buyer consideration and analyst recommendations." },
+            { "label": "Extension Strategy", "text": "Customer case study pitching can extend the launch narrative through Q2-Q3. Aim for 2-3 new customer feature stories per month, each pitched exclusively to a Tier 1 tech publication." }
+          ]
+        },
+        "tm-theme-financial": {
+          "title": "Financial Story Theme Analysis",
+          "sub": "~35% of TM coverage",
+          "insights": [
+            { "label": "Coverage Drivers", "text": "Analyst upgrade (Feb 12), quarterly earnings preview coverage, revenue guidance commentary, and institutional investor note syndication across financial media." },
+            { "label": "Cascade Effect", "text": "A single analyst upgrade generates 80-150 downstream articles across financial aggregators (Yahoo Finance, MarketBeat, Seeking Alpha). This is the TM syndication machine working positively for ACME." },
+            { "label": "Risk", "text": "Financial narrative is closely tied to stock performance and earnings results. If Q2 results show supply chain revenue impact, the same syndication machine would cascade negative financial coverage." },
+            { "label": "Analyst Relations Priority", "text": "Identify 3-5 'swing' analysts at mid-tier firms currently at Neutral. Targeted Q2 investor briefing could move 2-3 to Buy, generating another positive coverage wave with compounding effect." }
+          ]
+        },
+        "tm-theme-risk": {
+          "title": "Risk/Headwind Theme Analysis",
+          "sub": "~15% of TM coverage",
+          "insights": [
+            { "label": "Concentration", "text": "Supply chain risk coverage is concentrated in specialist trade outlets (Supply Chain Dive, Logistics Management, FreightWaves). Mainstream press has not amplified this narrative — a positive containment signal." },
+            { "label": "Severity", "text": "272 negative articles over 90 days (3 articles/day) is elevated but not crisis-level. The ratio to positive articles (493) remains at 1.8:1 positive-to-negative — a healthy baseline." },
+            { "label": "Response Strategy", "text": "Pitch a proactive 'supply chain resilience' story to Supply Chain Dive and Logistics Management directly. Converting the negative hub outlets to neutral-to-positive immediately reduces the negative rate." },
+            { "label": "Monitoring", "text": "Track weekly: total negative article count vs 3-week rolling average. If volume increases >50% week-over-week, activate communications rapid-response protocol within 48 hours." }
+          ]
+        }
+      }
+    },
+
+    "unifiedInsights": {
+      "title": "Unified Insights",
+      "subtitle": "SM + TM combined signals",
+      "heroPill": "Cross-Channel",
+      "kpis": [
+        { "id": "uni-alignment", "ddKey": "uni-alignment", "label": "Narrative Alignment", "value": "High",     "delta": "Strong", "deltaLabel": "product story consistent across channels", "trend": "up" },
+        { "id": "uni-sm-pos",    "ddKey": "uni-sm-pos",    "label": "SM Positive Rate",    "value": "41%",      "delta": "7×",    "deltaLabel": "vs TM 5.8%",                         "trend": "up" },
+        { "id": "uni-reach",     "ddKey": "uni-reach",     "label": "Combined Reach",      "value": "352M",     "delta": "+9%",   "deltaLabel": "vs prior period",                    "trend": "up" }
+      ],
+      "sentimentCompare": {
+        "title": "Sentiment Comparison: SM vs. TM",
+        "subtitle": "Positive · Neutral · Negative rates",
+        "ddKey": "uni-sentiment-compare",
+        "labels": ["Positive", "Neutral", "Negative"],
+        "datasets": [
+          { "label": "SM", "data": [41.0, 54.0, 4.0] },
+          { "label": "TM", "data": [5.8, 71.0, 3.2] }
+        ],
+        "takeaway": "SM generates 7× more positive sentiment than TM. Social channels are the brand's emotional amplifier — traditional media remains predominantly informational. Positive-to-negative ratio is healthy on both channels."
+      },
+      "volCompare": {
+        "title": "Monthly Volume Overlay",
+        "subtitle": "SM posts vs. TM articles (normalized)",
+        "ddKey": "uni-vol-compare",
+        "labels": ["January", "February", "March"],
+        "datasets": [
+          { "label": "SM Posts (÷10)", "data": [35.0, 51.0, 34.0] },
+          { "label": "TM Articles (÷100)", "data": [28.0, 31.0, 26.0] }
+        ],
+        "insights": [
+          { "text": "Both channels peak in February — aligned to product launch announcement cycle", "color": "default" },
+          { "text": "SM declines faster post-launch than TM (TM sustained via syndication machine)", "color": "teal" }
+        ]
+      },
+      "reputation": {
+        "title": "Multi-Dimensional Reputation Scorecard",
+        "subtitle": "Based on SM + TM signal analysis",
+        "ddKey": "uni-reputation",
+        "scaleNote": "Scored 1–10 based on SM and TM signal strength",
+        "labels": ["Innovation", "Financial Strength", "Product Quality", "Customer Trust", "Brand Advocacy"],
+        "datasets": [
+          { "label": "SM Signals", "bg": "rgba(37,99,235,0.15)", "data": [8, 6, 7, 5, 7] },
+          { "label": "TM Signals", "bg": "rgba(13,148,136,0.10)", "data": [7, 7, 6, 4, 5] }
+        ],
+        "scores": [
+          { "label": "Innovation",         "sm": 8, "tm": 7, "note": "AI platform story generating cross-channel innovation narrative" },
+          { "label": "Financial Strength", "sm": 6, "tm": 7, "note": "Analyst upgrade and revenue guidance driving positive investor narrative" },
+          { "label": "Product Quality",    "sm": 7, "tm": 6, "note": "X1 launch well-received; supply chain concerns create quality perception risk" },
+          { "label": "Customer Trust",     "sm": 5, "tm": 4, "note": "Customer testimonials present but supply chain narrative creates concern" },
+          { "label": "Brand Advocacy",     "sm": 7, "tm": 5, "note": "41% SM positive signals engaged brand advocates; TM advocacy is developing" }
+        ]
+      },
+      "channelCards": [
+        {
+          "id": "uni-ch1",
+          "ddKey": "uni-ch1",
+          "title": "Volume Dynamics",
+          "items": [
+            { "text": "TM 7× more volume than SM (8,500 vs 1,200) — normal for enterprise technology companies", "color": "default" },
+            { "text": "SM generates 9,840 interactions vs near-zero TM interactions — quality differential is wide", "color": "teal" },
+            { "text": "Both channels synchronized on February launch peak — strong narrative alignment signal", "color": "default" }
+          ]
+        },
+        {
+          "id": "uni-ch2",
+          "ddKey": "uni-ch2",
+          "title": "Narrative Gaps",
+          "items": [
+            { "text": "Customer voice present but not amplified — testimonials exist but aren't driving TM coverage", "color": "amber" },
+            { "text": "Supply chain narrative creating dissonance between positive launch story and operational concerns", "color": "red" },
+            { "text": "AI platform story resonates strongly in SM but remains underdeveloped in TM", "color": "default" }
+          ]
+        },
+        {
+          "id": "uni-ch3",
+          "ddKey": "uni-ch3",
+          "title": "Strategic Implications",
+          "items": [
+            { "text": "LinkedIn is primary owned channel for brand building — scale content investment immediately", "color": "green" },
+            { "text": "Use TM-confirmed launch moments to amplify on SM within 6-12 hours for maximum impact", "color": "green" },
+            { "text": "Trade media engagement converts directly to enterprise buyer consideration — prioritize TechCrunch and ZDNet relationships", "color": "teal" }
+          ]
+        }
+      ],
+      "drillDown": {
+        "uni-alignment": {
+          "title": "Narrative Alignment: SM vs. TM",
+          "sub": "Channel coherence analysis",
+          "insights": [
+            { "label": "Aligned Themes", "text": "Both SM and TM are consistently covering ACME X1 launch, analyst upgrade, and AI platform story. The core Q1 narrative is aligned across channels — a strong communications signal." },
+            { "label": "Divergence", "text": "SM has stronger positive sentiment (41% vs 5.8% TM) which is structural, not a gap. The AI narrative is more developed in SM than TM — a proactive TM pitch opportunity." },
+            { "label": "Supply Chain Tension", "text": "Supply chain coverage is more concentrated in TM (specialist trade outlets) than SM. This creates channel divergence on risk perception — enterprise buyers reading TM may have higher risk concern than SM audience." },
+            { "label": "Integration Opportunity", "text": "When TM breaks a product or customer story, use SM within 6-12 hours to amplify with owned content — executive LinkedIn post, customer quote, data visualization. Speed is the execution gap." }
+          ]
+        },
+        "uni-sm-pos": {
+          "title": "Sentiment Gap: SM 41% vs TM 5.8%",
+          "sub": "7× positive sentiment differential",
+          "insights": [
+            { "label": "The Gap", "text": "SM generates 7× more positive sentiment than TM. This is a structural feature of media types — self-selected SM followers skew positive; TM audiences default to neutral." },
+            { "label": "Brand Equity Location", "text": "Brand emotional equity lives in SM (41% positive, engaged advocates). Brand factual credibility lives in TM (analyst coverage, product reviews). Both are necessary for comprehensive brand health." },
+            { "label": "Influencing TM Sentiment", "text": "To lift TM sentiment: (1) secure feature/profile editorial coverage, (2) provide compelling on-record customer success quotes, (3) generate industry award wins and recognition that journalists can report positively." },
+            { "label": "Target", "text": "A TM positive rate of 7-8% with 2:1 positive-to-negative ratio maintained is a realistic 12-month target that provides strong enterprise-grade brand credibility." }
+          ]
+        },
+        "uni-reach": {
+          "title": "Combined Reach: 352M",
+          "sub": "SM 142M + TM 210M",
+          "insights": [
+            { "label": "Total Scale", "text": "352M combined impressions in Q1 2026. For a mid-cap enterprise technology company, this is a strong media presence — competitive with category leaders at similar revenue scale." },
+            { "label": "Channel Quality", "text": "SM reach quality is higher per impression (active professional audience, high engagement rate). TM reach is broader but includes aggregator audience with lower per-impression brand impact." },
+            { "label": "Unique Audience", "text": "Meaningful overlap between SM and TM audiences (analysts, investors, enterprise buyers read both). Actual unique reach likely 220-260M after audience deduplication." },
+            { "label": "Efficiency Target", "text": "Focus on reach efficiency improvement: same 352M reach but 2× engagement rate by Q4 2026 through better content quality, not volume expansion." }
+          ]
+        },
+        "uni-sentiment-compare": {
+          "title": "SM vs TM Sentiment Comparison",
+          "sub": "Channel-by-channel positive/neutral/negative",
+          "insights": [
+            { "label": "Positive Gap", "text": "SM: 41% positive vs TM: 5.8% positive. Gap is structural (audience self-selection) but can be partially closed through proactive TM editorial engagement and journalist relationship building." },
+            { "label": "Neutral Contrast", "text": "SM: 54% neutral vs TM: 71% neutral. TM defaults to factual/informational. Reducing TM neutral requires providing journalists with compelling angles that go beyond product announcements." },
+            { "label": "Negative Comparison", "text": "SM: 4% negative vs TM: 3.2% negative. Comparable levels. TM negative is concentrated in specialist trade outlets; SM negative distributed across platforms. Both manageable." },
+            { "label": "Combined Brand Health", "text": "ACME's media landscape is healthy — above-average positive rates, manageable negative, concentrated narrative around product and innovation. Strategic opportunity is positive rate improvement, not crisis management." }
+          ]
+        },
+        "uni-vol-compare": {
+          "title": "Volume Overlay: SM vs TM",
+          "sub": "Comparative monthly trajectory",
+          "insights": [
+            { "label": "Synchronization", "text": "Both channels peak in February — confirming that product launch drives simultaneous SM and TM volume spikes. Channels amplified each other during the launch window." },
+            { "label": "Scale Difference", "text": "TM (2,600-3,100 articles/month) is ~7× SM volume (340-510 posts/month). TM provides structural coverage floor; SM provides engagement amplification layer." },
+            { "label": "SM Volatility", "text": "SM volume fluctuates more dramatically (+46% Jan-to-Feb) vs TM (+11%). SM is more event-responsive; TM is more structurally stable via wire syndication." },
+            { "label": "Opportunity Windows", "text": "Q2 2026 volume depends on new catalysts. Proactive pipeline: Q2 customer conference, product update release, enterprise partnership announcement. Pre-plan for each to create SM/TM synchronized moments." }
+          ]
+        },
+        "uni-reputation": {
+          "title": "Multi-Dimensional Reputation Scorecard",
+          "sub": "Based on SM + TM signals",
+          "insights": [
+            { "label": "Innovation (8 SM / 7 TM)", "text": "Strong across both channels. AI platform story and X1 launch are generating consistent innovation coverage. Sustain through continued AI content and R&D story pitching." },
+            { "label": "Financial Strength (6 SM / 7 TM)", "text": "TM-strong driven by analyst upgrade and revenue guidance. SM financial content is less developed. Executive investor communications on LinkedIn could strengthen SM financial score." },
+            { "label": "Product Quality (7 SM / 6 TM)", "text": "Good SM score from launch enthusiasm and customer testimonials. TM score impacted by supply chain narrative creating implicit quality concern. Resolution messaging will restore TM score." },
+            { "label": "Customer Trust (5 SM / 4 TM)", "text": "Moderate across both channels. Customer voice is present but not dominant in either channel. Building a structured customer advocacy content program would substantially lift both scores." }
+          ]
+        },
+        "uni-ch1": {
+          "title": "Volume Dynamics: TM vs SM",
+          "sub": "Scale and quality comparison",
+          "insights": [
+            { "label": "TM Scale", "text": "8,500 TM articles vs 1,200 SM posts — TM is 7× SM by count. Normal for enterprise tech. TM's structural coverage ensures baseline brand visibility independent of SM activity." },
+            { "label": "SM Quality Premium", "text": "Despite 1/7th the volume, SM generates 9,840 interactions vs near-zero TM interactions. SM converts coverage to brand engagement and advocacy." },
+            { "label": "Channel Synchronization", "text": "Both channels peaked in February around the product launch — confirming that major announcements successfully activate both earned and organic media channels simultaneously." },
+            { "label": "Implication", "text": "ACME's SM content program should grow to 1,800-2,000 posts/quarter to match the professional brand presence of comparable enterprise technology companies." }
+          ]
+        },
+        "uni-ch2": {
+          "title": "Narrative Gaps: What's Missing",
+          "sub": "Absent story angles across both channels",
+          "insights": [
+            { "label": "Customer Voice", "text": "Customer testimonials appear in SM but aren't driving TM earned editorial. Each enterprise customer win should be pitched as a TM story to trade outlets — customer success = third-party validation = credibility." },
+            { "label": "Supply Chain Resolution", "text": "The supply chain narrative is present in TM but no proactive resolution story has been published. This gap leaves the negative thread active. A proactive update would neutralize it." },
+            { "label": "AI Platform Depth", "text": "AI story has strong SM resonance but TM coverage is surface-level. A deep-dive editorial feature in MIT Technology Review or Wired on ACME's AI architecture would build lasting narrative authority." },
+            { "label": "Employee Voice", "text": "Employer brand content is minimal in both channels. Engineering blog posts, team milestone content, and culture stories on LinkedIn would improve talent acquisition narrative and employee advocacy." }
+          ]
+        },
+        "uni-ch3": {
+          "title": "Strategic Implications",
+          "sub": "Cross-channel integrated strategy",
+          "insights": [
+            { "label": "LinkedIn Priority", "text": "LinkedIn is ACME's highest-ROI single channel at 8.2 interactions/post. Scale content investment here first — the audience is present, engaged, and converting to brand advocacy." },
+            { "label": "Moment Amplification", "text": "When TM breaks a major story (customer win, analyst upgrade, product milestone), ACME has a 6-12 hour window to amplify on LinkedIn/X before momentum fades. Process speed is the gap." },
+            { "label": "Trade Media Cultivation", "text": "TechCrunch (185 articles) is already an engaged outlet. Building a quarterly exclusive briefing relationship with TechCrunch and ZDNet would compound editorial coverage quality." },
+            { "label": "Integrated Calendar", "text": "Build an integrated 12-month content calendar mapping product milestones, customer stories, industry conferences, and earnings events. Coordinate SM and TM strategies in advance for each moment." }
+          ]
+        }
+      }
+    },
+
+    "recommendations": {
+      "title": "Strategic Recommendations",
+      "subtitle": "Scale · Fix · Monitor",
+      "heroPill": "Action Plan",
+      "kpis": [
+        { "id": "recs-total",   "ddKey": "recs-total",   "label": "Recommendations",  "value": "4",  "delta": null, "deltaLabel": "strategic actions", "trend": "neutral" },
+        { "id": "recs-high",    "ddKey": "recs-high",    "label": "High Priority",     "value": "2",  "delta": null, "deltaLabel": "execute in Q2",     "trend": "up" },
+        { "id": "recs-medium",  "ddKey": "recs-medium",  "label": "Medium Priority",   "value": "2",  "delta": null, "deltaLabel": "plan for Q3",       "trend": "neutral" }
+      ],
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "ddKey": "rec-1",
+          "priority": "high",
+          "category": "Scale",
+          "title": "Scale LinkedIn Content Investment",
+          "description": "LinkedIn delivers 8.2 interactions per post — above enterprise software benchmark. Increase posting frequency from current ~5.6 posts/day to 10+ posts/day through expanded content types: customer case studies, AI platform updates, executive thought leadership, and product feature explainers.",
+          "effort": "Medium — requires 1-2 content creators and a compliance review workflow",
+          "impact": "High — projected 2× interaction growth (from 4,133 to 8,000+ LinkedIn interactions/quarter)",
+          "actions": [
+            "Hire or contract 2 LinkedIn content specialists with enterprise tech background by end of Q2",
+            "Launch a monthly 'ACME AI Insights' LinkedIn article series featuring use-case data and customer outcomes"
+          ]
+        },
+        {
+          "id": "rec-2",
+          "ddKey": "rec-2",
+          "priority": "high",
+          "category": "Fix",
+          "title": "Resolve Supply Chain Narrative with Proactive Media Engagement",
+          "description": "272 negative TM articles in Q1 are concentrated around the APAC supply chain disruption. A proactive resolution story pitched to Supply Chain Dive and Logistics Management — the primary negative hubs — would directly neutralize the narrative at its source.",
+          "effort": "Low — 2 weeks of PR work to develop and pitch the supply chain resilience story",
+          "impact": "High — could reduce TM negative rate from 3.2% to under 2% within 60 days",
+          "actions": [
+            "Draft a supply chain resilience press release highlighting APAC recovery timeline and diversification measures by April 15",
+            "Schedule exclusive briefings with editors at Supply Chain Dive and Logistics Management for April 20-25"
+          ]
+        },
+        {
+          "id": "rec-3",
+          "ddKey": "rec-3",
+          "priority": "medium",
+          "category": "Scale",
+          "title": "Build AI Platform TM Narrative",
+          "description": "The AI platform announcement resonates strongly in SM (high engagement) but TM coverage is surface-level. Proactive pitching to AI-focused publications would build a TM AI narrative that matches SM enthusiasm and creates durable innovation positioning.",
+          "effort": "Medium — requires dedicated media relations for AI and tech publications",
+          "impact": "Medium — 10-15 Tier 1 AI publication placements per quarter could add 30M+ quality reach",
+          "actions": [
+            "Identify and brief 5 AI/tech journalists (MIT Technology Review, Wired, The Verge) with exclusive AI platform technical deep-dive by Q3",
+            "Commission CTO byline for Harvard Business Review or McKinsey Quarterly on enterprise AI transformation — submission by end of Q2"
+          ]
+        },
+        {
+          "id": "rec-4",
+          "ddKey": "rec-4",
+          "priority": "medium",
+          "category": "Monitor",
+          "title": "Competitor Launch Response Readiness",
+          "description": "CompetitorX is rumored to launch a competing product in April 2026. Without proactive differentiation content and a rapid-response communications plan, ACME's Q1 launch momentum could be absorbed by competitor coverage.",
+          "effort": "Low — communications planning exercise with existing team",
+          "impact": "High — prevents SOV erosion of up to 20-30% if competitor launch generates outsized coverage",
+          "actions": [
+            "Conduct competitive differentiation audit by April 10 — map CompetitorX's likely messaging against ACME's proof points",
+            "Pre-draft 3 response narratives for competitor launch scenarios: feature comparison, customer retention story, analyst-facing differentiation brief"
+          ]
+        }
+      ],
+      "drillDown": {
+        "recs-total": {
+          "title": "4 Strategic Recommendations",
+          "sub": "Scale · Fix · Monitor framework",
+          "insights": [
+            { "label": "High Priority (2)", "text": "LinkedIn scale-up and supply chain narrative resolution are immediate, Q2-executable actions with high certainty of positive ROI. Both are addressable within 60 days." },
+            { "label": "Medium Priority (2)", "text": "AI platform TM narrative and competitor response readiness require planning but deliver sustained Q3-Q4 benefits. Begin Q2, execute Q3." },
+            { "label": "Priority Order", "text": "Recommended execution sequence: (1) Supply chain resolution — April (2 weeks). (2) LinkedIn scale-up — April hiring, May launch. (3) AI TM narrative — May-June pitching. (4) Competitor readiness — April planning, activate on trigger." },
+            { "label": "Expected Outcome", "text": "Full execution of all 4 recommendations by Q3 2026 should yield: TM positive rate 7-8%, SM interactions 14,000+/quarter, TM negative rate <2%, and maintained SOV against competitor launch." }
+          ]
+        },
+        "recs-high": {
+          "title": "High Priority Actions",
+          "sub": "Execute in Q2 2026",
+          "insights": [
+            { "label": "Why High Priority", "text": "LinkedIn scale-up and supply chain narrative fix are the two actions with the clearest ROI certainty, fastest time-to-impact, and lowest execution risk. Both can show measurable results within 60-90 days." },
+            { "label": "LinkedIn Investment Case", "text": "Current LinkedIn performance (8.2 int/post, 504 posts/quarter) leaves significant volume-driven growth on the table. Adding 1-2 content creators is a low-cost, high-leverage investment." },
+            { "label": "Supply Chain Urgency", "text": "Q2 earnings will be the moment when supply chain revenue impact (if any) becomes public. Resolving the narrative BEFORE earnings is critical — reacting after earnings is a much harder communications problem." }
+          ]
+        },
+        "recs-medium": {
+          "title": "Medium Priority Actions",
+          "sub": "Plan in Q2, execute in Q3",
+          "insights": [
+            { "label": "AI TM Narrative", "text": "Building TM AI coverage requires journalist relationship development — a 60-90 day investment before results appear. Starting Q2 delivers Q3 coverage. Delay means competitors define the AI-in-enterprise narrative first." },
+            { "label": "Competitor Readiness", "text": "Pre-planning costs almost nothing and prevents communications paralysis if CompetitorX's launch generates significant coverage. The preparation asymmetry (low cost, high protection value) makes this a clear priority even at medium urgency." },
+            { "label": "Sequencing", "text": "Medium priority actions should not delay high priority execution. Run in parallel: assign supply chain/LinkedIn to PR team while communications strategy team handles competitive readiness and AI narrative planning." }
+          ]
+        },
+        "rec-1": {
+          "title": "Scale LinkedIn Content Investment",
+          "sub": "Scale · LinkedIn Strategy",
+          "insights": [
+            { "label": "Evidence", "text": "LinkedIn generates 4,133 interactions from 504 posts (8.2 int/post). Above enterprise benchmark of 6.0. The audience is engaged and converting to brand advocacy — the ROI case is proven." },
+            { "label": "Content Mix", "text": "Recommended split: 30% customer success stories, 25% product/AI thought leadership, 20% executive perspective, 15% industry data and insights, 10% team/culture content." },
+            { "label": "Compliance", "text": "Enterprise technology content has lower regulatory compliance burden than pharma/financial services. Standard legal review for IP and competitive claims. Build a 3-day review turnaround workflow." },
+            { "label": "KPI", "text": "Target: 1,000 LinkedIn posts/quarter (from current 504), 8,000+ interactions/quarter (from current 4,133), 8.5+ average interactions/post (maintain quality while scaling volume)." }
+          ]
+        },
+        "rec-2": {
+          "title": "Resolve Supply Chain Narrative",
+          "sub": "Fix · TM Narrative Management",
+          "insights": [
+            { "label": "Mechanism", "text": "Supply chain negative coverage is concentrated in 2-3 trade outlets. A directly pitched resolution story to these specific outlets converts the negative hubs to neutral-to-positive. This is surgical narrative management." },
+            { "label": "Story Angle", "text": "Frame the story as 'ACME's supply chain resilience program': (1) What happened, (2) How ACME responded, (3) Structural changes implemented, (4) Customer impact prevented. Transparency builds credibility." },
+            { "label": "Timing", "text": "Publish before Q2 earnings (target: April 15-20). Financial journalists reviewing Q2 results will find the proactive supply chain update — rather than only the original disruption coverage." },
+            { "label": "KPI", "text": "Target: TM negative rate Q2 < 2% (from current 3.2%). Supply Chain Dive publishes at least 1 positive/neutral ACME supply chain resilience story by April 30." }
+          ]
+        },
+        "rec-3": {
+          "title": "Build AI Platform TM Narrative",
+          "sub": "Scale · AI Brand Positioning",
+          "insights": [
+            { "label": "Context", "text": "AI integration story generates 8.5+ interactions/post on LinkedIn — above-average engagement signal. Converting this SM enthusiasm to TM editorial coverage creates durable innovation positioning." },
+            { "label": "Target Outlets", "text": "MIT Technology Review (2.5M reach, technical credibility), Wired (4M reach, innovation narrative), The Verge (6M reach, consumer-to-enterprise bridge), VentureBeat (enterprise AI focus)." },
+            { "label": "Content Strategy", "text": "Develop a 'ACME AI Architecture' series: (1) How ACME's AI works (technical credibility), (2) Customer outcomes data (proof), (3) Roadmap (forward momentum). One piece per outlet per quarter." },
+            { "label": "KPI", "text": "Target: 10+ Tier 1 AI/tech publication placements in Q3 2026. 'ACME AI' branded mentions in TM grow 3× from Q1 baseline by Q4 2026." }
+          ]
+        },
+        "rec-4": {
+          "title": "Competitor Launch Response Readiness",
+          "sub": "Monitor · Competitive Intelligence",
+          "insights": [
+            { "label": "Risk Scenario", "text": "If CompetitorX launches in April 2026 with strong product features and generates >500 SM posts and >300 TM articles, ACME's Q1 SOV advantage could erode within 30 days. Preparation prevents reactive panic." },
+            { "label": "Differentiation Pillars", "text": "Pre-map ACME's 3 strongest differentiators vs. CompetitorX's likely messaging: (1) AI-native architecture, (2) Enterprise integration depth, (3) Customer success track record. Have data ready for each." },
+            { "label": "Response Hierarchy", "text": "Tier 1 response (major CompetitorX win): Executive LinkedIn post + analyst briefing within 24 hours. Tier 2 response (normal launch coverage): Competitive comparison content on owned channels within 72 hours." },
+            { "label": "KPI", "text": "ACME maintains >50% of combined SM conversation volume vs CompetitorX through Q2. Share of voice does not drop below 40% even during peak competitor launch coverage window." }
+          ]
+        }
+      }
+    }
+  }
+}
