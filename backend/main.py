@@ -183,27 +183,30 @@ def process_image(file_bytes: bytes, max_width: int, fmt: str = 'JPEG') -> bytes
 
 def save_image_locally(user_id: str, id: str, filename: str, data: bytes) -> str:
     if CLOUDINARY_URL:
-        # Uploading to Cloudinary
-        folder_path = f"brands/{user_id}/{id}"
-        ext = filename.split(".")[-1]
-        res = cloudinary.uploader.upload(data, folder=folder_path, resource_type="image")
-        return res.get("secure_url")
+        try:
+            # Uploading to Cloudinary
+            folder_path = f"brands/{user_id}/{id}"
+            res = cloudinary.uploader.upload(data, folder=folder_path, resource_type="image")
+            return res.get("secure_url")
+        except Exception as e:
+            logger.error(f"Cloudinary image upload failed: {e}")
+            raise HTTPException(status_code=500, detail=f"Cloudinary upload failed: {str(e)}")
         
     # user_dir = LOCAL_DATA_DIR / user_id / "images" / id
-    # user_dir.mkdir(parents=True, exist_ok=True)
-    # file_path = user_dir / filename
-    # with open(file_path, "wb") as f:
-    #     f.write(data)
-    # return f"/brands-static/{user_id}/images/{id}/{filename}"
+    # ...
     raise Exception("Cloudinary not configured. Local storage disabled.")
 
 def save_json_bundle(user_id: str, id: str, data: dict):
     if CLOUDINARY_URL:
-        folder_path = f"brands/{user_id}/{id}"
-        # Convert dict to bytes
-        json_bytes = json.dumps(data).encode("utf-8")
-        res = cloudinary.uploader.upload(json_bytes, folder=folder_path, resource_type="raw", public_id=f"{id}.json")
-        return res.get("secure_url")
+        try:
+            folder_path = f"brands/{user_id}/{id}"
+            # Convert dict to bytes
+            json_bytes = json.dumps(data).encode("utf-8")
+            res = cloudinary.uploader.upload(json_bytes, folder=folder_path, resource_type="raw", public_id=f"{id}.json")
+            return res.get("secure_url")
+        except Exception as e:
+            logger.error(f"Cloudinary JSON upload failed: {e}")
+            raise HTTPException(status_code=500, detail=f"Cloudinary JSON upload failed: {str(e)}")
         
     # user_dir = LOCAL_DATA_DIR / user_id / "json"
     # user_dir.mkdir(parents=True, exist_ok=True)
@@ -267,9 +270,14 @@ async def get_brands(user_id: str = Depends(get_user_id)):
 @app.get("/api/brands/{id}")
 async def get_brand(id: str, user_id: str = Depends(get_user_id)):
     async with httpx.AsyncClient() as client:
-        res = await client.get(f"{SUPABASE_URL}/rest/v1/projects?id=eq.{id}&user_id=eq.{user_id}", headers=supabase_headers())
-        if res.status_code != 200 or not res.json(): raise HTTPException(status_code=404, detail="Brand not found")
-        brand = res.json()[0]
+        try:
+            res = await client.get(f"{SUPABASE_URL}/rest/v1/projects?id=eq.{id}&user_id=eq.{user_id}", headers=supabase_headers())
+            res.raise_for_status()
+            if not res.json(): raise HTTPException(status_code=404, detail="Brand not found")
+            brand = res.json()[0]
+        except httpx.HTTPStatusError as e:
+            logger.error(f"Supabase GET error: {e.response.text}")
+            raise HTTPException(status_code=e.response.status_code, detail="Database fetch failed")
         
     tokens = brand.get("tokens")
     if isinstance(tokens, str):
@@ -349,13 +357,11 @@ async def create_brand(
     brand_tokens = parsed.get("brand") or parsed.get("tokens") or {}
     
     base_id = config.get("id", str(uuid.uuid4()))
-    final_id = base_id
+    # Always append a small random suffix on creation to avoid Supabase 409 Conflict in serverless environments
+    final_id = f"{base_id}-{uuid.uuid4().hex[:6]}"
     
     user_dir = LOCAL_DATA_DIR / user_id / "json"
     user_dir.mkdir(parents=True, exist_ok=True)
-    
-    if (user_dir / f"{final_id}.json").exists():
-        final_id = f"{base_id}-{uuid.uuid4().hex[:6]}"
         
     cloud_url = save_json_bundle(user_id, final_id, {"config": config, "data": data})
     if cloud_url:
@@ -386,7 +392,14 @@ async def create_brand(
     }
     
     async with httpx.AsyncClient() as client:
-        await client.post(f"{SUPABASE_URL}/rest/v1/projects", json=project_data, headers=supabase_headers())
+        try:
+            res = await client.post(f"{SUPABASE_URL}/rest/v1/projects", json=project_data, headers=supabase_headers())
+            res.raise_for_status()
+        except httpx.HTTPStatusError as e:
+            logger.error(f"Supabase POST error: {e.response.text}")
+            # Check for common "New tables will not have Row Level Security enabled" issues
+            # which usually manifest as 400 Bad Request or 403 Forbidden
+            raise HTTPException(status_code=400, detail=f"Database save failed: {e.response.text}")
     
     return {
         "id": final_id,
