@@ -1,17 +1,17 @@
 import { BrowserRouter, Routes, Route, Navigate, useParams, useNavigate } from 'react-router-dom'
 import React, { useState, useEffect } from 'react'
-import { Sidebar } from '@/components/layout/Sidebar'
+import { Sidebar } from '@/components/layout/Sidebar.jsx'
 import { useNavigation } from '@/hooks/useNavigation'
-import BrandSelector from '@/components/BrandSelector'
-import { BrandProvider } from '@/context/BrandContext'
+import BrandSelector from '@/components/BrandSelector.jsx'
+import { BrandProvider } from '@/context/BrandContext.jsx'
 import { getBrand } from '@/services/brandService'
-import DashboardManager from '@/components/DashboardManager'
-import ExecutiveSummary from '@/pages/ExecutiveSummary'
-import SMIntelligence from '@/pages/SMIntelligence'
-import TMIntelligence from '@/pages/TMIntelligence'
-import UnifiedInsights from '@/pages/UnifiedInsights'
-import Recommendations from '@/pages/Recommendations'
-import Auth from '@/pages/Auth'
+import DashboardManager from '@/components/DashboardManager.jsx'
+import ExecutiveSummary from '@/pages/ExecutiveSummary.jsx'
+import SMIntelligence from '@/pages/SMIntelligence.jsx'
+import TMIntelligence from '@/pages/TMIntelligence.jsx'
+import UnifiedInsights from '@/pages/UnifiedInsights.jsx'
+import Recommendations from '@/pages/Recommendations.jsx'
+import Auth from '@/pages/Auth.jsx'
 import { getSession } from '@/lib/auth'
 
 function PageRouter({ activePage, activeSection }) {
@@ -89,7 +89,7 @@ function DashboardInner({ brand, setBrand, onExit, isPublic }) {
   )
 }
 
-import { TopLoadingBar } from '@/components/shared/TopLoadingBar'
+import { TopLoadingBar } from '@/components/shared/TopLoadingBar.jsx'
 
 export const UserContext = React.createContext(null)
 
